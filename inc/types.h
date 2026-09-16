@@ -35,6 +35,17 @@ typedef int ColourIndex;
 typedef int Sphere;
 typedef int ScrHandle;
 
+// Added for the allocatr/alloc8or.re-generated natives.h (external/ScriptHookSDK), which covers
+// natives added after this stock 2019 header -- same opaque-int-handle convention as every type
+// above.
+typedef int AnimScene;
+typedef int ItemSet;
+typedef int PersChar;
+typedef int PopZone;
+typedef int Prompt;
+typedef int PropSet;
+typedef int Volume;
+
 #define ALIGN8 __declspec(align(8))
 
 struct Vector3
