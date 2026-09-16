@@ -2,6 +2,12 @@
 
 // Generated Wed, 16 Sep 2026 20:07:55 GMT
 // https://alloc8or.re/rdr3/nativedb/
+//
+// Self-includes its own type/invoke<> dependencies (matching the stock 2019
+// SDK natives.h this replaced) so it doesn't matter what order an includer
+// lists natives.h relative to types.h/nativeCaller.h.
+#include "types.h"
+#include "nativeCaller.h"
 
 #ifndef NATIVE_DECL
 #if defined(_MSC_VER)
