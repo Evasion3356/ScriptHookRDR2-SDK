@@ -475,6 +475,33 @@ namespace ATTRIBUTE
 	// Stops periodic icon.
 	// statusEffectType: see 0xA4D3A1C008F250DF
 	NATIVE_DECL void _STOP_STATUS_EFFECT_PERIODIC_ICON(int statusEffectType) { invoke<Void>(0x3FC4C027FD0936F4, statusEffectType); }
+	NATIVE_DECL void _0x5DA12E025D47D4E5(Any p0, Any p1, Any p2) { invoke<Void>(0x5DA12E025D47D4E5, p0, p1, p2); }
+	NATIVE_DECL Any _0xA4C8E23E29040DE0(Any p0, Any p1) { return invoke<Any>(0xA4C8E23E29040DE0, p0, p1); }
+	NATIVE_DECL Any _0x147149F2E909323C(Any p0, Any p1) { return invoke<Any>(0x147149F2E909323C, p0, p1); }
+	NATIVE_DECL Any _0x0EFA71F4B4330E04(Any p0, Any p1) { return invoke<Any>(0x0EFA71F4B4330E04, p0, p1); }
+	NATIVE_DECL Any _0x704674A0535A471D(Any p0, Any p1) { return invoke<Any>(0x704674A0535A471D, p0, p1); }
+	NATIVE_DECL void _0x920F9488BD115EFB(Any p0, Any p1, Any p2) { invoke<Void>(0x920F9488BD115EFB, p0, p1, p2); }
+	NATIVE_DECL Any _0x958DD43D41F89A47(Any p0, Any p1) { return invoke<Any>(0x958DD43D41F89A47, p0, p1); }
+	NATIVE_DECL Any _0x7C059C55AD940CB4(Any p0, Any p1) { return invoke<Any>(0x7C059C55AD940CB4, p0, p1); }
+	NATIVE_DECL void _0x75415EE0CB583760(Any p0, Any p1, Any p2) { invoke<Void>(0x75415EE0CB583760, p0, p1, p2); }
+	NATIVE_DECL void _0x09A59688C26D88DF(Any p0, Any p1, Any p2) { invoke<Void>(0x09A59688C26D88DF, p0, p1, p2); }
+	NATIVE_DECL Any _0x219DA04BAA9CB065(Any p0, Any p1) { return invoke<Any>(0x219DA04BAA9CB065, p0, p1); }
+	NATIVE_DECL Any _0x223BF310F854871C(Any p0, Any p1) { return invoke<Any>(0x223BF310F854871C, p0, p1); }
+	NATIVE_DECL void _0xC6258F41D86676E0(Any p0, Any p1, Any p2) { invoke<Void>(0xC6258F41D86676E0, p0, p1, p2); }
+	NATIVE_DECL Any _0x36731AC041289BB1(Any p0, Any p1) { return invoke<Any>(0x36731AC041289BB1, p0, p1); }
+	NATIVE_DECL Any _0x94A7F191DB49A44D(Any p0, Any p1, Any p2) { return invoke<Any>(0x94A7F191DB49A44D, p0, p1, p2); }
+	NATIVE_DECL void _0xF6A7C08DF2E28B28(Any p0, Any p1, float p2, BOOL p3) { invoke<Void>(0xF6A7C08DF2E28B28, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x4AF5A4C7B9157D14(Any p0, Any p1, float p2, BOOL p3) { invoke<Void>(0x4AF5A4C7B9157D14, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xF8DAC3D85636C241(Any p0, Any p1) { invoke<Void>(0xF8DAC3D85636C241, p0, p1); }
+	NATIVE_DECL BOOL _0x103C2F885ABEB00B(Any p0, Any p1) { return invoke<BOOL>(0x103C2F885ABEB00B, p0, p1); }
+	NATIVE_DECL BOOL _0x200373A8DF081F22(Any p0, Any p1) { return invoke<BOOL>(0x200373A8DF081F22, p0, p1); }
+	NATIVE_DECL float _0x4C9F782180712742(Any p0, Any p1) { return invoke<float>(0x4C9F782180712742, p0, p1); }
+	NATIVE_DECL float _0xB429F58803D285B1(Any p0, Any p1) { return invoke<float>(0xB429F58803D285B1, p0, p1); }
+	NATIVE_DECL void _0x7E2C766ADB2C5F1A(Any p0, Any p1) { invoke<Void>(0x7E2C766ADB2C5F1A, p0, p1); }
+	NATIVE_DECL void _0xD962F8579D702DB5() { invoke<Void>(0xD962F8579D702DB5); }
+	NATIVE_DECL void _0xA4D3A1C008F250DF(Any p0) { invoke<Void>(0xA4D3A1C008F250DF, p0); }
+	NATIVE_DECL void _0xFB6E111908502871(Any p0) { invoke<Void>(0xFB6E111908502871, p0); }
+	NATIVE_DECL void _0x3FC4C027FD0936F4(Any p0) { invoke<Void>(0x3FC4C027FD0936F4, p0); }
 }
 
 namespace AUDIO
@@ -782,6 +809,69 @@ namespace AUDIO
 	NATIVE_DECL void SET_AUDIO_ONLINE_TRANSITION_STAGE(const char* p0) { invoke<Void>(0x9B1FC259187C97C0, p0); }
 	NATIVE_DECL void _STOP_ALL_SCRIPTED_AUDIO_SOUNDS() { invoke<Void>(0x2E399EAFBEEA74D5); }
 	NATIVE_DECL void _0x64B956F4E761DF5C(Any p0) { invoke<Void>(0x64B956F4E761DF5C, p0); }
+	NATIVE_DECL void _0x33D51F801CB16E4F() { invoke<Void>(0x33D51F801CB16E4F); }
+	NATIVE_DECL void _0xEF51242E35242B47(Any* p0) { invoke<Void>(0xEF51242E35242B47, p0); }
+	NATIVE_DECL BOOL _0xD89504D9D7D5057D(Any* p0) { return invoke<BOOL>(0xD89504D9D7D5057D, p0); }
+	NATIVE_DECL BOOL _0xA2CAC9DEF0195E6F(BOOL p0) { return invoke<BOOL>(0xA2CAC9DEF0195E6F, p0); }
+	NATIVE_DECL BOOL _0x1ECC76792F661CF5(Any* p0) { return invoke<BOOL>(0x1ECC76792F661CF5, p0); }
+	NATIVE_DECL BOOL _0xF01C570E0A0A1E67(Any* p0) { return invoke<BOOL>(0xF01C570E0A0A1E67, p0); }
+	NATIVE_DECL void _0x36559148B78853B3(BOOL p0, BOOL p1, BOOL p2) { invoke<Void>(0x36559148B78853B3, p0, p1, p2); }
+	NATIVE_DECL void _0xE8EAFF7B41EDD291(Any p0, Any p1, Any p2) { invoke<Void>(0xE8EAFF7B41EDD291, p0, p1, p2); }
+	NATIVE_DECL void _0x6FB1DA3CA9DA7D90(Any* p0, Any p1, Any* p2, BOOL p3, Any p4, Any p5) { invoke<Void>(0x6FB1DA3CA9DA7D90, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0xCCE219C922737BFA(Any* p0, float p1, float p2, float p3, Any* p4, BOOL p5, Any p6, BOOL p7, Any p8) { invoke<Void>(0xCCE219C922737BFA, p0, p1, p2, p3, p4, p5, p6, p7, p8); }
+	NATIVE_DECL void STOP_SOUND_FRONTEND(char* p0, char* p1) { invoke<Void>(0x0F2A2175734926D8, p0, p1); }
+	NATIVE_DECL BOOL _0x6DF942C4179BE5AB(Any p0, Any p1) { return invoke<BOOL>(0x6DF942C4179BE5AB, p0, p1); }
+	NATIVE_DECL void _0x9821B68CD3E05F2B(Any* p0, float p1, Any* p2, Any* p3) { invoke<Void>(0x9821B68CD3E05F2B, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x9963681A8BC69BF3(Any p0, Any* p1, float p2) { invoke<Void>(0x9963681A8BC69BF3, p0, p1, p2); }
+	NATIVE_DECL void _0x2E31ACA7477CF00F(Any p0, Any* p1, Any* p2) { invoke<Void>(0x2E31ACA7477CF00F, p0, p1, p2); }
+	NATIVE_DECL void _0xCE5D0FFE83939AF1(Any p0, Any* p1, Any* p2, Any p3) { invoke<Void>(0xCE5D0FFE83939AF1, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xF1C5310FEAA36B48(Any p0, Any* p1, Any p2, Any* p3, BOOL p4, Any p5) { invoke<Void>(0xF1C5310FEAA36B48, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0xDCF5BA95BBF0FABA(Any p0, Any* p1, float p2, float p3, float p4, Any* p5, BOOL p6, Any p7, BOOL p8) { invoke<Void>(0xDCF5BA95BBF0FABA, p0, p1, p2, p3, p4, p5, p6, p7, p8); }
+	NATIVE_DECL void _0x0286617C8FC50A53(Any p0, float p1, float p2, float p3) { invoke<Void>(0x0286617C8FC50A53, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x3210BCB36AF7621B(Any p0) { invoke<Void>(0x3210BCB36AF7621B, p0); }
+	NATIVE_DECL void _0x503703EC1781B7D6(Any p0, Any* p1, float p2) { invoke<Void>(0x503703EC1781B7D6, p0, p1, p2); }
+	NATIVE_DECL Any _0xE368E8422C860BA7(Any* p0, Any* p1, Any p2) { return invoke<Any>(0xE368E8422C860BA7, p0, p1, p2); }
+	NATIVE_DECL void _0x9D746964E0CF2C5F(Any* p0, Any* p1) { invoke<Void>(0x9D746964E0CF2C5F, p0, p1); }
+	NATIVE_DECL BOOL _0xD9130842D7226045(Any* p0, BOOL p1) { return invoke<BOOL>(0xD9130842D7226045, p0, p1); }
+	NATIVE_DECL void _0x531A78D6BF27014B(Any* p0) { invoke<Void>(0x531A78D6BF27014B, p0); }
+	NATIVE_DECL BOOL _0x4AD019591E94C064(Any* p0, Any p1, Any* p2, Any p3) { return invoke<BOOL>(0x4AD019591E94C064, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x714A0EA7DE1167BE(Any* p0, Any* p1) { return invoke<BOOL>(0x714A0EA7DE1167BE, p0, p1); }
+	NATIVE_DECL BOOL _0x84848E1C0FC67DBB(Any p0) { return invoke<BOOL>(0x84848E1C0FC67DBB, p0); }
+	NATIVE_DECL BOOL _PLAY_AMBIENT_SPEECH1(Ped ped, char* speechName) { return invoke<BOOL>(0x8E04FEDD28D42462, ped, speechName); }
+	NATIVE_DECL BOOL _PLAY_AMBIENT_SPEECH_AT_COORDS(char* speechName, char* voiceName, float x, float y) { return invoke<BOOL>(0xED640017ED337E45, speechName, voiceName, x, y); }
+	NATIVE_DECL Any _0x72E4D1C4639BC465(Any p0, Any* p1) { return invoke<Any>(0x72E4D1C4639BC465, p0, p1); }
+	NATIVE_DECL Any _0xB18FEC133C7C6C69(Any p0) { return invoke<Any>(0xB18FEC133C7C6C69, p0); }
+	NATIVE_DECL void _0x2703EFB583F0949A(Any p0, Any p1) { invoke<Void>(0x2703EFB583F0949A, p0, p1); }
+	NATIVE_DECL void _SET_PED_MUTE(Ped ped, Any p1) { invoke<Void>(0x79D2F0E66F81D90D, ped, p1); }
+	NATIVE_DECL Any _0x6BFFB7C276866996(Any p0) { return invoke<Any>(0x6BFFB7C276866996, p0); }
+	NATIVE_DECL BOOL _CAN_PED_SPEAK(Ped ped, char* speechName, BOOL unk) { return invoke<BOOL>(0x49B99BF3FDA89A7A, ped, speechName, unk); }
+	NATIVE_DECL BOOL _0x54B187F111D9C6F8(Any p0, BOOL p1) { return invoke<BOOL>(0x54B187F111D9C6F8, p0, p1); }
+	NATIVE_DECL void _0xEE066C7006C49C0A(Entity entity, int unk, char* speech) { invoke<Void>(0xEE066C7006C49C0A, entity, unk, speech); }
+	NATIVE_DECL BOOL _0xC265DF9FB44A9FBD(Any p0) { return invoke<BOOL>(0xC265DF9FB44A9FBD, p0); }
+	NATIVE_DECL void _0x3743CE6948194349(Any* p0, float p1, float p2, float p3, Any p4) { invoke<Void>(0x3743CE6948194349, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void SPECIAL_FRONTEND_EQUAL(float x, float y, float z, Any p3) { invoke<Void>(0x21442F412E8DE56B, x, y, z, p3); }
+	NATIVE_DECL Any _0xB2DE3AEBE31150E2(Any p0, BOOL p1) { return invoke<Any>(0xB2DE3AEBE31150E2, p0, p1); }
+	NATIVE_DECL void _0x6378A235374B852F(Any* p0, Any p1) { invoke<Void>(0x6378A235374B852F, p0, p1); }
+	NATIVE_DECL void _0x87E6302FC61208CC(Any* p0) { invoke<Void>(0x87E6302FC61208CC, p0); }
+	NATIVE_DECL void _FORCE_VEHICLE_ENGINE_AUDIO(Vehicle vehicle, char* audioName) { invoke<Void>(0x4F0C413926060B38, vehicle, audioName); }
+	NATIVE_DECL BOOL _0x6339C1EA3979B5F7(Any* p0, Any* p1) { return invoke<BOOL>(0x6339C1EA3979B5F7, p0, p1); }
+	NATIVE_DECL void _0x9428447DED71FC7E(Any* p0) { invoke<Void>(0x9428447DED71FC7E, p0); }
+	NATIVE_DECL BOOL _0xAC84686C06184B0D(Any* p0, Any* p1) { return invoke<BOOL>(0xAC84686C06184B0D, p0, p1); }
+	NATIVE_DECL Any _0x8B25A18E390F75BF(Any p0) { return invoke<Any>(0x8B25A18E390F75BF, p0); }
+	NATIVE_DECL void _DYNAMIC_MIXER_RELATED_FN(Entity p0, char* p1, float p2) { invoke<Void>(0x153973AB99FE8980, p0, p1, p2); }
+	NATIVE_DECL void _0x18EB48CFC41F2EA0(Any p0, float p1) { invoke<Void>(0x18EB48CFC41F2EA0, p0, p1); }
+	NATIVE_DECL BOOL AUDIO_IS_SCRIPTED_MUSIC_PLAYING() { return invoke<BOOL>(0x845FFC3A4FEEFA3E); }
+	NATIVE_DECL BOOL _0x05D6195FB4D428F4(Any p0) { return invoke<BOOL>(0x05D6195FB4D428F4, p0); }
+	NATIVE_DECL void _0x149AEE66F0CB3A99(float p0, float p1) { invoke<Void>(0x149AEE66F0CB3A99, p0, p1); }
+	NATIVE_DECL void _0x8BF907833BE275DE(float p0, float p1) { invoke<Void>(0x8BF907833BE275DE, p0, p1); }
+	NATIVE_DECL void _0x062D5EAD4DA2FA6A() { invoke<Void>(0x062D5EAD4DA2FA6A); }
+	NATIVE_DECL void _0xBF4DC1784BE94DFA(Any p0, BOOL p1, Any p2) { invoke<Void>(0xBF4DC1784BE94DFA, p0, p1, p2); }
+	NATIVE_DECL void _0x044DBAD7A7FA2BE5(char* p0, char* p1) { invoke<Void>(0x044DBAD7A7FA2BE5, p0, p1); }
+	NATIVE_DECL void _0xB4BBFD9CD8B3922B(char* p0) { invoke<Void>(0xB4BBFD9CD8B3922B, p0); }
+	NATIVE_DECL Any _0x0556C784FA056628(Any* p0, Any* p1) { return invoke<Any>(0x0556C784FA056628, p0, p1); }
+	NATIVE_DECL void _0x374F0E716BFCDE82(Any* p0, float p1, float p2, float p3) { invoke<Void>(0x374F0E716BFCDE82, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x9B1FC259187C97C0(Any* p0) { invoke<Void>(0x9B1FC259187C97C0, p0); }
+	NATIVE_DECL void _0x2E399EAFBEEA74D5() { invoke<Void>(0x2E399EAFBEEA74D5); }
 }
 
 namespace BOUNTY
@@ -824,6 +914,33 @@ namespace BOUNTY
 	NATIVE_DECL int _0xF8BCC5ECA33AC9C1() { return invoke<int>(0xF8BCC5ECA33AC9C1); }
 	// _BOUNTY_GET_*
 	NATIVE_DECL int _0xD6A67E2FF373D0E3(int p0) { return invoke<int>(0xD6A67E2FF373D0E3, p0); }
+	NATIVE_DECL BOOL _0x537CE992BD2D7BCB(Any* p0) { return invoke<BOOL>(0x537CE992BD2D7BCB, p0); }
+	NATIVE_DECL BOOL _0x188B748861B5BA17(Any* p0, Any p1, BOOL p2) { return invoke<BOOL>(0x188B748861B5BA17, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xB462D69D406A2602(Any* p0) { return invoke<BOOL>(0xB462D69D406A2602, p0); }
+	NATIVE_DECL BOOL _0x4EF23E04A0C8FF51(Any* p0, Any* p1) { return invoke<BOOL>(0x4EF23E04A0C8FF51, p0, p1); }
+	NATIVE_DECL BOOL _0x03B61CD51097DE60(Any* p0) { return invoke<BOOL>(0x03B61CD51097DE60, p0); }
+	NATIVE_DECL BOOL _0xFFA13742E43507E3(Any* p0, Any* p1) { return invoke<BOOL>(0xFFA13742E43507E3, p0, p1); }
+	NATIVE_DECL BOOL _0x727AB6F008BB9F29(Any* p0, Any* p1) { return invoke<BOOL>(0x727AB6F008BB9F29, p0, p1); }
+	NATIVE_DECL BOOL _0xFBD137BF0EC50FC9(Any* p0, Any* p1) { return invoke<BOOL>(0xFBD137BF0EC50FC9, p0, p1); }
+	NATIVE_DECL void _0x6A9DF0FCD0C87FF9() { invoke<Void>(0x6A9DF0FCD0C87FF9); }
+	NATIVE_DECL BOOL _0xFC81D7C7A151CFAA(Any* p0, Any p1, Any p2) { return invoke<BOOL>(0xFC81D7C7A151CFAA, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xA7309AC0DCF6D950(Any* p0, Any* p1) { return invoke<BOOL>(0xA7309AC0DCF6D950, p0, p1); }
+	NATIVE_DECL BOOL _0xC1F04FB37E3F0E57(Any* p0, Any* p1) { return invoke<BOOL>(0xC1F04FB37E3F0E57, p0, p1); }
+	NATIVE_DECL void _0x2BA1BCC99826CDA2() { invoke<Void>(0x2BA1BCC99826CDA2); }
+	NATIVE_DECL BOOL _0xB395A44A0C7CA615(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0xB395A44A0C7CA615, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x85E4D7B225A30ED1(Any p0, Any* p1) { return invoke<BOOL>(0x85E4D7B225A30ED1, p0, p1); }
+	NATIVE_DECL Any _0x8FAF4D262FABA99C(Any* p0) { return invoke<Any>(0x8FAF4D262FABA99C, p0); }
+	NATIVE_DECL BOOL _0xB096547D61868254(Any* p0) { return invoke<BOOL>(0xB096547D61868254, p0); }
+	NATIVE_DECL BOOL _0xA9C3B0F746375162(Any* p0, Any p1, Any* p2) { return invoke<BOOL>(0xA9C3B0F746375162, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x5B53CA0E2AC3FF45(Any* p0, Any p1, Any* p2) { return invoke<BOOL>(0x5B53CA0E2AC3FF45, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x22D3A61CE053270C(Any* p0, Any* p1) { return invoke<BOOL>(0x22D3A61CE053270C, p0, p1); }
+	NATIVE_DECL void _0xA59D1997ECD99F0A() { invoke<Void>(0xA59D1997ECD99F0A); }
+	NATIVE_DECL BOOL _0x12E981D53B07BF48(Any* p0) { return invoke<BOOL>(0x12E981D53B07BF48, p0); }
+	NATIVE_DECL BOOL _0x2D874BA20E8E1F20(Any* p0) { return invoke<BOOL>(0x2D874BA20E8E1F20, p0); }
+	NATIVE_DECL BOOL _0x8521C2E235558278(Any* p0) { return invoke<BOOL>(0x8521C2E235558278, p0); }
+	NATIVE_DECL void _0x932DB3C05A7465D1() { invoke<Void>(0x932DB3C05A7465D1); }
+	NATIVE_DECL BOOL _0x3F73AED12A5EF0FF(Any* p0) { return invoke<BOOL>(0x3F73AED12A5EF0FF, p0); }
+	NATIVE_DECL BOOL _0x28717806D3BDD0D0(Any* p0, Any p1) { return invoke<BOOL>(0x28717806D3BDD0D0, p0, p1); }
 }
 
 namespace BRAIN
@@ -850,6 +967,11 @@ namespace BRAIN
 	// Old name: _PREPARE_SCRIPT_BRAIN
 	NATIVE_DECL void REACTIVATE_ALL_OBJECT_BRAINS_THAT_ARE_WAITING_TILL_OUT_OF_RANGE() { invoke<Void>(0xA32B0B05EFF75730); }
 	NATIVE_DECL void REACTIVATE_NAMED_OBJECT_BRAINS_WAITING_TILL_OUT_OF_RANGE(const char* scriptName) { invoke<Void>(0x74C333E34DF74E8A, scriptName); }
+	NATIVE_DECL Any _0x4E4507CC5E4DB869(Any p0, Any p1, Any p2, Any p3) { return invoke<Any>(0x4E4507CC5E4DB869, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0x6F62FAE266DCFC81(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5) { return invoke<Any>(0x6F62FAE266DCFC81, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL Any _0x6818D1A194E29983() { return invoke<Any>(0x6818D1A194E29983); }
+	NATIVE_DECL void _0xA32B0B05EFF75730() { invoke<Void>(0xA32B0B05EFF75730); }
+	NATIVE_DECL void _0x74C333E34DF74E8A(char* action) { invoke<Void>(0x74C333E34DF74E8A, action); }
 }
 
 namespace CAMERA
@@ -1332,6 +1454,12 @@ namespace COMPANION
 	NATIVE_DECL Any _0x722FBE08EF5B87BD(Any p0, Any p1, Any p2, Any p3, Any p4) { return invoke<Any>(0x722FBE08EF5B87BD, p0, p1, p2, p3, p4); }
 	NATIVE_DECL void _ACTIVATE_COMPANION_ANALYSIS(int groupId) { invoke<Void>(0xCBD9EC60495C728C, groupId); }
 	NATIVE_DECL void _DEACTIVATE_COMPANION_ANALYSIS(int groupId) { invoke<Void>(0x72B7F65F11FC8896, groupId); }
+	NATIVE_DECL void _0xDEB369F6AD168C58(Any p0, Any p1) { invoke<Void>(0xDEB369F6AD168C58, p0, p1); }
+	NATIVE_DECL void _0x1740E3DEE0AE4D27(Any p0, Any p1) { invoke<Void>(0x1740E3DEE0AE4D27, p0, p1); }
+	NATIVE_DECL void _0x0F1CD8CA9E65D5F6(Any p0, Any p1) { invoke<Void>(0x0F1CD8CA9E65D5F6, p0, p1); }
+	NATIVE_DECL Any _0xB7E0590C86E1711F(Any p0) { return invoke<Any>(0xB7E0590C86E1711F, p0); }
+	NATIVE_DECL void _0xCBD9EC60495C728C(Any p0) { invoke<Void>(0xCBD9EC60495C728C, p0); }
+	NATIVE_DECL void _0x72B7F65F11FC8896(Any p0) { invoke<Void>(0x72B7F65F11FC8896, p0); }
 }
 
 namespace COMPENDIUM
@@ -1378,6 +1506,22 @@ namespace COMPENDIUM
 	NATIVE_DECL void COMPENDIUM_HORSE_WILD_BROKEN(Ped ped) { invoke<Void>(0x725852D21A2E9E50, ped); }
 	// Only gets called if bSetObserved is true and animalType is matching
 	NATIVE_DECL void COMPENDIUM_HORSE_OBSERVED(Ped ped, BOOL disableCompendiumToast) { invoke<Void>(0x725D58F2125E5E50, ped, disableCompendiumToast); }
+	NATIVE_DECL Any _0x729D52F61A5A9E22(Any p0) { return invoke<Any>(0x729D52F61A5A9E22, p0); }
+	NATIVE_DECL Any _0x6C5E5D48E48B4C65(Any p0) { return invoke<Any>(0x6C5E5D48E48B4C65, p0); }
+	NATIVE_DECL Any _0x729D54121A5E9E20(Any p0, Any p1, Any p2, Any p3) { return invoke<Any>(0x729D54121A5E9E20, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x725D52F26A5E9E10(Any p0, BOOL p1) { invoke<Void>(0x725D52F26A5E9E10, p0, p1); }
+	NATIVE_DECL void _0x725D52F21A5E9E00(Any p0, Any p1) { invoke<Void>(0x725D52F21A5E9E00, p0, p1); }
+	NATIVE_DECL Any _0x725D52F21A5E9E81(Any p0, Any p1) { return invoke<Any>(0x725D52F21A5E9E81, p0, p1); }
+	NATIVE_DECL void _0x725D52F21A5E9E03(Any p0, Any p1) { invoke<Void>(0x725D52F21A5E9E03, p0, p1); }
+	NATIVE_DECL void _0x725D52F21A5E9E04(Any p0) { invoke<Void>(0x725D52F21A5E9E04, p0); }
+	NATIVE_DECL void _0x725D52F21A5E9E05(Any p0) { invoke<Void>(0x725D52F21A5E9E05, p0); }
+	NATIVE_DECL void _0x725D52F21A5E9E06(Any p0) { invoke<Void>(0x725D52F21A5E9E06, p0); }
+	NATIVE_DECL void _0x725D52F21A5E9E07(Any p0) { invoke<Void>(0x725D52F21A5E9E07, p0); }
+	NATIVE_DECL void _0x725D52F21A5E9E08(Any p0, Any p1) { invoke<Void>(0x725D52F21A5E9E08, p0, p1); }
+	NATIVE_DECL void _0x725D52F21A5E9E09(Any p0, float p1, float p2, float p3) { invoke<Void>(0x725D52F21A5E9E09, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x725D52F21A5E9E50(Any p0, Any p1) { invoke<Void>(0x725D52F21A5E9E50, p0, p1); }
+	NATIVE_DECL void _0x725852D21A2E9E50(Any p0) { invoke<Void>(0x725852D21A2E9E50, p0); }
+	NATIVE_DECL void _0x725D58F2125E5E50(Any p0, BOOL p1) { invoke<Void>(0x725D58F2125E5E50, p0, p1); }
 }
 
 namespace CRASHLOG
@@ -1510,6 +1654,74 @@ namespace DATABINDING
 	NATIVE_DECL void _VIRTUAL_COLLECTION_ITEM_ADD(Any p0, int index, Hash p2, Any p3) { invoke<Void>(0x6DCBF187221CF73D, p0, index, p2, p3); }
 	NATIVE_DECL void _VIRTUAL_COLLECTION_RESET(Any p0) { invoke<Void>(0x09D95666ED2B5F60, p0); }
 	NATIVE_DECL Any _VIRTUAL_COLLECTION_EXISTS(Any p0) { return invoke<Any>(0x37963B56755BFB35, p0); }
+	NATIVE_DECL Any _0x0C827D175F1292F2(Any* p0) { return invoke<Any>(0x0C827D175F1292F2, p0); }
+	NATIVE_DECL Any _0x0C827D175F1292F3(Any p0, Any p1) { return invoke<Any>(0x0C827D175F1292F3, p0, p1); }
+	NATIVE_DECL Any _0xD7DB94AB78E8EBE4(Any* p0, Any p1) { return invoke<Any>(0xD7DB94AB78E8EBE4, p0, p1); }
+	NATIVE_DECL Any _0x0C827D175F1292F4(Any* p0, Any* p1) { return invoke<Any>(0x0C827D175F1292F4, p0, p1); }
+	NATIVE_DECL Any _0x98BB14345BB68257(Any p0, Any p1) { return invoke<Any>(0x98BB14345BB68257, p0, p1); }
+	NATIVE_DECL Any _0xEB4F9A3537EEABCD(Any p0, Any* p1) { return invoke<Any>(0xEB4F9A3537EEABCD, p0, p1); }
+	NATIVE_DECL Any _0x37BB86A751148A6A(Any* p0, Any* p1, BOOL p2) { return invoke<Any>(0x37BB86A751148A6A, p0, p1, p2); }
+	NATIVE_DECL Any _0xBC95D3AE2ECA70D6(Any p0, Any p1, BOOL p2) { return invoke<Any>(0xBC95D3AE2ECA70D6, p0, p1, p2); }
+	NATIVE_DECL Any _0x58BAA5F635DA2FF4(Any p0, Any* p1, BOOL p2) { return invoke<Any>(0x58BAA5F635DA2FF4, p0, p1, p2); }
+	NATIVE_DECL Any _0x267F9527F4350ADE(Any p0, Any p1, Any p2) { return invoke<Any>(0x267F9527F4350ADE, p0, p1, p2); }
+	NATIVE_DECL Any _0x307A3247C5457BDE(Any p0, Any* p1, Any p2) { return invoke<Any>(0x307A3247C5457BDE, p0, p1, p2); }
+	NATIVE_DECL Any _0x5154228273ADB9A6(Any p0, Any* p1, float p2) { return invoke<Any>(0x5154228273ADB9A6, p0, p1, p2); }
+	NATIVE_DECL Any _0x8E173DFB041993C6(Any p0, Any p1, Any p2) { return invoke<Any>(0x8E173DFB041993C6, p0, p1, p2); }
+	NATIVE_DECL Any _0x8538F1205D60ECA6(Any p0, Any* p1, Any p2) { return invoke<Any>(0x8538F1205D60ECA6, p0, p1, p2); }
+	NATIVE_DECL Any _0xA381DE86EE170C4A(Any* p0, Any* p1, Any* p2) { return invoke<Any>(0xA381DE86EE170C4A, p0, p1, p2); }
+	NATIVE_DECL Any _0xEAD09E76E22630C3(Any p0, Any p1, Any* p2) { return invoke<Any>(0xEAD09E76E22630C3, p0, p1, p2); }
+	NATIVE_DECL Any _0x617FCA1C5652BBAD(Any p0, Any* p1, Any* p2) { return invoke<Any>(0x617FCA1C5652BBAD, p0, p1, p2); }
+	NATIVE_DECL Any _0x7D0F2014DB28DD00(Any p0, Any* p1, Any* p2) { return invoke<Any>(0x7D0F2014DB28DD00, p0, p1, p2); }
+	NATIVE_DECL Any _0x7D0F2014DB28DD01(Any p0, Any* p1, Any* p2) { return invoke<Any>(0x7D0F2014DB28DD01, p0, p1, p2); }
+	NATIVE_DECL Any _0xDB5B9A474148F699(Any* p0, Any* p1) { return invoke<Any>(0xDB5B9A474148F699, p0, p1); }
+	NATIVE_DECL Any _0x3C7799283325181B(Any p0, Any p1) { return invoke<Any>(0x3C7799283325181B, p0, p1); }
+	NATIVE_DECL Any _0xFE74FA57E0CE6824(Any p0, Any* p1) { return invoke<Any>(0xFE74FA57E0CE6824, p0, p1); }
+	NATIVE_DECL void _0x5859E970794D92F3(Any p0, Any p1, Any* p2, Any p3) { invoke<Void>(0x5859E970794D92F3, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xEE97A05C05F16E41(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0xEE97A05C05F16E41, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x5740774F608E4FC8(Any p0, Any p1, Any* p2, Any* p3) { invoke<Void>(0x5740774F608E4FC8, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x6318FB3BE37E11B3(Any p0, Any p1) { invoke<Void>(0x6318FB3BE37E11B3, p0, p1); }
+	NATIVE_DECL void _0xF68B1726EAF7B285(Any p0, Any p1) { invoke<Void>(0xF68B1726EAF7B285, p0, p1); }
+	NATIVE_DECL void _0xA1F15C1D03DF802D(Any p0) { invoke<Void>(0xA1F15C1D03DF802D, p0); }
+	NATIVE_DECL Any _0xE96D7F9FEFCC105F(Any p0, Any p1) { return invoke<Any>(0xE96D7F9FEFCC105F, p0, p1); }
+	NATIVE_DECL void _0xFE74FA57E0CE6825(Any p0, Any p1) { invoke<Void>(0xFE74FA57E0CE6825, p0, p1); }
+	NATIVE_DECL void _0x0AE7138D0541F2DE(Any p0, Any p1, Any p2) { invoke<Void>(0x0AE7138D0541F2DE, p0, p1, p2); }
+	NATIVE_DECL Any _0x52F5F08278EA5D75(Any p0, Any* p1) { return invoke<Any>(0x52F5F08278EA5D75, p0, p1); }
+	NATIVE_DECL Any _0x1B23E0627BDBFE85(Any p0, Any* p1) { return invoke<Any>(0x1B23E0627BDBFE85, p0, p1); }
+	NATIVE_DECL Any _0xD23F5DE04FE717E2(Any p0) { return invoke<Any>(0xD23F5DE04FE717E2, p0); }
+	NATIVE_DECL void _0xAB888B4B91046771(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6) { invoke<Void>(0xAB888B4B91046771, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL void _0xAB888B4B91046770(Any p0, BOOL p1) { invoke<Void>(0xAB888B4B91046770, p0, p1); }
+	NATIVE_DECL void _0xBDFE546E4C2D0E21(Any p0, Any* p1, BOOL p2) { invoke<Void>(0xBDFE546E4C2D0E21, p0, p1, p2); }
+	NATIVE_DECL void _0x335C3F6B3766B8D9(Any p0, Any p1) { invoke<Void>(0x335C3F6B3766B8D9, p0, p1); }
+	NATIVE_DECL void _0x9EFA98238BA08FC4(Any p0, Any* p1, Any p2) { invoke<Void>(0x9EFA98238BA08FC4, p0, p1, p2); }
+	NATIVE_DECL void _0x9D6E10A41D6ED6EC(Any p0, Any p1, Any p2) { invoke<Void>(0x9D6E10A41D6ED6EC, p0, p1, p2); }
+	NATIVE_DECL void _0xDF504BECEB15DA93(Any p0, float p1) { invoke<Void>(0xDF504BECEB15DA93, p0, p1); }
+	NATIVE_DECL void _0xACDEF586BD71B1FD(Any p0, Any p1) { invoke<Void>(0xACDEF586BD71B1FD, p0, p1); }
+	NATIVE_DECL void _0x0971F04E1EAA7AE8(Any p0, Any* p1, Any p2) { invoke<Void>(0x0971F04E1EAA7AE8, p0, p1, p2); }
+	NATIVE_DECL void _0x20209529689E0953(Any p0, Any p1, Any p2) { invoke<Void>(0x20209529689E0953, p0, p1, p2); }
+	NATIVE_DECL void _0xE1BD342F2872AEE9(Any p0, Any* p1) { invoke<Void>(0xE1BD342F2872AEE9, p0, p1); }
+	NATIVE_DECL void _0x4FF713B2F17A391E(Any p0, Any* p1, Any* p2) { invoke<Void>(0x4FF713B2F17A391E, p0, p1, p2); }
+	NATIVE_DECL void _0xA3BD6FF95E713EE5(Any p0, Any p1, Any* p2) { invoke<Void>(0xA3BD6FF95E713EE5, p0, p1, p2); }
+	NATIVE_DECL void _0xC70041408E16BE2D(Any p0, Any* p1, Any* p2) { invoke<Void>(0xC70041408E16BE2D, p0, p1, p2); }
+	NATIVE_DECL void _0xC70041408E16BE2E(Any p0, Any* p1, Any* p2) { invoke<Void>(0xC70041408E16BE2E, p0, p1, p2); }
+	NATIVE_DECL Any _0x5EEFBD4B6D7CD6EB(Any p0) { return invoke<Any>(0x5EEFBD4B6D7CD6EB, p0); }
+	NATIVE_DECL BOOL _0xA8EDE09FE07BD77F(Any p0, Any* p1) { return invoke<BOOL>(0xA8EDE09FE07BD77F, p0, p1); }
+	NATIVE_DECL BOOL _0x4CDC3FDDFAE07EB3(Any p0, Any p1) { return invoke<BOOL>(0x4CDC3FDDFAE07EB3, p0, p1); }
+	NATIVE_DECL Any _0x570784D782597512(Any p0) { return invoke<Any>(0x570784D782597512, p0); }
+	NATIVE_DECL Any _0xFFC566A4801F6B40(Any p0, Any* p1) { return invoke<Any>(0xFFC566A4801F6B40, p0, p1); }
+	NATIVE_DECL Any _0xB5F668B648EC0970(Any p0, Any p1) { return invoke<Any>(0xB5F668B648EC0970, p0, p1); }
+	NATIVE_DECL float _0x5FE444EB67C70AD4(Any p0) { return invoke<float>(0x5FE444EB67C70AD4, p0); }
+	NATIVE_DECL Any _0x81D7183E7A8ECA72(Any p0) { return invoke<Any>(0x81D7183E7A8ECA72, p0); }
+	NATIVE_DECL Any _0x9B535990B01B62DE(Any p0, Any* p1) { return invoke<Any>(0x9B535990B01B62DE, p0, p1); }
+	NATIVE_DECL Any _0x1F43BC25A119B252(Any p0, Any p1) { return invoke<Any>(0x1F43BC25A119B252, p0, p1); }
+	NATIVE_DECL Any _0x3D290B5FFA7C5151(Any p0) { return invoke<Any>(0x3D290B5FFA7C5151, p0); }
+	NATIVE_DECL Any _0x6323AD277C4A2AFB(Any p0, Any* p1) { return invoke<Any>(0x6323AD277C4A2AFB, p0, p1); }
+	NATIVE_DECL BOOL _0x1E7130793AAAAB8D(Any p0) { return invoke<BOOL>(0x1E7130793AAAAB8D, p0); }
+	NATIVE_DECL void _0x0AE9938D0541F2DA(Any p0) { invoke<Void>(0x0AE9938D0541F2DA, p0); }
+	NATIVE_DECL void _0x9DCE9B01A93B58BC(Any p0, Any p1) { invoke<Void>(0x9DCE9B01A93B58BC, p0, p1); }
+	NATIVE_DECL void _0x49A8447533308BCF(Any p0, Any p1) { invoke<Void>(0x49A8447533308BCF, p0, p1); }
+	NATIVE_DECL void _0x6DCBF187221CF73D(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0x6DCBF187221CF73D, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x09D95666ED2B5F60(Any p0) { invoke<Void>(0x09D95666ED2B5F60, p0); }
+	NATIVE_DECL BOOL _0x37963B56755BFB35(Any p0) { return invoke<BOOL>(0x37963B56755BFB35, p0); }
 }
 
 namespace DATAFILE
@@ -1603,6 +1815,52 @@ namespace DATAFILE
 	NATIVE_DECL BOOL _PARSEDDATA_GET_INT(Any* p0, Any* p1, Hash p2) { return invoke<BOOL>(0x52FC26D2D2FC2987, p0, p1, p2); }
 	NATIVE_DECL BOOL _PARSEDDATA_GET_SECTION(Hash* p0, Any* p1, Hash section) { return invoke<BOOL>(0x44B3A36933AC009C, p0, p1, section); }
 	NATIVE_DECL BOOL _PARSEDDATA_GET_BOOL(BOOL* p0, Any* p1, Hash p2) { return invoke<BOOL>(0xA63CD20F19B961AB, p0, p1, p2); }
+	NATIVE_DECL void _0xA5834834CA8FD7FC(Blip x) { invoke<Void>(0xA5834834CA8FD7FC, x); }
+	NATIVE_DECL BOOL _0x17279C820464CEE0(Any p0) { return invoke<BOOL>(0x17279C820464CEE0, p0); }
+	NATIVE_DECL BOOL _0xE60100389E50EADE(Any p0) { return invoke<BOOL>(0xE60100389E50EADE, p0); }
+	NATIVE_DECL BOOL _0x46102A0989AD80B5(Any p0, Any p1) { return invoke<BOOL>(0x46102A0989AD80B5, p0, p1); }
+	NATIVE_DECL BOOL _0x604B8ED1A482F9DF(Any p0) { return invoke<BOOL>(0x604B8ED1A482F9DF, p0); }
+	NATIVE_DECL Any _0xE79C70E77E0973C7(Any* p0, float p1, Any* p2, Any p3) { return invoke<Any>(0xE79C70E77E0973C7, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x790EC421078F5C4E(Any p0, Any p1, Any p2) { return invoke<BOOL>(0x790EC421078F5C4E, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x4607D57C5F7D332A(BOOL p0) { return invoke<BOOL>(0x4607D57C5F7D332A, p0); }
+	NATIVE_DECL BOOL _0xB04B69CF277D15C0(BOOL p0) { return invoke<BOOL>(0xB04B69CF277D15C0, p0); }
+	NATIVE_DECL void _OBJECT_VALUE_ADD_INTEGER(Any* objectData, char* key, int value) { invoke<Void>(0x26FDF5E99AA2F3E9, objectData, key, value); }
+	NATIVE_DECL BOOL _OBJECT_VALUE_GET_BOOLEAN(Any* objectData, char* key) { return invoke<BOOL>(0x175E915A486EE548, objectData, key); }
+	NATIVE_DECL int _OBJECT_VALUE_GET_INTEGER(Any* objectData, char* key) { return invoke<int>(0x9D896A3B87D96E2B, objectData, key); }
+	NATIVE_DECL float _OBJECT_VALUE_GET_FLOAT(Any* objectData, char* key) { return invoke<float>(0x814643ECA258ADF5, objectData, key); }
+	NATIVE_DECL char* _OBJECT_VALUE_GET_STRING(Any* objectData, char* key) { return invoke<char*>(0xE37B38C0B4E95DFA, objectData, key); }
+	NATIVE_DECL Vector3 _OBJECT_VALUE_GET_VECTOR3(Any* objectData, char* key) { return invoke<Vector3>(0xE459C941431E0FFA, objectData, key); }
+	NATIVE_DECL Any* _OBJECT_VALUE_GET_OBJECT(Any* sCloudFile, char* key) { return invoke<Any*>(0x4D7A30130F46AC9C, sCloudFile, key); }
+	NATIVE_DECL Any* _OBJECT_VALUE_GET_ARRAY(Any* objectData, char* key) { return invoke<Any*>(0x1B5447CF18544B18, objectData, key); }
+	NATIVE_DECL int _OBJECT_VALUE_GET_TYPE(Any* objectData, char* key) { return invoke<int>(0x92E11E3CA4C7CDF0, objectData, key); }
+	NATIVE_DECL BOOL _ARRAY_VALUE_GET_BOOLEAN(Any* arrayData, int arrayIndex) { return invoke<BOOL>(0xAB1231D2DE52F2D3, arrayData, arrayIndex); }
+	NATIVE_DECL int _ARRAY_VALUE_GET_INTEGER(Any* arrayData, int arrayIndex) { return invoke<int>(0x96DEA500B6EBBE53, arrayData, arrayIndex); }
+	NATIVE_DECL float _ARRAY_VALUE_GET_FLOAT(Any* arrayData, int arrayIndex) { return invoke<float>(0xA9D003CF419CB81E, arrayData, arrayIndex); }
+	NATIVE_DECL char* _ARRAY_VALUE_GET_STRING(Any* arrayData, int arrayIndex) { return invoke<char*>(0xB6790A8FF80F889F, arrayData, arrayIndex); }
+	NATIVE_DECL Vector3 _ARRAY_VALUE_GET_VECTOR3(Any* arrayData, int arrayIndex) { return invoke<Vector3>(0x850DA2750DA14E9A, arrayData, arrayIndex); }
+	NATIVE_DECL Any* _ARRAY_VALUE_GET_OBJECT(Any* arrayData, int arrayIndex) { return invoke<Any*>(0xA010655985853485, arrayData, arrayIndex); }
+	NATIVE_DECL int _ARRAY_VALUE_GET_SIZE(Any* arrayData) { return invoke<int>(0x6A885BF69239E539, arrayData); }
+	NATIVE_DECL int _ARRAY_VALUE_GET_TYPE(Any* arrayData, int arrayIndex) { return invoke<int>(0x151DAFE6B3B9888F, arrayData, arrayIndex); }
+	NATIVE_DECL Any _0xD97D8D905F1562F2(Any p0) { return invoke<Any>(0xD97D8D905F1562F2, p0); }
+	NATIVE_DECL void _0x129567F0C05F81B9(Any p0) { invoke<Void>(0x129567F0C05F81B9, p0); }
+	NATIVE_DECL BOOL _0x7907969497EA92F5(Any p0) { return invoke<BOOL>(0x7907969497EA92F5, p0); }
+	NATIVE_DECL BOOL _0x603AC35FD4602C76(Any p0) { return invoke<BOOL>(0x603AC35FD4602C76, p0); }
+	NATIVE_DECL Any _0xAE156A747C39A741(Any p0, Any p1, Any* p2) { return invoke<Any>(0xAE156A747C39A741, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x83C3ED532B6E5D07(Any* p0, Any* p1) { return invoke<BOOL>(0x83C3ED532B6E5D07, p0, p1); }
+	NATIVE_DECL Any _0xDF01B1F7A886B42D(Any* p0) { return invoke<Any>(0xDF01B1F7A886B42D, p0); }
+	NATIVE_DECL Any _0x6BEB168D5195E7AB(Any p0, Any p1) { return invoke<Any>(0x6BEB168D5195E7AB, p0, p1); }
+	NATIVE_DECL BOOL _0xFBFF3FF2F5E80C0B(Any* p0, Any* p1) { return invoke<BOOL>(0xFBFF3FF2F5E80C0B, p0, p1); }
+	NATIVE_DECL BOOL _0x08EAF8E9F2EB7B2E(Any* p0, Any* p1) { return invoke<BOOL>(0x08EAF8E9F2EB7B2E, p0, p1); }
+	NATIVE_DECL BOOL _0x06FBF89B12DA279C(Any p0, Any p1) { return invoke<BOOL>(0x06FBF89B12DA279C, p0, p1); }
+	NATIVE_DECL BOOL _0x7F034FC3E891B57A(Any* p0, Any* p1) { return invoke<BOOL>(0x7F034FC3E891B57A, p0, p1); }
+	NATIVE_DECL BOOL _0xEF44ACC657352A35(Any* p0, Any* p1) { return invoke<BOOL>(0xEF44ACC657352A35, p0, p1); }
+	NATIVE_DECL BOOL _0x0D9138F3F8261DF7(Any* p0, Any* p1) { return invoke<BOOL>(0x0D9138F3F8261DF7, p0, p1); }
+	NATIVE_DECL void _0x91DED5DD64BB2691(Any* p0) { invoke<Void>(0x91DED5DD64BB2691, p0); }
+	NATIVE_DECL BOOL _0xED4413CEE1BF142C(Any* p0) { return invoke<BOOL>(0xED4413CEE1BF142C, p0); }
+	NATIVE_DECL BOOL _0xB2B42607F7867576(Any* p0, Any* p1, Any p2) { return invoke<BOOL>(0xB2B42607F7867576, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x52FC26D2D2FC2987(Any* p0, Any* p1, Any p2) { return invoke<BOOL>(0x52FC26D2D2FC2987, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x44B3A36933AC009C(Any* p0, Any* p1, Any p2) { return invoke<BOOL>(0x44B3A36933AC009C, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xA63CD20F19B961AB(Any* p0, Any* p1, Any p2) { return invoke<BOOL>(0xA63CD20F19B961AB, p0, p1, p2); }
 }
 
 namespace DEBUG
@@ -1650,6 +1908,13 @@ namespace DECORATOR
 	NATIVE_DECL void _DECOR_REGISTER_NETWORKED(const char* propertyName, int type, BOOL isNetworked) { invoke<Void>(0x4587374F88B7F6C2, propertyName, type, isNetworked); }
 	// type: see DECOR_REGISTER
 	NATIVE_DECL BOOL DECOR_IS_REGISTERED_AS_TYPE(const char* propertyName, int type) { return invoke<BOOL>(0x72355278C069F272, propertyName, type); }
+	NATIVE_DECL BOOL _DECOR_SET_FLOAT(Entity entity, char* propertyName, float value) { return invoke<BOOL>(0x238F8B0C1C7FE834, entity, propertyName, value); }
+	NATIVE_DECL BOOL _0x4BDC83150D43772D(Any p0, Any* p1, BOOL p2) { return invoke<BOOL>(0x4BDC83150D43772D, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x0671C1A3FF7AFDFC(Any p0, Any* p1, Any* p2) { return invoke<BOOL>(0x0671C1A3FF7AFDFC, p0, p1, p2); }
+	NATIVE_DECL float _DECOR_GET_FLOAT(Entity entity, char* propertyName) { return invoke<float>(0xE5FF70CD842CA9D4, entity, propertyName); }
+	NATIVE_DECL Any _0xB1682B2443F0540B(Any p0, Any* p1) { return invoke<Any>(0xB1682B2443F0540B, p0, p1); }
+	NATIVE_DECL BOOL _0x88942780E0ADEA42(Any p0) { return invoke<BOOL>(0x88942780E0ADEA42, p0); }
+	NATIVE_DECL void _0x4587374F88B7F6C2(Any* p0, Any p1, BOOL p2) { invoke<Void>(0x4587374F88B7F6C2, p0, p1, p2); }
 }
 
 namespace DLC
@@ -2174,6 +2439,101 @@ namespace ENTITY
 	NATIVE_DECL Any _0x350E9211074955AF(Any p0, Any p1) { return invoke<Any>(0x350E9211074955AF, p0, p1); }
 	NATIVE_DECL void _0x898586729DB5221D(Ped ped) { invoke<Void>(0x898586729DB5221D, ped); }
 	NATIVE_DECL void _0xE9E7A0BAC7F57746(Any p0, Any p1) { invoke<Void>(0xE9E7A0BAC7F57746, p0, p1); }
+	NATIVE_DECL BOOL _0x0C9DBF48C6BA6E4C(Any p0, Any p1, Any p2, Any p3, Any p4) { return invoke<BOOL>(0x0C9DBF48C6BA6E4C, p0, p1, p2, p3, p4); }
+	NATIVE_DECL float _0x6D58167F62238284(Any p0) { return invoke<float>(0x6D58167F62238284, p0); }
+	NATIVE_DECL float _0xDFC2B226D56D85F6(Any p0, Any p1) { return invoke<float>(0xDFC2B226D56D85F6, p0, p1); }
+	NATIVE_DECL float _GET_ANIM_DURATION(char* animDict, char* animName) { return invoke<float>(0x9FFAF4940A54CC09, animDict, animName); }
+	NATIVE_DECL Vector3 _0x935A30AA88FB1014(Any p0) { return invoke<Vector3>(0x935A30AA88FB1014, p0); }
+	NATIVE_DECL float _0x96C638784DB4C815(Any p0) { return invoke<float>(0x96C638784DB4C815, p0); }
+	NATIVE_DECL BOOL _0x835F131E7DC8F97A(Any p0, float p1, Any p2) { return invoke<BOOL>(0x835F131E7DC8F97A, p0, p1, p2); }
+	NATIVE_DECL void _0xF3FDA9A617A15145(Any p0, Any p1, Any p2) { invoke<Void>(0xF3FDA9A617A15145, p0, p1, p2); }
+	NATIVE_DECL Any _0x964000D355219FC0(Any p0) { return invoke<Any>(0x964000D355219FC0, p0); }
+	NATIVE_DECL BOOL _0x9A100F1CF4546629(Any p0) { return invoke<BOOL>(0x9A100F1CF4546629, p0); }
+	NATIVE_DECL BOOL _0xC346A546612C49A9(Any p0) { return invoke<BOOL>(0xC346A546612C49A9, p0); }
+	NATIVE_DECL BOOL _0x5594AFE9DE0C01B7(Any p0) { return invoke<BOOL>(0x5594AFE9DE0C01B7, p0); }
+	NATIVE_DECL Any _0x2A08A32B6D49906F(Any p0, Any* p1) { return invoke<Any>(0x2A08A32B6D49906F, p0, p1); }
+	NATIVE_DECL Vector3 _0x3AB3A77672F6473F(Any p0, Any p1, BOOL p2, Any p3) { return invoke<Vector3>(0x3AB3A77672F6473F, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0x6888A43C35A5F630(Any p0) { return invoke<Any>(0x6888A43C35A5F630, p0); }
+	NATIVE_DECL BOOL _0x9587913B9E772D29(Any p0, BOOL p1) { return invoke<BOOL>(0x9587913B9E772D29, p0, p1); }
+	NATIVE_DECL int _GET_ENTITY_POPULATION_TYPE(Entity entity) { return invoke<int>(0xADE28862B6D7B85B, entity); }
+	NATIVE_DECL BOOL _0xA7E51B53309EAC97(Any p0) { return invoke<BOOL>(0xA7E51B53309EAC97, p0); }
+	NATIVE_DECL BOOL _0x5A5526BC09C06623(Any p0, Any p1, BOOL p2, Any p3) { return invoke<BOOL>(0x5A5526BC09C06623, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0xD4E5C1E93C466127(Any p0, BOOL p1) { return invoke<BOOL>(0xD4E5C1E93C466127, p0, p1); }
+	NATIVE_DECL void _SET_USED_BY_PLAYER(Entity entity, BOOL toggle) { invoke<Void>(0x850C940EE3E7B8B5, entity, toggle); }
+	NATIVE_DECL BOOL _0x0B7CB1300CBFE19C(Any p0, Any p1) { return invoke<BOOL>(0x0B7CB1300CBFE19C, p0, p1); }
+	NATIVE_DECL void _0x3F08C6163A4AB1D6(Any p0) { invoke<Void>(0x3F08C6163A4AB1D6, p0); }
+	NATIVE_DECL BOOL _0xC8CCDB712FBCBA92(Any p0) { return invoke<BOOL>(0xC8CCDB712FBCBA92, p0); }
+	NATIVE_DECL BOOL _0x857ACB0AB4BD0D55(Any p0) { return invoke<BOOL>(0x857ACB0AB4BD0D55, p0); }
+	NATIVE_DECL BOOL _0x8C03CD6B5E0E85E8(Any p0, Any p1) { return invoke<BOOL>(0x8C03CD6B5E0E85E8, p0, p1); }
+	NATIVE_DECL BOOL _0x1E804EA9B12030A4(Any p0, Any* p1) { return invoke<BOOL>(0x1E804EA9B12030A4, p0, p1); }
+	NATIVE_DECL BOOL _0xA88E215CEB0435C0(Any p0, Any* p1, Any p2, Any p3, Any p4, Any p5) { return invoke<BOOL>(0xA88E215CEB0435C0, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL Any _0x61914209C36EFDDB(Any p0) { return invoke<Any>(0x61914209C36EFDDB, p0); }
+	NATIVE_DECL Any _0x34F008A7E48C496B(Any p0, Any p1) { return invoke<Any>(0x34F008A7E48C496B, p0, p1); }
+	NATIVE_DECL Any _0x0FD25587BB306C86(Any p0) { return invoke<Any>(0x0FD25587BB306C86, p0); }
+	NATIVE_DECL Any _0x5AFFA9DDC87846F8(Any p0) { return invoke<Any>(0x5AFFA9DDC87846F8, p0); }
+	NATIVE_DECL Any _0x31FEF6A20F00B963(Any p0) { return invoke<Any>(0x31FEF6A20F00B963, p0); }
+	NATIVE_DECL void _0x399657ED871B3A6C(Any p0, Any p1) { invoke<Void>(0x399657ED871B3A6C, p0, p1); }
+	NATIVE_DECL Any _0x2A77EF9BEC8518F4(Any p0) { return invoke<Any>(0x2A77EF9BEC8518F4, p0); }
+	NATIVE_DECL void _0x0D0DB2B6AF19A987(Any* p0) { invoke<Void>(0x0D0DB2B6AF19A987, p0); }
+	NATIVE_DECL BOOL _0x8DE41E9902E85756(Any p0) { return invoke<BOOL>(0x8DE41E9902E85756, p0); }
+	NATIVE_DECL void _0x6BCF5F3D8FFE988D(Any p0, BOOL p1) { invoke<Void>(0x6BCF5F3D8FFE988D, p0, p1); }
+	NATIVE_DECL Any _0xEF2D9ED7CE684F08(Any p0) { return invoke<Any>(0xEF2D9ED7CE684F08, p0); }
+	NATIVE_DECL BOOL _0x808077647856DE62(Any p0, Any p1) { return invoke<BOOL>(0x808077647856DE62, p0, p1); }
+	NATIVE_DECL void _0x18FF3110CF47115D(Any p0, Any p1, BOOL p2) { invoke<Void>(0x18FF3110CF47115D, p0, p1, p2); }
+	NATIVE_DECL void _0xA48E4801DEBDF7E4(Any p0, BOOL p1) { invoke<Void>(0xA48E4801DEBDF7E4, p0, p1); }
+	NATIVE_DECL BOOL _0x255B6DB4E3AD3C3E(Any p0) { return invoke<BOOL>(0x255B6DB4E3AD3C3E, p0); }
+	NATIVE_DECL BOOL _0x120376C23F019C6C(Any p0, Any* p1) { return invoke<BOOL>(0x120376C23F019C6C, p0, p1); }
+	NATIVE_DECL void _0xDD03FC2089AD093C(Any p0, Any p1, Any p2, Any* p3) { invoke<Void>(0xDD03FC2089AD093C, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xBD94CECFB2D65119(Any p0, BOOL p1, float p2, float p3, float p4, BOOL p5) { invoke<Void>(0xBD94CECFB2D65119, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0x482D17E45665DA44(Any p0, float p1) { invoke<Void>(0x482D17E45665DA44, p0, p1); }
+	NATIVE_DECL void _0x445D7D8EA66E373E(Any p0, Any p1, float p2, float p3, float p4, float p5, float p6, float p7, float p8, BOOL p9, float p10, float p11, float p12, float p13, float p14, float p15) { invoke<Void>(0x445D7D8EA66E373E, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15); }
+	NATIVE_DECL void _0x16908E859C3AB698(Any p0, Any p1, float p2, float p3, float p4) { invoke<Void>(0x16908E859C3AB698, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0x5E94EA09E7207C16(Any* p0) { invoke<Void>(0x5E94EA09E7207C16, p0); }
+	NATIVE_DECL BOOL _0x083D497D57B7400F(Any p0) { return invoke<BOOL>(0x083D497D57B7400F, p0); }
+	NATIVE_DECL void _SET_ENTITY_SOMETHING(Entity entity, BOOL toggle) { invoke<Void>(0x740CB4F3F602C9F4, entity, toggle); }
+	NATIVE_DECL BOOL _0x88AD6CC10D8D35B2(Any p0) { return invoke<BOOL>(0x88AD6CC10D8D35B2, p0); }
+	NATIVE_DECL void _0x56E0735D6273B227(Any p0, Any p1) { invoke<Void>(0x56E0735D6273B227, p0, p1); }
+	NATIVE_DECL void _0xC0EDEF16D90661EE(Any p0, float p1) { invoke<Void>(0xC0EDEF16D90661EE, p0, p1); }
+	NATIVE_DECL BOOL _0x75DF9E73F2F005FD(Any p0) { return invoke<BOOL>(0x75DF9E73F2F005FD, p0); }
+	NATIVE_DECL BOOL _GET_ENTITY_COLLISON_DISABLED(Entity entity) { return invoke<BOOL>(0xAA2FADD30F45A9DA, entity); }
+	NATIVE_DECL void _SET_ENTITY_COLLISION_2(Entity entity, BOOL p1, BOOL p2) { invoke<Void>(0xE0580EC84813875A, entity, p1, p2); }
+	NATIVE_DECL void _0x203BEFFDBE12E96A(Any p0, float p1, float p2, float p3, float p4, BOOL p5, BOOL p6, BOOL p7) { invoke<Void>(0x203BEFFDBE12E96A, p0, p1, p2, p3, p4, p5, p6, p7); }
+	NATIVE_DECL void _0x0918E3565C20F03C(Any p0, float p1, float p2, float p3, float p4, BOOL p5, BOOL p6) { invoke<Void>(0x0918E3565C20F03C, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL void _0xAF7F3099B9FEB535(Any p0, float p1, float p2, float p3) { invoke<Void>(0xAF7F3099B9FEB535, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x4B436BAC8CBE9B07(Any p0, Any p1, BOOL p2) { invoke<Void>(0x4B436BAC8CBE9B07, p0, p1, p2); }
+	NATIVE_DECL Any _0xE12F56CB25D9CE23(Any p0) { return invoke<Any>(0xE12F56CB25D9CE23, p0); }
+	NATIVE_DECL void _0x2D40BCBFE9305DEA(Any p0, BOOL p1) { invoke<Void>(0x2D40BCBFE9305DEA, p0, p1); }
+	NATIVE_DECL void _0xEBDC12861D079ABA(Any p0, Any p1) { invoke<Void>(0xEBDC12861D079ABA, p0, p1); }
+	NATIVE_DECL BOOL _0x6BFBDC46139C45AB(float p0, float p1, float p2) { return invoke<BOOL>(0x6BFBDC46139C45AB, p0, p1, p2); }
+	NATIVE_DECL Any _0x6CF0DAD7FA1088EA(Any p0) { return invoke<Any>(0x6CF0DAD7FA1088EA, p0); }
+	NATIVE_DECL void _0xD45BB89B53FC0CFD(Any p0, float p1, float p2, float p3, float p4, float p5, float p6, BOOL p7) { invoke<Void>(0xD45BB89B53FC0CFD, p0, p1, p2, p3, p4, p5, p6, p7); }
+	NATIVE_DECL void _0xA91E6CF94404E8C9(Any p0) { invoke<Void>(0xA91E6CF94404E8C9, p0); }
+	NATIVE_DECL BOOL _0xD4636C2EDB0DEA8A(Any p0) { return invoke<BOOL>(0xD4636C2EDB0DEA8A, p0); }
+	NATIVE_DECL void _0x80646744FA88F9D7(Entity entity, BOOL p1) { invoke<Void>(0x80646744FA88F9D7, entity, p1); }
+	NATIVE_DECL void _0x24AED2A608F93C4C(Entity entity, BOOL p1) { invoke<Void>(0x24AED2A608F93C4C, entity, p1); }
+	NATIVE_DECL void _0xC64E597783BE9A1D(Entity entity, BOOL p1) { invoke<Void>(0xC64E597783BE9A1D, entity, p1); }
+	NATIVE_DECL Any _0x59B57C4B06531E1E(float p0, float p1, float p2, float p3, Any p4, Any p5) { return invoke<Any>(0x59B57C4B06531E1E, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL Any _0x84CCF9A12942C83D(Any p0, Any p1, Any p2, Any p3, Any p4, Any* p5) { return invoke<Any>(0x84CCF9A12942C83D, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL Any _0x886171A12F400B89(Any p0, Any p1, Any p2) { return invoke<Any>(0x886171A12F400B89, p0, p1, p2); }
+	NATIVE_DECL Any _0x66B2B83B94B22458(Any p0) { return invoke<Any>(0x66B2B83B94B22458, p0); }
+	NATIVE_DECL BOOL _0xC2E71D7E0A7B4C89(Any p0) { return invoke<BOOL>(0xC2E71D7E0A7B4C89, p0); }
+	NATIVE_DECL void _0x6C31B06E91518269(Any p0, BOOL p1) { invoke<Void>(0x6C31B06E91518269, p0, p1); }
+	NATIVE_DECL void _0x119A5714578F4E05(Any p0, BOOL p1) { invoke<Void>(0x119A5714578F4E05, p0, p1); }
+	NATIVE_DECL Any _0xF7424890E4A094C0(Any p0, BOOL p1) { return invoke<Any>(0xF7424890E4A094C0, p0, p1); }
+	NATIVE_DECL float _0x627520389E288A73(Any p0, Any* p1, Any* p2) { return invoke<float>(0x627520389E288A73, p0, p1, p2); }
+	NATIVE_DECL void _0x11CDABDC7783B2BC(Any p0, Any* p1, Any* p2, float p3) { invoke<Void>(0x11CDABDC7783B2BC, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xEAA885BA3CEA4E4A(Any p0, Any* p1, Any* p2, float p3) { invoke<Void>(0xEAA885BA3CEA4E4A, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x669655FFB29EF1A9(Any p0, Any p1, Any* p2, float p3) { invoke<Void>(0x669655FFB29EF1A9, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x1AD922AB5038DEF3(Any p0) { invoke<Void>(0x1AD922AB5038DEF3, p0); }
+	NATIVE_DECL void _0x36EB4D34D4A092C5(Any p0, BOOL p1) { invoke<Void>(0x36EB4D34D4A092C5, p0, p1); }
+	NATIVE_DECL BOOL _0x29BA9F78321E5A6C(Any p0, Any* p1, BOOL p2, float p3, float p4, BOOL p5, float p6, float p7, float p8, float p9, BOOL p10, BOOL p11) { return invoke<BOOL>(0x29BA9F78321E5A6C, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11); }
+	NATIVE_DECL Any _0xAAACB74442C1BED3(Any p0) { return invoke<Any>(0xAAACB74442C1BED3, p0); }
+	NATIVE_DECL Any _0x6F3068258A499E52(Any p0, float p1, float p2, float p3, Any p4) { return invoke<Any>(0x6F3068258A499E52, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xD2B9C78537ED5759(Any p0) { invoke<Void>(0xD2B9C78537ED5759, p0); }
+	NATIVE_DECL Any _0x1FF441D7954F8709(Any p0) { return invoke<Any>(0x1FF441D7954F8709, p0); }
+	NATIVE_DECL Any _0x4735E2A4BB83D9DA(Any p0) { return invoke<Any>(0x4735E2A4BB83D9DA, p0); }
+	NATIVE_DECL void _0xEAB3D91D30A344F1(Any p0) { invoke<Void>(0xEAB3D91D30A344F1, p0); }
+	NATIVE_DECL void _0x37CEB637BA3B1A47(Any p0) { invoke<Void>(0x37CEB637BA3B1A47, p0); }
 }
 
 namespace EVENT
@@ -2340,6 +2700,14 @@ namespace FIRE
 	NATIVE_DECL void _0x24DB6B9F2B719043(float p0) { invoke<Void>(0x24DB6B9F2B719043, p0); }
 	// Tested with fire & dynamite. Only returns true using value p1 = 1 and when the ped is affected by fire.
 	NATIVE_DECL BOOL _IS_PED_SHOCKING_EVENT_ACTIVE(Ped ped, int p1) { return invoke<BOOL>(0xAB7993BA61A4674F, ped, p1); }
+	NATIVE_DECL void _0xB7C7BDC375AEA9A4(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8) { invoke<Void>(0xB7C7BDC375AEA9A4, p0, p1, p2, p3, p4, p5, p6, p7, p8); }
+	NATIVE_DECL BOOL _0xA4454592DCF7C992(Any p0) { return invoke<BOOL>(0xA4454592DCF7C992, p0); }
+	NATIVE_DECL BOOL _0xCDC25355C0D65963(Any p0) { return invoke<BOOL>(0xCDC25355C0D65963, p0); }
+	NATIVE_DECL void _0xB7DF150605EEDC9B(Any p0, Any p1, float p2, float p3, float p4, Any p5, float p6, BOOL p7, BOOL p8, float p9) { invoke<Void>(0xB7DF150605EEDC9B, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9); }
+	NATIVE_DECL void _0x34AE85C7CA4857AA(Any p0, Any p1, float p2, float p3, float p4, Any p5, Any p6, float p7, BOOL p8, BOOL p9, float p10) { invoke<Void>(0x34AE85C7CA4857AA, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10); }
+	NATIVE_DECL int _0xD96E82AEBFFAAFF0(int explosionType, float x1, float y1, float z1, float x2, float y2, float z2) { return invoke<int>(0xD96E82AEBFFAAFF0, explosionType, x1, y1, z1, x2, y2, z2); }
+	NATIVE_DECL BOOL _0xE24822A4CFC9107A(Any p0, Any p1) { return invoke<BOOL>(0xE24822A4CFC9107A, p0, p1); }
+	NATIVE_DECL Entity _GET_PED_INSIDE_EXPLOSION_AREA(int explosionType, float x1, float y1, float z1, float x2, float y2, float z2, float radius) { return invoke<Entity>(0x8002DDAB58594D78, explosionType, x1, y1, z1, x2, y2, z2, radius); }
 }
 
 namespace FLOCK
@@ -2875,6 +3243,146 @@ namespace GRAPHICS
 	NATIVE_DECL void _SET_SNOW_COVERAGE_TYPE(int type) { invoke<Void>(0xF02A9C330BBFC5C7, type); }
 	NATIVE_DECL void _0x519928DF02EB5101(Any p0) { invoke<Void>(0x519928DF02EB5101, p0); }
 	NATIVE_DECL void _0x1C6306E5BC25C29C() { invoke<Void>(0x1C6306E5BC25C29C); }
+	NATIVE_DECL void _0x7DFF8F94937D2659() { invoke<Void>(0x7DFF8F94937D2659); }
+	NATIVE_DECL BOOL _0x84F0BA7462FF8D58(char* p0, Any* p1, Any* p2, BOOL p3) { return invoke<BOOL>(0x84F0BA7462FF8D58, p0, p1, p2, p3); }
+	NATIVE_DECL int _0xC71B50AE58D07369(Any p0) { return invoke<int>(0xC71B50AE58D07369, p0); }
+	NATIVE_DECL BOOL _0xA15BFFC0A01B34E1() { return invoke<BOOL>(0xA15BFFC0A01B34E1); }
+	NATIVE_DECL int _0x4A3DA74C3CCB1725() { return invoke<int>(0x4A3DA74C3CCB1725); }
+	NATIVE_DECL void _0xD45547D8396F002A() { invoke<Void>(0xD45547D8396F002A); }
+	NATIVE_DECL void _0x2705D18C11B61046(BOOL p0) { invoke<Void>(0x2705D18C11B61046, p0); }
+	NATIVE_DECL void _0x8E6AFF353C09652E(Any p0) { invoke<Void>(0x8E6AFF353C09652E, p0); }
+	NATIVE_DECL void _0x564837D4A9EDE296(Any* p0) { invoke<Void>(0x564837D4A9EDE296, p0); }
+	NATIVE_DECL void _0xFA91736933AB3D93(BOOL p0) { invoke<Void>(0xFA91736933AB3D93, p0); }
+	NATIVE_DECL void _0x8B3296278328B5EB(Any p0) { invoke<Void>(0x8B3296278328B5EB, p0); }
+	NATIVE_DECL void _0xD1031B83AC093BC7(Any* p0) { invoke<Void>(0xD1031B83AC093BC7, p0); }
+	NATIVE_DECL void _0x9937FACBBF267244(Any* p0) { invoke<Void>(0x9937FACBBF267244, p0); }
+	NATIVE_DECL void _0x8952E857696B8A79(Any* p0) { invoke<Void>(0x8952E857696B8A79, p0); }
+	NATIVE_DECL BOOL _0x57639FD876B68A91(int p0) { return invoke<BOOL>(0x57639FD876B68A91, p0); }
+	NATIVE_DECL int _0xD6663EC374092383() { return invoke<int>(0xD6663EC374092383); }
+	NATIVE_DECL BOOL _0x494A9874F17A7D50(int p0) { return invoke<BOOL>(0x494A9874F17A7D50, p0); }
+	NATIVE_DECL int _0x13430D3D5A45F14B(int p0) { return invoke<int>(0x13430D3D5A45F14B, p0); }
+	NATIVE_DECL void _0x614682E715ADBAAC() { invoke<Void>(0x614682E715ADBAAC); }
+	NATIVE_DECL void _0xF1142E5D64B47802(BOOL p0, BOOL p1) { invoke<Void>(0xF1142E5D64B47802, p0, p1); }
+	NATIVE_DECL Any _0x8E587FCD30E05592() { return invoke<Any>(0x8E587FCD30E05592); }
+	NATIVE_DECL Any _0x78C56B8A7B1D000C() { return invoke<Any>(0x78C56B8A7B1D000C); }
+	NATIVE_DECL BOOL _0xA42EDF1E88734A7E() { return invoke<BOOL>(0xA42EDF1E88734A7E); }
+	NATIVE_DECL int _0xB28894CD7408BD0C() { return invoke<int>(0xB28894CD7408BD0C); }
+	NATIVE_DECL void _ENTITY_DESCRIPTION_TEXT(Entity entity) { invoke<Void>(0xBDBACB52A03CC760, entity); }
+	NATIVE_DECL void _0x6EC2A67962296F49(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0x6EC2A67962296F49, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x07C0F87AAC57F2E4(Any p0, float p1) { invoke<Void>(0x07C0F87AAC57F2E4, p0, p1); }
+	NATIVE_DECL void _0xAB72C67163DC4DB4(Any p0, Any p1) { invoke<Void>(0xAB72C67163DC4DB4, p0, p1); }
+	NATIVE_DECL void _0x2A32FAA57B937173(Any p0, float p1, float p2, float p3, float p4, float p5, float p6, float p7, float p8, float p9, float p10, float p11, float p12, Any p13, Any p14, Any p15, Any p16, BOOL p17, BOOL p18, Any p19, BOOL p20, Any* p21, Any* p22, BOOL p23) { invoke<Void>(0x2A32FAA57B937173, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23); }
+	NATIVE_DECL Any _0x175668836B44CBB0(Any p0, float p1, float p2, float p3, float p4, float p5, float p6, float p7, Any p8, Any p9, Any p10, Any p11, Any p12) { return invoke<Any>(0x175668836B44CBB0, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12); }
+	NATIVE_DECL BOOL _0x4C11CCACB7C02B6E(Any p0) { return invoke<BOOL>(0x4C11CCACB7C02B6E, p0); }
+	NATIVE_DECL void _SET_CHECKPOINT_ICON_RGBA(int checkpoint, int red, int green, int blue, int alpha) { invoke<Void>(0x99AFF17222D4DEB4, checkpoint, red, green, blue, alpha); }
+	NATIVE_DECL void _SET_UI_LAYER(int layer) { invoke<Void>(0xCFCC78391C8B3814, layer); }
+	NATIVE_DECL BOOL _0xA2A51869BDED733B(Any p0, Any p1) { return invoke<BOOL>(0xA2A51869BDED733B, p0, p1); }
+	NATIVE_DECL void _0x98A7CD5EA379A854() { invoke<Void>(0x98A7CD5EA379A854); }
+	NATIVE_DECL Any _0xDFE332A5DA6FE7C9(Any p0) { return invoke<Any>(0xDFE332A5DA6FE7C9, p0); }
+	NATIVE_DECL BOOL _0xF2FDDCC8C6BAE1B3(Any p0) { return invoke<BOOL>(0xF2FDDCC8C6BAE1B3, p0); }
+	NATIVE_DECL Any _0x27219300C36A8D40(Any p0, Any p1, Any p2, Any p3, Any p4) { return invoke<Any>(0x27219300C36A8D40, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xAE7BF7CA9E4BA48D(Any p0) { invoke<Void>(0xAE7BF7CA9E4BA48D, p0); }
+	NATIVE_DECL Any _0xBD3324281E8B9933(Any p0, Any p1, Any p2, Any p3) { return invoke<Any>(0xBD3324281E8B9933, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0xFA50F79257745E74(float p0, float p1, float p2, float p3, Any p4, Any p5, Any p6) { return invoke<Any>(0xFA50F79257745E74, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL void _0x9CF1836C03FB67A2(Any* p0, BOOL p1) { invoke<Void>(0x9CF1836C03FB67A2, p0, p1); }
+	NATIVE_DECL void _0xDFEA23EC90113657(Any p0) { invoke<Void>(0xDFEA23EC90113657, p0); }
+	NATIVE_DECL void _0xDD0BC0EDCB2162F6(Any p0) { invoke<Void>(0xDD0BC0EDCB2162F6, p0); }
+	NATIVE_DECL BOOL _0xDE9BAD3292AA6D5E(Any p0) { return invoke<BOOL>(0xDE9BAD3292AA6D5E, p0); }
+	NATIVE_DECL BOOL _0x3D084D5568FB4028(Any p0) { return invoke<BOOL>(0x3D084D5568FB4028, p0); }
+	NATIVE_DECL void _0xDAD7FB8402651654() { invoke<Void>(0xDAD7FB8402651654); }
+	NATIVE_DECL void _0x646ED1A1D28487DF(Any p0, Any* p1) { invoke<Void>(0x646ED1A1D28487DF, p0, p1); }
+	NATIVE_DECL void _0x160921255327C591(Any p0, Any p1, BOOL p2, BOOL p3) { invoke<Void>(0x160921255327C591, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xD9EDB2E4512D563E(int p0, BOOL p1, float x, float y, float z, float p5, BOOL p6, BOOL p7) { invoke<Void>(0xD9EDB2E4512D563E, p0, p1, x, y, z, p5, p6, p7); }
+	NATIVE_DECL void _SET_FAR_SHADOWS_SUPPRESSED(BOOL toggle) { invoke<Void>(0x8FBFD2AEB196B369, toggle); }
+	NATIVE_DECL void _0xCE4774E0F9AD48D1(char* p0) { invoke<Void>(0xCE4774E0F9AD48D1, p0); }
+	NATIVE_DECL void _0xF7C29D7C12C36F03() { invoke<Void>(0xF7C29D7C12C36F03); }
+	NATIVE_DECL void _0x297B72E2AF094742(int unk) { invoke<Void>(0x297B72E2AF094742, unk); }
+	NATIVE_DECL void _TOGGLE_PAUSE_RENDER_PHASES(BOOL toggle) { invoke<Void>(0xEF9E1C45732F55FA, toggle); }
+	NATIVE_DECL BOOL _0x86ED21BDB2791CE8() { return invoke<BOOL>(0x86ED21BDB2791CE8); }
+	NATIVE_DECL void _0xCCD9AAD85E1B559E() { invoke<Void>(0xCCD9AAD85E1B559E); }
+	NATIVE_DECL void _0xCC23AA1A7CBFE840(BOOL p0, BOOL p1, float p2, float p3, float p4, float p5) { invoke<Void>(0xCC23AA1A7CBFE840, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0x21F00E08CBB5F37B(Any* p0) { invoke<Void>(0x21F00E08CBB5F37B, p0); }
+	NATIVE_DECL void _0x5AC6E0FA028369DE() { invoke<Void>(0x5AC6E0FA028369DE); }
+	NATIVE_DECL void _0xF5793BB386E1FF9C(BOOL p0) { invoke<Void>(0xF5793BB386E1FF9C, p0); }
+	NATIVE_DECL void _0xC8D0611D9A0CF5D3(float p0) { invoke<Void>(0xC8D0611D9A0CF5D3, p0); }
+	NATIVE_DECL float _0x06C0D8BB6B04A709() { return invoke<float>(0x06C0D8BB6B04A709); }
+	NATIVE_DECL void _0x62B9F9A1272AED80(float p0) { invoke<Void>(0x62B9F9A1272AED80, p0); }
+	NATIVE_DECL float _0x98F4154989B81EC6() { return invoke<float>(0x98F4154989B81EC6); }
+	NATIVE_DECL BOOL _START_NETWORKED_PARTICLE_FX_NON_LOOPED_ON_ENTITY(char* effectName, Entity entity, float offsetX, float offsetY, float offsetZ, float rotX, float rotY, float rotZ, float scale, BOOL axisX, BOOL axisY, BOOL axisZ) { return invoke<BOOL>(0xE6CFE43937061143, effectName, entity, offsetX, offsetY, offsetZ, rotX, rotY, rotZ, scale, axisX, axisY, axisZ); }
+	NATIVE_DECL BOOL _0xC695870B8A149B96(Any* p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12) { return invoke<BOOL>(0xC695870B8A149B96, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12); }
+	NATIVE_DECL int _START_PARTICLE_FX_LOOPED_ON_ENTITY_BONE(char* effectName, Entity entity, float xOffset, float yOffset, float zOffset, float xRot, float yRot, float zRot, int boneIndex, float scale, BOOL xAxis, BOOL yAxis, BOOL zAxis) { return invoke<int>(0xD3BA6EC7F2FBD5E9, effectName, entity, xOffset, yOffset, zOffset, xRot, yRot, zRot, boneIndex, scale, xAxis, yAxis, zAxis); }
+	NATIVE_DECL int _START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY_BONE(char* effectName, Entity entity, float xOffset, float yOffset, float zOffset, float xRot, float yRot, float zRot, int boneIndex, float scale, BOOL xAxis, BOOL yAxis, BOOL zAxis) { return invoke<int>(0x9C56621462FFE7A6, effectName, entity, xOffset, yOffset, zOffset, xRot, yRot, zRot, boneIndex, scale, xAxis, yAxis, zAxis); }
+	NATIVE_DECL void _0x9DDC222D85D5AF2A(Any p0, float p1) { invoke<Void>(0x9DDC222D85D5AF2A, p0, p1); }
+	NATIVE_DECL void _SET_PARTICLE_FX_ASSET_OLD_TO_NEW(char* oldAsset, char* newAsset) { invoke<Void>(0xBE711A169E9C7E95, oldAsset, newAsset); }
+	NATIVE_DECL void _RESET_PARTICLE_FX_ASSET_OLD_TO_NEW(char* name) { invoke<Void>(0x274B3DABF7E72DEF, name); }
+	NATIVE_DECL void _0x4D14AF567FC02885(Any p0, float p1, float p2, float p3, float p4, float p5, float p6, float p7, float p8, float p9, float p10) { invoke<Void>(0x4D14AF567FC02885, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10); }
+	NATIVE_DECL void _0x3C61B52B00848C26(Any p0, Any* p1, float p2, float p3, float p4) { invoke<Void>(0x3C61B52B00848C26, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xA53C8D7D0F8C74D0(float p0) { invoke<Void>(0xA53C8D7D0F8C74D0, p0); }
+	NATIVE_DECL void _0x8DCCC98DC0DBF9E4(float p0) { invoke<Void>(0x8DCCC98DC0DBF9E4, p0); }
+	NATIVE_DECL void _0x6E8EB45A4F4460EB(BOOL p0) { invoke<Void>(0x6E8EB45A4F4460EB, p0); }
+	NATIVE_DECL void _0x2A1625858887D4E6(float p0) { invoke<Void>(0x2A1625858887D4E6, p0); }
+	NATIVE_DECL void _0x7DFB49BCDB73089A(Any p0, Any p1) { invoke<Void>(0x7DFB49BCDB73089A, p0, p1); }
+	NATIVE_DECL void _0x50C14328119E1DD1(Any p0, Any p1) { invoke<Void>(0x50C14328119E1DD1, p0, p1); }
+	NATIVE_DECL void _0x0552AA3FFC5B87AA(Any p0, BOOL p1) { invoke<Void>(0x0552AA3FFC5B87AA, p0, p1); }
+	NATIVE_DECL void _0x7C348310A6E2FB91(Any p0, Any p1) { invoke<Void>(0x7C348310A6E2FB91, p0, p1); }
+	NATIVE_DECL void _0x72E30372E7CC4415(Any p0, Any p1) { invoke<Void>(0x72E30372E7CC4415, p0, p1); }
+	NATIVE_DECL void _0xFA2ECC78A6014D4F(float p0, float p1, float p2, Any p3) { invoke<Void>(0xFA2ECC78A6014D4F, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xF708298675ABDC6A(float p0, float p1, float p2, float p3, float p4, float p5, BOOL p6, Any p7, BOOL p8) { invoke<Void>(0xF708298675ABDC6A, p0, p1, p2, p3, p4, p5, p6, p7, p8); }
+	NATIVE_DECL void _0xDFCE8CE9F3EBE93F(Any p0) { invoke<Void>(0xDFCE8CE9F3EBE93F, p0); }
+	NATIVE_DECL void _0xC349EE1E6EFA494B(Any p0, float p1, float p2, float p3) { invoke<Void>(0xC349EE1E6EFA494B, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x46F246D6504F0031(float p0, float p1) { invoke<Void>(0x46F246D6504F0031, p0, p1); }
+	NATIVE_DECL void _0x73354FB6D03D2E8A(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0x73354FB6D03D2E8A, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x0E126AAE933F3B56() { invoke<Void>(0x0E126AAE933F3B56); }
+	NATIVE_DECL void _0xB9C92616929CC25D(Any* p0, float p1) { invoke<Void>(0xB9C92616929CC25D, p0, p1); }
+	NATIVE_DECL void _0xDD9DC1AB63D513CE(Any p0, Any p1, Any p2) { invoke<Void>(0xDD9DC1AB63D513CE, p0, p1, p2); }
+	NATIVE_DECL void _0xF5E45CB1CF965D2D(Any p0, Any p1, Any p2) { invoke<Void>(0xF5E45CB1CF965D2D, p0, p1, p2); }
+	NATIVE_DECL void _0xCD284E2F6AC27EE9(BOOL p0) { invoke<Void>(0xCD284E2F6AC27EE9, p0); }
+	NATIVE_DECL void _0xBB6C707F20D955D4(float p0) { invoke<Void>(0xBB6C707F20D955D4, p0); }
+	NATIVE_DECL Any _0x2DA67BA3C8A6755D() { return invoke<Any>(0x2DA67BA3C8A6755D); }
+	NATIVE_DECL float _0x25CA89B2A39DCC69() { return invoke<float>(0x25CA89B2A39DCC69); }
+	NATIVE_DECL void _0x6FE93BCC7BF12B63(float p0) { invoke<Void>(0x6FE93BCC7BF12B63, p0); }
+	NATIVE_DECL BOOL _IS_TV_PLAYLIST_ITEM_PLAYING(Hash videoClip) { return invoke<BOOL>(0x4D562223E0EB65F3, videoClip); }
+	NATIVE_DECL void _0x5199405EABFBD7F0(Any* p0) { invoke<Void>(0x5199405EABFBD7F0, p0); }
+	NATIVE_DECL BOOL _0xBF2DD155B2ADCD0A(Any* p0) { return invoke<BOOL>(0xBF2DD155B2ADCD0A, p0); }
+	NATIVE_DECL void _0x37D7BDBA89F13959(Any* p0) { invoke<Void>(0x37D7BDBA89F13959, p0); }
+	NATIVE_DECL void _0x3A9A281FF71249E9(Any* p0, Any p1) { invoke<Void>(0x3A9A281FF71249E9, p0, p1); }
+	NATIVE_DECL void _0xC5CB91D65852ED7E(Any* p0) { invoke<Void>(0xC5CB91D65852ED7E, p0); }
+	NATIVE_DECL BOOL _0x2D4F9C852CE8A253(Any* p0) { return invoke<BOOL>(0x2D4F9C852CE8A253, p0); }
+	NATIVE_DECL void _0xAD74C22A541AB987(Any* p0) { invoke<Void>(0xAD74C22A541AB987, p0); }
+	NATIVE_DECL void _0xCAB4DD2D5B2B7246(Any* p0, float p1) { invoke<Void>(0xCAB4DD2D5B2B7246, p0, p1); }
+	NATIVE_DECL void _0xF972F0AB16DC5260(Any* p0, Any p1, float p2) { invoke<Void>(0xF972F0AB16DC5260, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xFBF161FCFEC8589E(Any* p0, Any p1, BOOL p2, Any* p3) { return invoke<BOOL>(0xFBF161FCFEC8589E, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0x842CCC9491FFCD9B(Any* p0) { return invoke<Any>(0x842CCC9491FFCD9B, p0); }
+	NATIVE_DECL void _0xF3E039322BFBD4D8(Any p0) { invoke<Void>(0xF3E039322BFBD4D8, p0); }
+	NATIVE_DECL BOOL _0x59EA80079B86D8C7(Any p0) { return invoke<BOOL>(0x59EA80079B86D8C7, p0); }
+	NATIVE_DECL void _0x9B8D5D4CB8AF58B3(Any p0) { invoke<Void>(0x9B8D5D4CB8AF58B3, p0); }
+	NATIVE_DECL void _0xEDA5CBECF56E1386(Any p0) { invoke<Void>(0xEDA5CBECF56E1386, p0); }
+	NATIVE_DECL BOOL _0xEEF83A759AE06A27(Any p0) { return invoke<BOOL>(0xEEF83A759AE06A27, p0); }
+	NATIVE_DECL BOOL _0x9AB192A9EF980EED(Any p0, Any p1, BOOL p2, Any* p3) { return invoke<BOOL>(0x9AB192A9EF980EED, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xC38B4952B728397A(Any p0, BOOL p1) { invoke<Void>(0xC38B4952B728397A, p0, p1); }
+	NATIVE_DECL BOOL _0xAF6E67D073D2DCE2() { return invoke<BOOL>(0xAF6E67D073D2DCE2); }
+	NATIVE_DECL void _0xC2B8164C3BE871A4() { invoke<Void>(0xC2B8164C3BE871A4); }
+	NATIVE_DECL void _0x3E2FDDBE435A8787() { invoke<Void>(0x3E2FDDBE435A8787); }
+	NATIVE_DECL void _0x55285F885F662169() { invoke<Void>(0x55285F885F662169); }
+	NATIVE_DECL BOOL _0xD9C24F53631F2372(Any* p0, Any p1, Any p2) { return invoke<BOOL>(0xD9C24F53631F2372, p0, p1, p2); }
+	NATIVE_DECL void _0x196D3ACBEBA4A44B(Any p0) { invoke<Void>(0x196D3ACBEBA4A44B, p0); }
+	NATIVE_DECL void _0xBFCB17895BB99E4E(Any p0, BOOL p1) { invoke<Void>(0xBFCB17895BB99E4E, p0, p1); }
+	NATIVE_DECL BOOL _0x113857D66A9CABE6(Any p0) { return invoke<BOOL>(0x113857D66A9CABE6, p0); }
+	NATIVE_DECL Any _0x5D1C5D8E62E8EE1C(Any p0) { return invoke<Any>(0x5D1C5D8E62E8EE1C, p0); }
+	NATIVE_DECL void _0xB8C984C0D47F4F07(float p0, float p1, Any p2) { invoke<Void>(0xB8C984C0D47F4F07, p0, p1, p2); }
+	NATIVE_DECL void _0xFE7966DF01452F32(float p0, float p1, float p2) { invoke<Void>(0xFE7966DF01452F32, p0, p1, p2); }
+	NATIVE_DECL void _0x10C1767B93257480(float p0, float p1, float p2) { invoke<Void>(0x10C1767B93257480, p0, p1, p2); }
+	NATIVE_DECL void _0xC332C91388F5580B(float p0) { invoke<Void>(0xC332C91388F5580B, p0); }
+	NATIVE_DECL void _0xFAAD23DE7A54FC14() { invoke<Void>(0xFAAD23DE7A54FC14); }
+	NATIVE_DECL void _0x5C9978A2A3DC3D0D() { invoke<Void>(0x5C9978A2A3DC3D0D); }
+	NATIVE_DECL void _0xC6F81FCD15350323(Any p0, Any p1) { invoke<Void>(0xC6F81FCD15350323, p0, p1); }
+	NATIVE_DECL void _0x958DEBD9353C0935(Any p0, Any p1, float p2) { invoke<Void>(0x958DEBD9353C0935, p0, p1, p2); }
+	NATIVE_DECL void _0x56A786E87FF53478(Any p0) { invoke<Void>(0x56A786E87FF53478, p0); }
+	NATIVE_DECL BOOL _0xE8A8378BF651079C(Any p0, Any* p1, Any* p2, Any* p3, Any* p4) { return invoke<BOOL>(0xE8A8378BF651079C, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xE92012611461A42A(Any p0, Any* p1, Any* p2, Any* p3, Any* p4) { invoke<Void>(0xE92012611461A42A, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0x249CD6B7285536F2(float p0, float p1, float p2) { invoke<Void>(0x249CD6B7285536F2, p0, p1, p2); }
+	NATIVE_DECL void _0xAF4D239B8903FCBE() { invoke<Void>(0xAF4D239B8903FCBE); }
+	NATIVE_DECL void _0xF02A9C330BBFC5C7(Any p0) { invoke<Void>(0xF02A9C330BBFC5C7, p0); }
 }
 
 namespace GANG
@@ -3362,6 +3870,21 @@ namespace INTERIOR
 	NATIVE_DECL void DISABLE_INTERIOR(Interior interior, BOOL toggle) { invoke<Void>(0x3C2B92A1A07D4FCE, interior, toggle); }
 	NATIVE_DECL void _0x2533F2AB0EB9C6F9(Any p0, Any p1) { invoke<Void>(0x2533F2AB0EB9C6F9, p0, p1); }
 	NATIVE_DECL void _0xFE2B3D5500B1B2E4(Any p0, Any p1) { invoke<Void>(0xFE2B3D5500B1B2E4, p0, p1); }
+	NATIVE_DECL void _0x8451E87D3C2B0286(Any p0, Any p1, Any p2) { invoke<Void>(0x8451E87D3C2B0286, p0, p1, p2); }
+	NATIVE_DECL Any _0x3039BE60B3749716(Any p0) { return invoke<Any>(0x3039BE60B3749716, p0); }
+	NATIVE_DECL Vector3 _0x2C9746D0CA15BE1C(Any p0) { return invoke<Vector3>(0x2C9746D0CA15BE1C, p0); }
+	NATIVE_DECL void _0x5BD616735F16BF5C(Entity entity, int interiorID) { invoke<Void>(0x5BD616735F16BF5C, entity, interiorID); }
+	NATIVE_DECL void _0x115B4AA8FB28AB43(int interiorID, Hash roomHashKey) { invoke<Void>(0x115B4AA8FB28AB43, interiorID, roomHashKey); }
+	NATIVE_DECL void _0x951A049765E0D450() { invoke<Void>(0x951A049765E0D450); }
+	NATIVE_DECL Any _0xBC8A281FF125C655() { return invoke<Any>(0xBC8A281FF125C655); }
+	NATIVE_DECL void _LOAD_INTERIOR(int interiorID) { invoke<Void>(0xBD3D33EABF680168, interiorID); }
+	NATIVE_DECL Any _0xB5EF6FEF2DC9EBED(int interiorID) { return invoke<Any>(0xB5EF6FEF2DC9EBED, interiorID); }
+	NATIVE_DECL int _UNK_GET_INTERIOR_AT_COORDS(float x, float y, float z, int unk) { return invoke<int>(0x3543AEA1816D1D2B, x, y, z, unk); }
+	NATIVE_DECL BOOL _ARE_COORDS_COLLIDING_WITH_EXTERIOR(float x, float y, float z) { return invoke<BOOL>(0xF291396B517E25B2, x, y, z); }
+	NATIVE_DECL void _ENABLE_INTERIOR_PROP(int interiorID, char* propName, Any p2) { invoke<Void>(0x174D0AAB11CED739, interiorID, propName, p2); }
+	NATIVE_DECL void _DISABLE_INTERIOR_PROP(int interiorID, char* propName, BOOL p2) { invoke<Void>(0x33B81A2C07A51FFF, interiorID, propName, p2); }
+	NATIVE_DECL BOOL _IS_INTERIOR_PROP_ENABLED(int interiorID, char* propName) { return invoke<BOOL>(0x32810CA2125F5842, interiorID, propName); }
+	NATIVE_DECL BOOL _0xD56FF170710FC826(Any p0, Any* p1) { return invoke<BOOL>(0xD56FF170710FC826, p0, p1); }
 }
 
 namespace INVENTORY
@@ -3725,6 +4248,73 @@ namespace ITEMDATABASE
 	// Returns the pathset hash for the selected catalog item category, such as CI_CATEGORY_AMMO or CI_CATEGORY_CAMP_TENT.
 	// p1 is observed as DEFAULT in Rockstar scripts.
 	NATIVE_DECL Hash _ITEMDATABASE_GET_CATALOG_ITEM_CATEGORY_PATHSET(Hash catalogItemCategory, Hash p1) { return invoke<Hash>(0xAA29A5F13B2C20B2, catalogItemCategory, p1); }
+	NATIVE_DECL BOOL _0x856FF92C57742AE5(Any p0, Any p1, Any p2) { return invoke<BOOL>(0x856FF92C57742AE5, p0, p1, p2); }
+	NATIVE_DECL Any _0x2970D1D6BFCF9B46(Any p0) { return invoke<Any>(0x2970D1D6BFCF9B46, p0); }
+	NATIVE_DECL BOOL _0x77210C146CED5261(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x77210C146CED5261, p0, p1, p2); }
+	NATIVE_DECL Any _0x44915068579D7710(Any p0) { return invoke<Any>(0x44915068579D7710, p0); }
+	NATIVE_DECL BOOL _0x8A9BD0DB7E8376CF(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x8A9BD0DB7E8376CF, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x2A610BEE7D341CC4(Any p0, Any* p1) { return invoke<BOOL>(0x2A610BEE7D341CC4, p0, p1); }
+	NATIVE_DECL BOOL _0xFE90ABBCBFDC13B2(Any p0, Any* p1) { return invoke<BOOL>(0xFE90ABBCBFDC13B2, p0, p1); }
+	NATIVE_DECL BOOL _0x74F7928816E4E181(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x74F7928816E4E181, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x7A62A2EEDE1C3766(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x7A62A2EEDE1C3766, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x4776EFD78F75C23F(Any p0, Any* p1) { return invoke<BOOL>(0x4776EFD78F75C23F, p0, p1); }
+	NATIVE_DECL BOOL _0xB86F7CC2DC67AC60(Any p0, Any* p1) { return invoke<BOOL>(0xB86F7CC2DC67AC60, p0, p1); }
+	NATIVE_DECL BOOL _0x74C3B1093728D263(Any p0, Any* p1) { return invoke<BOOL>(0x74C3B1093728D263, p0, p1); }
+	NATIVE_DECL BOOL _0x9379BE60DC55BBE6(Any p0, Any* p1) { return invoke<BOOL>(0x9379BE60DC55BBE6, p0, p1); }
+	NATIVE_DECL BOOL _0xCF2D360D27FD1ABF(Any p0, Any* p1) { return invoke<BOOL>(0xCF2D360D27FD1ABF, p0, p1); }
+	NATIVE_DECL BOOL _0x5A11D6EEA17165B0(Any p0, Any* p1, Any* p2, Any p3) { return invoke<BOOL>(0x5A11D6EEA17165B0, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0x01FDDAD392D04144(Any p0) { return invoke<Any>(0x01FDDAD392D04144, p0); }
+	NATIVE_DECL BOOL _0x6772A83C67A25775(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x6772A83C67A25775, p0, p1, p2); }
+	NATIVE_DECL Any _0x71EFA7999AE79408(Any* p0, Any* p1, Any p2) { return invoke<Any>(0x71EFA7999AE79408, p0, p1, p2); }
+	NATIVE_DECL Any _0xD389A2549C4EFB30(Any p0) { return invoke<Any>(0xD389A2549C4EFB30, p0); }
+	NATIVE_DECL BOOL _0x8750F69A720C2E41(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x8750F69A720C2E41, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xCBB7B6EDFA933ADE(Any p0) { return invoke<BOOL>(0xCBB7B6EDFA933ADE, p0); }
+	NATIVE_DECL BOOL _0x337F88E3A063995E(Any p0) { return invoke<BOOL>(0x337F88E3A063995E, p0); }
+	NATIVE_DECL BOOL _0x337F88E3A063995F(Any p0) { return invoke<BOOL>(0x337F88E3A063995F, p0); }
+	NATIVE_DECL BOOL _0x6D5D51B188333FD1(Any p0, Any p1) { return invoke<BOOL>(0x6D5D51B188333FD1, p0, p1); }
+	NATIVE_DECL Any _0x891A45960B6B768A(Any p0) { return invoke<Any>(0x891A45960B6B768A, p0); }
+	NATIVE_DECL Any _0x3332695B01015DF9(Any p0, Any* p1) { return invoke<Any>(0x3332695B01015DF9, p0, p1); }
+	NATIVE_DECL BOOL _0x5D48A77E4B668B57(Any p0, Any* p1, Any p2, Any* p3) { return invoke<BOOL>(0x5D48A77E4B668B57, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x4308812A6E9CA62E(Any p0, Any p1) { return invoke<BOOL>(0x4308812A6E9CA62E, p0, p1); }
+	NATIVE_DECL BOOL _0xA97EE5E4589FCF5A(Any p0, Any* p1) { return invoke<BOOL>(0xA97EE5E4589FCF5A, p0, p1); }
+	NATIVE_DECL Any _0x7A35A72A692BE9DB(Any p0) { return invoke<Any>(0x7A35A72A692BE9DB, p0); }
+	NATIVE_DECL BOOL _0x3A0B667ABFF87F6E(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x3A0B667ABFF87F6E, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x00B9507D8E1D8716(Any p0) { return invoke<BOOL>(0x00B9507D8E1D8716, p0); }
+	NATIVE_DECL Any _0xC568B1A0F17C7025(Any p0) { return invoke<Any>(0xC568B1A0F17C7025, p0); }
+	NATIVE_DECL BOOL _0x4A79B41B4EB91F4E(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x4A79B41B4EB91F4E, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xCFB06801F5099B25(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0xCFB06801F5099B25, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x76C752D788A76813(Any p0, Any p1, Any p2, Any* p3) { return invoke<BOOL>(0x76C752D788A76813, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0xE0EA5C031AE5539F(Any p0, Any p1, Any p2, Any p3, Any* p4) { return invoke<BOOL>(0xE0EA5C031AE5539F, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0x3AFE5182C45A84F6(Any p0) { return invoke<BOOL>(0x3AFE5182C45A84F6, p0); }
+	NATIVE_DECL BOOL _0x66A6D76B6BB999B4(Any p0, Any* p1) { return invoke<BOOL>(0x66A6D76B6BB999B4, p0, p1); }
+	NATIVE_DECL BOOL _0x86FCB565CCA0CFA7(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x86FCB565CCA0CFA7, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xD66114469978B55B(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0xD66114469978B55B, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xF04247092F193B75(Any p0, Any p1, Any p2, Any* p3) { return invoke<BOOL>(0xF04247092F193B75, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x9A60570657A7B635(Any p0, Any p1, Any p2, Any* p3) { return invoke<BOOL>(0x9A60570657A7B635, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0xB347C100DF0C9B7F(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0xB347C100DF0C9B7F, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xF32BEF578B3DBAE8(Any p0, Any p1, Any p2, Any* p3, Any* p4, Any* p5) { return invoke<BOOL>(0xF32BEF578B3DBAE8, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL BOOL _0x4CE753203FA42214(Any p0) { return invoke<BOOL>(0x4CE753203FA42214, p0); }
+	NATIVE_DECL BOOL _0xB52E20F6767A09A2(Any p0, Any* p1, Any* p2, Any p3) { return invoke<BOOL>(0xB52E20F6767A09A2, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0xF8D09EF8CE61D7BF(Any p0, Any* p1) { return invoke<BOOL>(0xF8D09EF8CE61D7BF, p0, p1); }
+	NATIVE_DECL BOOL _0x4EB37AAB79AB0C48(Any p0, Any* p1) { return invoke<BOOL>(0x4EB37AAB79AB0C48, p0, p1); }
+	NATIVE_DECL BOOL _0x40C5D95818823C94(Any p0, Any* p1) { return invoke<BOOL>(0x40C5D95818823C94, p0, p1); }
+	NATIVE_DECL Any _0x5AAAF40E9B224F5E(Any p0) { return invoke<Any>(0x5AAAF40E9B224F5E, p0); }
+	NATIVE_DECL Any _0xCB92EC9C004732B4(Any p0, Any p1) { return invoke<Any>(0xCB92EC9C004732B4, p0, p1); }
+	NATIVE_DECL Any _0x1289D8315235856D(Any p0) { return invoke<Any>(0x1289D8315235856D, p0); }
+	NATIVE_DECL BOOL _0x60614A0AB580A2B5(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x60614A0AB580A2B5, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xEF254F1A4C08B7E6(Any p0) { return invoke<BOOL>(0xEF254F1A4C08B7E6, p0); }
+	NATIVE_DECL Any _0x3FAA928A79591761(Any p0) { return invoke<Any>(0x3FAA928A79591761, p0); }
+	NATIVE_DECL Any _0x48229CE0C7938237(Any p0) { return invoke<Any>(0x48229CE0C7938237, p0); }
+	NATIVE_DECL BOOL _0x121D2005DD64496B(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x121D2005DD64496B, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x8D029948CA29409B(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x8D029948CA29409B, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xFF5FB5605AD56856(Any p0, Any p1, Any p2) { return invoke<BOOL>(0xFF5FB5605AD56856, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x99C6EA66DFE73757(Any p0, Any p1, Any p2) { return invoke<BOOL>(0x99C6EA66DFE73757, p0, p1, p2); }
+	NATIVE_DECL Any _0x6111B8F9413F413A(Any p0, Any p1) { return invoke<Any>(0x6111B8F9413F413A, p0, p1); }
+	NATIVE_DECL Any _0xCEC6A41E8910486A(Any p0) { return invoke<Any>(0xCEC6A41E8910486A, p0); }
+	NATIVE_DECL Any _0x49885D82A13EEAEA(Any p0, Any p1) { return invoke<Any>(0x49885D82A13EEAEA, p0, p1); }
+	NATIVE_DECL Any _0xCABF5D41D0073D4A(Any p0, Any p1) { return invoke<Any>(0xCABF5D41D0073D4A, p0, p1); }
+	NATIVE_DECL Any _0x9AE5610FDCED6EA7(Any p0, Any p1, Any p2) { return invoke<Any>(0x9AE5610FDCED6EA7, p0, p1, p2); }
+	NATIVE_DECL Any _0xF4452CE83118C738(Any p0, Any p1) { return invoke<Any>(0xF4452CE83118C738, p0, p1); }
 }
 
 namespace ITEMSETS
@@ -4289,6 +4879,25 @@ namespace MINIGAME
 	NATIVE_DECL Any _0xBEA7D3CB47E1479C() { return invoke<Any>(0xBEA7D3CB47E1479C); }
 	NATIVE_DECL Any _0x910B088E51A511AC() { return invoke<Any>(0x910B088E51A511AC); }
 	NATIVE_DECL Any _0x9DD95B405AB4983E(Any p0, Any p1) { return invoke<Any>(0x9DD95B405AB4983E, p0, p1); }
+	NATIVE_DECL BOOL _0x2A0C4736AC5AF0CE(Any p0) { return invoke<BOOL>(0x2A0C4736AC5AF0CE, p0); }
+	NATIVE_DECL BOOL _0x8593A8CB0ED2C3B4(Any p0) { return invoke<BOOL>(0x8593A8CB0ED2C3B4, p0); }
+	NATIVE_DECL BOOL _0xF6AC6085D8D6C004(Any* p0) { return invoke<BOOL>(0xF6AC6085D8D6C004, p0); }
+	NATIVE_DECL BOOL _0xF5446E47941E654C(Any* p0) { return invoke<BOOL>(0xF5446E47941E654C, p0); }
+	NATIVE_DECL Any _0x578907F59BA01B6C() { return invoke<Any>(0x578907F59BA01B6C); }
+	NATIVE_DECL BOOL _0xDF728C5AE137FC13(Any* p0, Any p1) { return invoke<BOOL>(0xDF728C5AE137FC13, p0, p1); }
+	NATIVE_DECL void _0x833E03BAEBADC4B0() { invoke<Void>(0x833E03BAEBADC4B0); }
+	NATIVE_DECL BOOL _0x9105A4A2556FA937(Any* p0) { return invoke<BOOL>(0x9105A4A2556FA937, p0); }
+	NATIVE_DECL BOOL _0x2D20E12E1990D584(Any* p0) { return invoke<BOOL>(0x2D20E12E1990D584, p0); }
+	NATIVE_DECL BOOL _0xB4D610EA5A1FDE74(Any p0, Any* p1) { return invoke<BOOL>(0xB4D610EA5A1FDE74, p0, p1); }
+	NATIVE_DECL BOOL _0x8DED681B161EBD78(BOOL p0, Any* p1) { return invoke<BOOL>(0x8DED681B161EBD78, p0, p1); }
+	NATIVE_DECL BOOL _0x49A045628D9B1B86(BOOL p0, Any* p1) { return invoke<BOOL>(0x49A045628D9B1B86, p0, p1); }
+	NATIVE_DECL BOOL _0x3DFAB7D9BB45B5BE(Any* p0) { return invoke<BOOL>(0x3DFAB7D9BB45B5BE, p0); }
+	NATIVE_DECL BOOL _0xECCF45A79A17BB96(Any p0, Any* p1) { return invoke<BOOL>(0xECCF45A79A17BB96, p0, p1); }
+	NATIVE_DECL BOOL _0x2F2131DB0A8B02DC(Any* p0) { return invoke<BOOL>(0x2F2131DB0A8B02DC, p0); }
+	NATIVE_DECL Any _0x3AE451860F03CA8A(Any* p0, Any* p1) { return invoke<Any>(0x3AE451860F03CA8A, p0, p1); }
+	NATIVE_DECL BOOL _0x399E6CD12FC8CA89(Any* p0) { return invoke<BOOL>(0x399E6CD12FC8CA89, p0); }
+	NATIVE_DECL BOOL _0xB79A29B33BF29BA5(Any* p0, Any* p1) { return invoke<BOOL>(0xB79A29B33BF29BA5, p0, p1); }
+	NATIVE_DECL BOOL _0xE26AEE7E67D9E21D(Any* p0) { return invoke<BOOL>(0xE26AEE7E67D9E21D, p0); }
 }
 
 namespace MISC
@@ -4887,6 +5496,21 @@ namespace MISSIONDATA
 	NATIVE_DECL void _MISSIONDATA_TIMECYCLE_BOX_SET_MODIFIER(const char* timecycleName) { invoke<Void>(0x25855B1574BF8CD5, timecycleName); }
 	NATIVE_DECL void _MISSIONDATA_TIMECYCLE_BOX_DELETE() { invoke<Void>(0x7F89E15A8FB8DE97); }
 	NATIVE_DECL BOOL _MISSIONDATA_TIMECYCLE_BOX_EXISTS() { return invoke<BOOL>(0x7E8F86A4FA33033C); }
+	NATIVE_DECL BOOL _0xE54DC27571D5EDC5(Any p0) { return invoke<BOOL>(0xE54DC27571D5EDC5, p0); }
+	NATIVE_DECL Any _0x57E798B56C45EE15(Any p0) { return invoke<Any>(0x57E798B56C45EE15, p0); }
+	NATIVE_DECL Any _0x57E798B57C45EE16(Any p0) { return invoke<Any>(0x57E798B57C45EE16, p0); }
+	NATIVE_DECL BOOL _0xE54DC27571D5EDC4(Any p0) { return invoke<BOOL>(0xE54DC27571D5EDC4, p0); }
+	NATIVE_DECL Any _0x57E798B54C45EE1A(Any p0) { return invoke<Any>(0x57E798B54C45EE1A, p0); }
+	NATIVE_DECL void _0xE824CE7D13FCB300(Any p0, Any p1) { invoke<Void>(0xE824CE7D13FCB300, p0, p1); }
+	NATIVE_DECL BOOL _0xE824CE7D13FCB35E(Any p0) { return invoke<BOOL>(0xE824CE7D13FCB35E, p0); }
+	NATIVE_DECL void _0xE4E2C581F127A11C(Any p0, Any p1) { invoke<Void>(0xE4E2C581F127A11C, p0, p1); }
+	NATIVE_DECL Any _0x8C32D86E9556ED86(Any p0) { return invoke<Any>(0x8C32D86E9556ED86, p0); }
+	NATIVE_DECL void _0x12F65317708749A5(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0x12F65317708749A5, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x3A04F0169DA87A9D(Any p0, Any p1) { invoke<Void>(0x3A04F0169DA87A9D, p0, p1); }
+	NATIVE_DECL Any _0x9AABABF8313C3516(Any p0) { return invoke<Any>(0x9AABABF8313C3516, p0); }
+	NATIVE_DECL void _0x25855B1574BF8CD5(Any* p0) { invoke<Void>(0x25855B1574BF8CD5, p0); }
+	NATIVE_DECL void _0x7F89E15A8FB8DE97() { invoke<Void>(0x7F89E15A8FB8DE97); }
+	NATIVE_DECL BOOL _0x7E8F86A4FA33033C() { return invoke<BOOL>(0x7E8F86A4FA33033C); }
 }
 
 namespace MONEY
@@ -4927,6 +5551,24 @@ namespace NETSHOPPING
 	NATIVE_DECL BOOL _0x92A32BA29622763F(int id, int index, Any* p2) { return invoke<BOOL>(0x92A32BA29622763F, id, index, p2); }
 	NATIVE_DECL BOOL _0x3FA09DD57B93C0DE(Hash p0, int p1, int p2, Any p3, int p4) { return invoke<BOOL>(0x3FA09DD57B93C0DE, p0, p1, p2, p3, p4); }
 	NATIVE_DECL BOOL _0xD1555FBC96C88444(Hash p0, int p1, int p2, Any p3, int p4) { return invoke<BOOL>(0xD1555FBC96C88444, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0xC019112F8995DC1C(Any* p0, Any* p1) { return invoke<BOOL>(0xC019112F8995DC1C, p0, p1); }
+	NATIVE_DECL BOOL _0xFCC24220FDDAC929() { return invoke<BOOL>(0xFCC24220FDDAC929); }
+	NATIVE_DECL BOOL _0x6CE9FB6332B5E46E() { return invoke<BOOL>(0x6CE9FB6332B5E46E); }
+	NATIVE_DECL BOOL _0xD1CE92D1D9BE170A() { return invoke<BOOL>(0xD1CE92D1D9BE170A); }
+	NATIVE_DECL BOOL _0xFFEA09CCEC4AF32F(Any p0, Any* p1, Any* p2, Any p3) { return invoke<BOOL>(0xFFEA09CCEC4AF32F, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0xF039EC27F4490E96(Any* p0, Any p1, Any p2) { return invoke<BOOL>(0xF039EC27F4490E96, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x52A226ADF4A270D2(Any p0) { return invoke<BOOL>(0x52A226ADF4A270D2, p0); }
+	NATIVE_DECL BOOL _0x59EF5D516E2D96B9(Any p0) { return invoke<BOOL>(0x59EF5D516E2D96B9, p0); }
+	NATIVE_DECL Any _0x6C9F12700BCE69F4(Any p0, Any* p1) { return invoke<Any>(0x6C9F12700BCE69F4, p0, p1); }
+	NATIVE_DECL BOOL _0x3745C002F5A21C45(Any p0, Any* p1, Any p2) { return invoke<BOOL>(0x3745C002F5A21C45, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xF65D2D35037BF5EC(Any p0, Any* p1, Any p2, Any* p3, Any p4) { return invoke<BOOL>(0xF65D2D35037BF5EC, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0x52BDE32F21BA3B6D(Any p0, Any p1, Any* p2, Any* p3) { return invoke<BOOL>(0x52BDE32F21BA3B6D, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x7616B5F0895C2D99(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x7616B5F0895C2D99, p0, p1, p2); }
+	NATIVE_DECL Any _0xCF2D04D076847478(Any p0) { return invoke<Any>(0xCF2D04D076847478, p0); }
+	NATIVE_DECL Any _0xBD2D520C51CCFF52(Any p0) { return invoke<Any>(0xBD2D520C51CCFF52, p0); }
+	NATIVE_DECL BOOL _0x592BC00BF6629BE7(Any p0) { return invoke<BOOL>(0x592BC00BF6629BE7, p0); }
+	NATIVE_DECL BOOL _0x26C008791D066F37(Any p0, Any* p1) { return invoke<BOOL>(0x26C008791D066F37, p0, p1); }
+	NATIVE_DECL BOOL _0x98412398BBE73F61(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x98412398BBE73F61, p0, p1, p2); }
 }
 
 namespace NETWORK
@@ -5766,6 +6408,291 @@ namespace NETWORK
 	// Returns CGameConfig->ConfigOnlineServices->RosTitleName (see gameconfig.xml)
 	NATIVE_DECL const char* _NETWORK_GET_ROS_TITLE_NAME() { return invoke<const char*>(0xAC6153A0722F524C); }
 	NATIVE_DECL void _REPORT_PLAYER(Player player, int reportType, const char* description, const char* horseName) { invoke<Void>(0xA197C35F73AC0F12, player, reportType, description, horseName); }
+	NATIVE_DECL BOOL _0x74FB3E29E6D10FA9() { return invoke<BOOL>(0x74FB3E29E6D10FA9); }
+	NATIVE_DECL BOOL _NETWORK_ARE_ROS_AVAILABLE() { return invoke<BOOL>(0x85443FF4C328F53B); }
+	NATIVE_DECL BOOL _0x67A5589628E0CFF6() { return invoke<BOOL>(0x67A5589628E0CFF6); }
+	NATIVE_DECL BOOL _0x595F028698072DD9(Any p0) { return invoke<BOOL>(0x595F028698072DD9, p0); }
+	NATIVE_DECL BOOL _0x83F28CE49FBBFFBA(Any p0) { return invoke<BOOL>(0x83F28CE49FBBFFBA, p0); }
+	NATIVE_DECL BOOL _0x246545C37C27A717(Any* p0) { return invoke<BOOL>(0x246545C37C27A717, p0); }
+	NATIVE_DECL void _0x83FE8D7229593017() { invoke<Void>(0x83FE8D7229593017); }
+	NATIVE_DECL Any _0x8FF6059DA26E688A() { return invoke<Any>(0x8FF6059DA26E688A); }
+	NATIVE_DECL Any _0x78A9535AF83715C6() { return invoke<Any>(0x78A9535AF83715C6); }
+	NATIVE_DECL Any _0xDA4B1A479C414FB2() { return invoke<Any>(0xDA4B1A479C414FB2); }
+	NATIVE_DECL void _0x2FB53C631A49BE92() { invoke<Void>(0x2FB53C631A49BE92); }
+	NATIVE_DECL BOOL _0x2A8112A974DE1EF6() { return invoke<BOOL>(0x2A8112A974DE1EF6); }
+	NATIVE_DECL Any _0xDD7806FD0543BC3D(Any p0) { return invoke<Any>(0xDD7806FD0543BC3D, p0); }
+	NATIVE_DECL Any _0xDD73C9838CE7181D() { return invoke<Any>(0xDD73C9838CE7181D); }
+	NATIVE_DECL BOOL _0x2C5BD9A43987AA27(BOOL p0) { return invoke<BOOL>(0x2C5BD9A43987AA27, p0); }
+	NATIVE_DECL BOOL _0x86FD10251A7118A4(BOOL p0, Any p1) { return invoke<BOOL>(0x86FD10251A7118A4, p0, p1); }
+	NATIVE_DECL BOOL _0x04019AE4956D4393(Any p0, Any p1, Any p2) { return invoke<BOOL>(0x04019AE4956D4393, p0, p1, p2); }
+	NATIVE_DECL Any _0x2989E131FDE37E97(Any p0, Any p1, Any p2, Any p3) { return invoke<Any>(0x2989E131FDE37E97, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x309BBEBEA8A3986C(Any p0, Any p1, Any p2, Any p3, Any* p4) { return invoke<BOOL>(0x309BBEBEA8A3986C, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0x39A8EF7AF29A192C(Any p0, Any p1, Any p2, Any* p3) { return invoke<BOOL>(0x39A8EF7AF29A192C, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x23D9C1F2E4098EDC(Any p0, Any p1, Any* p2, Any p3, Any* p4) { return invoke<BOOL>(0x23D9C1F2E4098EDC, p0, p1, p2, p3, p4); }
+	NATIVE_DECL Any _0x2F54B146D3EDCE4D(Any* p0) { return invoke<Any>(0x2F54B146D3EDCE4D, p0); }
+	NATIVE_DECL Any _0xF0C0C94B404206FA() { return invoke<Any>(0xF0C0C94B404206FA); }
+	NATIVE_DECL BOOL _0xBAFFDE5F953720D9() { return invoke<BOOL>(0xBAFFDE5F953720D9); }
+	NATIVE_DECL BOOL _0x8FB7C254CFCBF78E(Any* p0) { return invoke<BOOL>(0x8FB7C254CFCBF78E, p0); }
+	NATIVE_DECL BOOL _0x9E762A595CF88E4A(Any p0) { return invoke<BOOL>(0x9E762A595CF88E4A, p0); }
+	NATIVE_DECL BOOL _0xE72E5C1289BD1F40(Any* p0) { return invoke<BOOL>(0xE72E5C1289BD1F40, p0); }
+	NATIVE_DECL Any _0x0DD051B1BF4B8BD6(Any* p0) { return invoke<Any>(0x0DD051B1BF4B8BD6, p0); }
+	NATIVE_DECL BOOL _0xCCF878D50F8AB10D(Any* p0) { return invoke<BOOL>(0xCCF878D50F8AB10D, p0); }
+	NATIVE_DECL BOOL _0xF20B18A330E6DB5C(Any* p0) { return invoke<BOOL>(0xF20B18A330E6DB5C, p0); }
+	NATIVE_DECL BOOL _0x0F44A5C78D114922(Any* p0) { return invoke<BOOL>(0x0F44A5C78D114922, p0); }
+	NATIVE_DECL BOOL _0xECE6A0C1B59CD8BE(Any* p0) { return invoke<BOOL>(0xECE6A0C1B59CD8BE, p0); }
+	NATIVE_DECL BOOL _0x17C21B7319A05047() { return invoke<BOOL>(0x17C21B7319A05047); }
+	NATIVE_DECL BOOL _0xF2CBC969C4F090C7() { return invoke<BOOL>(0xF2CBC969C4F090C7); }
+	NATIVE_DECL void _0xFD4272A137703449() { invoke<Void>(0xFD4272A137703449); }
+	NATIVE_DECL void _0x236905C700FDB54D() { invoke<Void>(0x236905C700FDB54D); }
+	NATIVE_DECL void _NETWORK_GET_SERVER_TIME(int* hours, int* minutes, int* seconds) { invoke<Void>(0x6D03BFBD643B2A02, hours, minutes, seconds); }
+	NATIVE_DECL BOOL _0x11A7ADCD629E170F(Any* p0, Any* p1, Any* p2) { return invoke<BOOL>(0x11A7ADCD629E170F, p0, p1, p2); }
+	NATIVE_DECL void _0x669E223E64B1903C(Any p0, Any p1, Any p2, Any p3, Any p4) { invoke<Void>(0x669E223E64B1903C, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xE28C13ECC36FF14E(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5) { invoke<Void>(0xE28C13ECC36FF14E, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0x65F040D91001ED4B(Any p0) { invoke<Void>(0x65F040D91001ED4B, p0); }
+	NATIVE_DECL BOOL _0xF9B83B77929D8863() { return invoke<BOOL>(0xF9B83B77929D8863); }
+	NATIVE_DECL BOOL _0xFBDFE1C1356E12E8(Any* p0, Any p1) { return invoke<BOOL>(0xFBDFE1C1356E12E8, p0, p1); }
+	NATIVE_DECL BOOL _0x25189F9908E9CD65() { return invoke<BOOL>(0x25189F9908E9CD65); }
+	NATIVE_DECL Any _0x5AE17C6B0134B7F1() { return invoke<Any>(0x5AE17C6B0134B7F1); }
+	NATIVE_DECL Any _0xDDAEB478E58F8DEA(Any* p0, Any p1) { return invoke<Any>(0xDDAEB478E58F8DEA, p0, p1); }
+	NATIVE_DECL void _0x86E0660E4F5C956D() { invoke<Void>(0x86E0660E4F5C956D); }
+	NATIVE_DECL void _0x7AC752103856FB20(BOOL p0) { invoke<Void>(0x7AC752103856FB20, p0); }
+	NATIVE_DECL Any _0xC5196C42DE19F646() { return invoke<Any>(0xC5196C42DE19F646); }
+	NATIVE_DECL Any _0x225640E09EFFDC3F() { return invoke<Any>(0x225640E09EFFDC3F); }
+	NATIVE_DECL BOOL _0xE546BDA1B3E288EE(Any p0) { return invoke<BOOL>(0xE546BDA1B3E288EE, p0); }
+	NATIVE_DECL BOOL _0x78335E12DB0BF961(Any p0) { return invoke<BOOL>(0x78335E12DB0BF961, p0); }
+	NATIVE_DECL Any _0x51F33DBC1A41CBFD() { return invoke<Any>(0x51F33DBC1A41CBFD); }
+	NATIVE_DECL BOOL _0x0AE241A4A9ADEEEC(Any p0) { return invoke<BOOL>(0x0AE241A4A9ADEEEC, p0); }
+	NATIVE_DECL BOOL _0x3215BBE34D3418C5(Any p0) { return invoke<BOOL>(0x3215BBE34D3418C5, p0); }
+	NATIVE_DECL Any _0x8DC9AA3B508B1A85() { return invoke<Any>(0x8DC9AA3B508B1A85); }
+	NATIVE_DECL BOOL _0xD0498AD30E16B6BD() { return invoke<BOOL>(0xD0498AD30E16B6BD); }
+	NATIVE_DECL BOOL _0xF23D6475640D29EB(Any* p0) { return invoke<BOOL>(0xF23D6475640D29EB, p0); }
+	NATIVE_DECL BOOL _0xE47001B7CB8B98AE(Any* p0, Any* p1, Any* p2, Any p3, Any p4, Any p5) { return invoke<BOOL>(0xE47001B7CB8B98AE, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL BOOL _0xB2CEA5105AAC8DDE(Any p0) { return invoke<BOOL>(0xB2CEA5105AAC8DDE, p0); }
+	NATIVE_DECL Any _0xE483BB6BE686F632(Any* p0) { return invoke<Any>(0xE483BB6BE686F632, p0); }
+	NATIVE_DECL BOOL _0xFC4165C9165C166F() { return invoke<BOOL>(0xFC4165C9165C166F); }
+	NATIVE_DECL Any _0x9BCF28FB5D65A9BE() { return invoke<Any>(0x9BCF28FB5D65A9BE); }
+	NATIVE_DECL BOOL _0x3B82ACC3F4B6240C() { return invoke<BOOL>(0x3B82ACC3F4B6240C); }
+	NATIVE_DECL void _0xA4484173759749B1() { invoke<Void>(0xA4484173759749B1); }
+	NATIVE_DECL BOOL _0xF5C5929E07512F80() { return invoke<BOOL>(0xF5C5929E07512F80); }
+	NATIVE_DECL Any _0x2FC5650B0271CB57() { return invoke<Any>(0x2FC5650B0271CB57); }
+	NATIVE_DECL BOOL _0x11820D1AE80DEA39(Any* p0, Any* p1) { return invoke<BOOL>(0x11820D1AE80DEA39, p0, p1); }
+	NATIVE_DECL Any _0xFD8B834A8BA05048() { return invoke<Any>(0xFD8B834A8BA05048); }
+	NATIVE_DECL void _0xF1B84178F8674195(Any p0) { invoke<Void>(0xF1B84178F8674195, p0); }
+	NATIVE_DECL int _NETWORK_GET_RANDOM_INT_IN_RANGE(int rangeStart, int rangeEnd) { return invoke<int>(0xE30CF56F1EFA5F43, rangeStart, rangeEnd); }
+	NATIVE_DECL int _NETWORK_GET_NUM_PARTICIPANTS_HOST() { return invoke<int>(0xA6C90FBC38E395EE); }
+	NATIVE_DECL Any _0xBA24095EA96DFE17(Any* p0) { return invoke<Any>(0xBA24095EA96DFE17, p0); }
+	NATIVE_DECL Any _0x690806BC83BC8CA2(Any* p0) { return invoke<Any>(0x690806BC83BC8CA2, p0); }
+	NATIVE_DECL BOOL _0x5D10B3795F3FC886() { return invoke<BOOL>(0x5D10B3795F3FC886); }
+	NATIVE_DECL int _0xCF61D4B4702EE9EB() { return invoke<int>(0xCF61D4B4702EE9EB); }
+	NATIVE_DECL Any _0xB4A25351D79B444C(Any p0) { return invoke<Any>(0xB4A25351D79B444C, p0); }
+	NATIVE_DECL BOOL _0x1B89BC43B6E69107(Any p0, Any p1, BOOL p2, Any p3) { return invoke<BOOL>(0x1B89BC43B6E69107, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x31DAD2CD6D49546E(Any p0) { return invoke<BOOL>(0x31DAD2CD6D49546E, p0); }
+	NATIVE_DECL Any _0xFB9ECED5B68F3B78(Any p0) { return invoke<Any>(0xFB9ECED5B68F3B78, p0); }
+	NATIVE_DECL int _NETWORK_GET_PLAYER_PED_FROM_INDEX() { return invoke<int>(0x638A3A81733086DB); }
+	NATIVE_DECL BOOL _0x1AD5B71586B94820(Player p0, Any* p1, Any p2) { return invoke<BOOL>(0x1AD5B71586B94820, p0, p1, p2); }
+	NATIVE_DECL void _0x2302C0264EA58D31() { invoke<Void>(0x2302C0264EA58D31); }
+	NATIVE_DECL BOOL _0x9C725D149622BFDE(Any p0) { return invoke<BOOL>(0x9C725D149622BFDE, p0); }
+	NATIVE_DECL BOOL _NETWORK_GET_DESTROYER_OF_ENTITY(Any p0, Any p1, Hash* weaponHash) { return invoke<BOOL>(0x4CACA84440FA26F6, p0, p1, weaponHash); }
+	NATIVE_DECL void _0x4154B7D8C75E5DCF(Any* p0) { invoke<Void>(0x4154B7D8C75E5DCF, p0); }
+	NATIVE_DECL void _0x524FF0AEFF9C3973(Any p0) { invoke<Void>(0x524FF0AEFF9C3973, p0); }
+	NATIVE_DECL BOOL _0xB07D3185E11657A5(Entity p0) { return invoke<BOOL>(0xB07D3185E11657A5, p0); }
+	NATIVE_DECL BOOL _0xAAA92B631B13F614(Any p0) { return invoke<BOOL>(0xAAA92B631B13F614, p0); }
+	NATIVE_DECL BOOL _0x26A5C12FACFF8724(Any p0) { return invoke<BOOL>(0x26A5C12FACFF8724, p0); }
+	NATIVE_DECL Any _0xE0D73CDDEA79DDCD(Any p0) { return invoke<Any>(0xE0D73CDDEA79DDCD, p0); }
+	NATIVE_DECL Any _0xD7F6781A0ABAF6FB(Any p0) { return invoke<Any>(0xD7F6781A0ABAF6FB, p0); }
+	NATIVE_DECL Any _0x74F99EF7EF503398(Any p0) { return invoke<Any>(0x74F99EF7EF503398, p0); }
+	NATIVE_DECL Any _0xD08066E00D26C448(Any p0) { return invoke<Any>(0xD08066E00D26C448, p0); }
+	NATIVE_DECL Hash _NETWORK_HASH_FROM_PLAYER_HANDLE(Player player) { return invoke<Hash>(0xBC1D768F2F5D6C05, player); }
+	NATIVE_DECL int _0xD66C9E72B3CC4982(Any* p0, Any p1) { return invoke<int>(0xD66C9E72B3CC4982, p0, p1); }
+	NATIVE_DECL Any _0x58CC181719256197(Any p0, Any p1, Any p2) { return invoke<Any>(0x58CC181719256197, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x7FEE4F07C54B6B3C(Any* p0, Any* p1) { return invoke<BOOL>(0x7FEE4F07C54B6B3C, p0, p1); }
+	NATIVE_DECL Any _0xDB7ABDD203FA3704() { return invoke<Any>(0xDB7ABDD203FA3704); }
+	NATIVE_DECL BOOL _0xA3EEC0A5AFF3FC5B(Any* p0) { return invoke<BOOL>(0xA3EEC0A5AFF3FC5B, p0); }
+	NATIVE_DECL BOOL _0x1AF5E28E64A76A9F() { return invoke<BOOL>(0x1AF5E28E64A76A9F); }
+	NATIVE_DECL BOOL _0x1F51F367B710A832() { return invoke<BOOL>(0x1F51F367B710A832); }
+	NATIVE_DECL BOOL _0xE348D1404BD80146(Any* p0) { return invoke<BOOL>(0xE348D1404BD80146, p0); }
+	NATIVE_DECL BOOL _0x665161D250850A9F(Any* p0) { return invoke<BOOL>(0x665161D250850A9F, p0); }
+	NATIVE_DECL Any _0x5659D87BE674AB17(Any* p0) { return invoke<Any>(0x5659D87BE674AB17, p0); }
+	NATIVE_DECL BOOL _0x55F618F68AB854D3(Any* p0) { return invoke<BOOL>(0x55F618F68AB854D3, p0); }
+	NATIVE_DECL BOOL _0x99ABE9BF9DADA162(Any* p0) { return invoke<BOOL>(0x99ABE9BF9DADA162, p0); }
+	NATIVE_DECL void _0x9C25E8EC4C535FBD(BOOL p0) { invoke<Void>(0x9C25E8EC4C535FBD, p0); }
+	NATIVE_DECL void _0x7182EDDA1EE7DB5A(Any p0) { invoke<Void>(0x7182EDDA1EE7DB5A, p0); }
+	NATIVE_DECL void _0xE1BC73D6815BA361(Any p0, BOOL p1, Any p2) { invoke<Void>(0xE1BC73D6815BA361, p0, p1, p2); }
+	NATIVE_DECL void _SET_NETWORK_ID_SYNC_TO_PLAYER(int netId, Player player, BOOL toggle) { invoke<Void>(0xA8A024587329F36A, netId, player, toggle); }
+	NATIVE_DECL void _0x9ED3108D6847760A(Any p0, BOOL p1) { invoke<Void>(0x9ED3108D6847760A, p0, p1); }
+	NATIVE_DECL void _0xD785864798258032(Any p0, BOOL p1) { invoke<Void>(0xD785864798258032, p0, p1); }
+	NATIVE_DECL void _NETWORK_SET_ENTITY_INVISIBLE_TO_NETWORK(Entity entity, BOOL toggle) { invoke<Void>(0xF1CA12B18AEF5298, entity, toggle); }
+	NATIVE_DECL BOOL _NETWORK_CAN_NETWORK_ID_BE_SEEN(int netId) { return invoke<BOOL>(0xA1607996431332DF, netId); }
+	NATIVE_DECL Any _0xA6C0787443C9583E(Any p0) { return invoke<Any>(0xA6C0787443C9583E, p0); }
+	NATIVE_DECL void _0x89D803CD48622150(BOOL p0) { invoke<Void>(0x89D803CD48622150, p0); }
+	NATIVE_DECL void _0x51D99497ABF3F451(Any p0) { invoke<Void>(0x51D99497ABF3F451, p0); }
+	NATIVE_DECL void _0xC1E1A3D5ED7617B8(Any p0, BOOL p1) { invoke<Void>(0xC1E1A3D5ED7617B8, p0, p1); }
+	NATIVE_DECL void _0xE7DDA8BD3BCF751C(Any p0) { invoke<Void>(0xE7DDA8BD3BCF751C, p0); }
+	NATIVE_DECL void _0x807E119F80231732(Any p0) { invoke<Void>(0x807E119F80231732, p0); }
+	NATIVE_DECL void _0x9F24A34863FD35DA(Any p0) { invoke<Void>(0x9F24A34863FD35DA, p0); }
+	NATIVE_DECL void _0x4D40E7D749BC6E6D(Any p0) { invoke<Void>(0x4D40E7D749BC6E6D, p0); }
+	NATIVE_DECL BOOL _0xF0460C7BF80011EA(Any p0) { return invoke<BOOL>(0xF0460C7BF80011EA, p0); }
+	NATIVE_DECL Any _0x62BE3ECC79FBD004(BOOL p0) { return invoke<Any>(0x62BE3ECC79FBD004, p0); }
+	NATIVE_DECL int _0x12B6281B6C6706C0(BOOL p0) { return invoke<int>(0x12B6281B6C6706C0, p0); }
+	NATIVE_DECL int _0xCB215C4B56A7FAE7(BOOL p0) { return invoke<int>(0xCB215C4B56A7FAE7, p0); }
+	NATIVE_DECL int _0x0CD9AB83489430EA(BOOL p0) { return invoke<int>(0x0CD9AB83489430EA, p0); }
+	NATIVE_DECL Any _0xD2BA051B94CA9BCC(BOOL p0) { return invoke<Any>(0xD2BA051B94CA9BCC, p0); }
+	NATIVE_DECL void _0x5E71E72A94985214(float p0, float p1, float p2, BOOL p3, Any* p4, Any* p5, Any* p6, Any* p7) { invoke<Void>(0x5E71E72A94985214, p0, p1, p2, p3, p4, p5, p6, p7); }
+	NATIVE_DECL Any _0xC7BE335216B5EC7C() { return invoke<Any>(0xC7BE335216B5EC7C); }
+	NATIVE_DECL Any _0x0C1F7D49C39D2289() { return invoke<Any>(0x0C1F7D49C39D2289); }
+	NATIVE_DECL Any _0x0AFCE529F69B21FF() { return invoke<Any>(0x0AFCE529F69B21FF); }
+	NATIVE_DECL Any _0xA72835064DD63E4C() { return invoke<Any>(0xA72835064DD63E4C); }
+	NATIVE_DECL int _0x89023FBBF9200E9F() { return invoke<int>(0x89023FBBF9200E9F); }
+	NATIVE_DECL int _GET_POSIX_TIME() { return invoke<int>(0x9A73240B49945C76); }
+	NATIVE_DECL void _GET_DATE_AND_TIME_FROM_UNIX_EPOCH(int unixEpoch, Any* timeStructure) { invoke<Void>(0xAC97AF97FA68E5D5, unixEpoch, timeStructure); }
+	NATIVE_DECL void _0xFBF1ECFB39A77B5F(BOOL p0, float p1, float p2, float p3) { invoke<Void>(0xFBF1ECFB39A77B5F, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x5B709519997ECF0F(Any p0) { return invoke<BOOL>(0x5B709519997ECF0F, p0); }
+	NATIVE_DECL void _0x442B4347B6EC36E8(Any p0, Any p1, BOOL p2) { invoke<Void>(0x442B4347B6EC36E8, p0, p1, p2); }
+	NATIVE_DECL void USE_PLAYER_COLOUR_INSTEAD_OF_TEAM_COLOUR(BOOL toggle) { invoke<Void>(0x5FFE9B4144F9712F, toggle); }
+	NATIVE_DECL BOOL _0x21D04D7BC538C146(Any p0) { return invoke<BOOL>(0x21D04D7BC538C146, p0); }
+	NATIVE_DECL void _0xDCA6ABDB9288FBE4(Any p0, BOOL p1) { invoke<Void>(0xDCA6ABDB9288FBE4, p0, p1); }
+	NATIVE_DECL void _0xEE5AE9956743BA20(Any p0, BOOL p1) { invoke<Void>(0xEE5AE9956743BA20, p0, p1); }
+	NATIVE_DECL void _0xFA38B52F91B59075(Any* p0) { invoke<Void>(0xFA38B52F91B59075, p0); }
+	NATIVE_DECL Any _0x42871327315EDAE8(Any p0) { return invoke<Any>(0x42871327315EDAE8, p0); }
+	NATIVE_DECL Any _0xEB1A4DD8352EC828(Any p0) { return invoke<Any>(0xEB1A4DD8352EC828, p0); }
+	NATIVE_DECL void _0xFD1AC0B3858F224C(float p0, float p1, float p2, float p3) { invoke<Void>(0xFD1AC0B3858F224C, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xEEB7818B1D307212(Any p0) { invoke<Void>(0xEEB7818B1D307212, p0); }
+	NATIVE_DECL void _0xA35E7BF20FA269E0(Any p0) { invoke<Void>(0xA35E7BF20FA269E0, p0); }
+	NATIVE_DECL void _0xF94A0D5B254375DF(Any p0) { invoke<Void>(0xF94A0D5B254375DF, p0); }
+	NATIVE_DECL void _0x44D59EC597BBF348(Any p0, BOOL p1) { invoke<Void>(0x44D59EC597BBF348, p0, p1); }
+	NATIVE_DECL void _0xEB6027FD1B4600D5(Any p0, BOOL p1, float p2) { invoke<Void>(0xEB6027FD1B4600D5, p0, p1, p2); }
+	NATIVE_DECL void _0x59577799F6AE2F34(float p0) { invoke<Void>(0x59577799F6AE2F34, p0); }
+	NATIVE_DECL void _0xBDCC671B911040F9(Any p0) { invoke<Void>(0xBDCC671B911040F9, p0); }
+	NATIVE_DECL void _0x0608326F7B98C08D(Any p0, float p1) { invoke<Void>(0x0608326F7B98C08D, p0, p1); }
+	NATIVE_DECL BOOL _0x89EC2FC89ECB1005() { return invoke<BOOL>(0x89EC2FC89ECB1005); }
+	NATIVE_DECL void _0x765E60A1DCB8B1CE() { invoke<Void>(0x765E60A1DCB8B1CE); }
+	NATIVE_DECL void _0x17E0198B3882C2CB() { invoke<Void>(0x17E0198B3882C2CB); }
+	NATIVE_DECL Any _0x35F0B98A8387274D() { return invoke<Any>(0x35F0B98A8387274D); }
+	NATIVE_DECL Any _0x3B39236746714134(Any p0) { return invoke<Any>(0x3B39236746714134, p0); }
+	NATIVE_DECL BOOL _NETWORK_IS_PLAYER_EQUAL_TO_INDEX(Player player, int index) { return invoke<BOOL>(0x9DE986FC9A87C474, player, index); }
+	NATIVE_DECL void _0x4B05B97BA46F419D(BOOL p0) { invoke<Void>(0x4B05B97BA46F419D, p0); }
+	NATIVE_DECL void _0xF3354D6CA46F419D(Any p0, BOOL p1) { invoke<Void>(0xF3354D6CA46F419D, p0, p1); }
+	NATIVE_DECL void _0x007FF852DCF49DA4(Any p0) { invoke<Void>(0x007FF852DCF49DA4, p0); }
+	NATIVE_DECL Any _0xD9267375834C5EAB(Any p0) { return invoke<Any>(0xD9267375834C5EAB, p0); }
+	NATIVE_DECL void _0xBBDF066252829606(Any p0, BOOL p1) { invoke<Void>(0xBBDF066252829606, p0, p1); }
+	NATIVE_DECL BOOL _0x919B3C98ED8292F9(Any p0) { return invoke<BOOL>(0x919B3C98ED8292F9, p0); }
+	NATIVE_DECL BOOL _NETWORK_HAVE_TUNABLES_BEEN_DOWNLOADED() { return invoke<BOOL>(0x0467C11ED88B7D28); }
+	NATIVE_DECL Any _0xA25E006B36719774(Any p0, Any p1, Any p2) { return invoke<Any>(0xA25E006B36719774, p0, p1, p2); }
+	NATIVE_DECL float _0xA18393089C05E49C(Any p0, Any p1, float p2) { return invoke<float>(0xA18393089C05E49C, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xB2AD5D29A99D4B26(Any p0, Any p1, BOOL p2) { return invoke<BOOL>(0xB2AD5D29A99D4B26, p0, p1, p2); }
+	NATIVE_DECL void _0x407091CF6037118E(int netID) { invoke<Void>(0x407091CF6037118E, netID); }
+	NATIVE_DECL BOOL _0x4C61B39930D045DA(Any p0) { return invoke<BOOL>(0x4C61B39930D045DA, p0); }
+	NATIVE_DECL Hash _0x3A3D5568AF297CD5(Hash p1) { return invoke<Hash>(0x3A3D5568AF297CD5, p1); }
+	NATIVE_DECL BOOL _0x02E97CE283648CD9(Any* p0) { return invoke<BOOL>(0x02E97CE283648CD9, p0); }
+	NATIVE_DECL Any _0x65E65CA6A0FE59D4(Any* p0) { return invoke<Any>(0x65E65CA6A0FE59D4, p0); }
+	NATIVE_DECL void _0x668AF6E4933AC13F(Any* p0, Any* p1) { invoke<Void>(0x668AF6E4933AC13F, p0, p1); }
+	NATIVE_DECL void _0x782C94DB6469634D(Any* p0) { invoke<Void>(0x782C94DB6469634D, p0); }
+	NATIVE_DECL Any _0xC59AB6A04333C502() { return invoke<Any>(0xC59AB6A04333C502); }
+	NATIVE_DECL void _0xDFFC15AA63D04AAB(Any* p0) { invoke<Void>(0xDFFC15AA63D04AAB, p0); }
+	NATIVE_DECL void _0x966DD84FB6A46017() { invoke<Void>(0x966DD84FB6A46017); }
+	NATIVE_DECL BOOL _0xF4AC4FA844FD559A(Any p0) { return invoke<BOOL>(0xF4AC4FA844FD559A, p0); }
+	NATIVE_DECL BOOL _0xA9EB4D606076615D(Any p0) { return invoke<BOOL>(0xA9EB4D606076615D, p0); }
+	NATIVE_DECL BOOL _0x0B6009A90B8495F1(Any p0) { return invoke<BOOL>(0x0B6009A90B8495F1, p0); }
+	NATIVE_DECL Any _0xF40EF49B3099E98E(Any p0, Any p1, Any* p2, Any p3, Any p4, Any p5) { return invoke<Any>(0xF40EF49B3099E98E, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL Any _0x8C109958C9BB559D(Any p0, Any p1, Any p2, Any* p3, Any p4, BOOL p5) { return invoke<Any>(0x8C109958C9BB559D, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL Any _0x69D22E183580113F(Any* p0, BOOL p1, Any* p2) { return invoke<Any>(0x69D22E183580113F, p0, p1, p2); }
+	NATIVE_DECL void _0xE931354FEA710038(Any p0) { invoke<Void>(0xE931354FEA710038, p0); }
+	NATIVE_DECL BOOL _0xF8F0705E77A0E705(Any p0) { return invoke<BOOL>(0xF8F0705E77A0E705, p0); }
+	NATIVE_DECL Any _0x76160E0396142765(Any p0) { return invoke<Any>(0x76160E0396142765, p0); }
+	NATIVE_DECL BOOL _0xADB56322EEDFBDC9(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0xADB56322EEDFBDC9, p0, p1, p2); }
+	NATIVE_DECL Any _0xF9F0B3028431967B(Any p0, Any p1) { return invoke<Any>(0xF9F0B3028431967B, p0, p1); }
+	NATIVE_DECL Any _0x2D053EA815702DD1(Any p0, Any p1) { return invoke<Any>(0x2D053EA815702DD1, p0, p1); }
+	NATIVE_DECL Any _0x566CEB0542EF5ECF(Any p0, Any p1) { return invoke<Any>(0x566CEB0542EF5ECF, p0, p1); }
+	NATIVE_DECL Any _0xCAF50048C8D0FBA0(Any p0, Any p1) { return invoke<Any>(0xCAF50048C8D0FBA0, p0, p1); }
+	NATIVE_DECL Any _0xA6BF569956C60A60(Any p0, Any p1) { return invoke<Any>(0xA6BF569956C60A60, p0, p1); }
+	NATIVE_DECL Any _0x409FE0CA6A4D1D49(Any p0, Any p1, Any p2) { return invoke<Any>(0x409FE0CA6A4D1D49, p0, p1, p2); }
+	NATIVE_DECL void _0xE0CB4AB15CB32710(Any p0, Any p1, Any* p2) { invoke<Void>(0xE0CB4AB15CB32710, p0, p1, p2); }
+	NATIVE_DECL Any _0x21A99A72B00D8002(Any p0, Any p1) { return invoke<Any>(0x21A99A72B00D8002, p0, p1); }
+	NATIVE_DECL Any _0x104080CA9E519B00(Any p0, Any p1) { return invoke<Any>(0x104080CA9E519B00, p0, p1); }
+	NATIVE_DECL Any _0x63E9DCBC8B0931ED(Any p0, Any p1, Any p2) { return invoke<Any>(0x63E9DCBC8B0931ED, p0, p1, p2); }
+	NATIVE_DECL Any _0x97764E8AC6487A9A(Any p0, Any p1) { return invoke<Any>(0x97764E8AC6487A9A, p0, p1); }
+	NATIVE_DECL BOOL _0x9993F1E11944A3DD(Any p0, Any p1) { return invoke<BOOL>(0x9993F1E11944A3DD, p0, p1); }
+	NATIVE_DECL float _0x24CD8FAEA1368379(Any p0, Any p1, Any p2) { return invoke<float>(0x24CD8FAEA1368379, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xF794765390A6DCA5(Any p0, Any p1) { return invoke<BOOL>(0xF794765390A6DCA5, p0, p1); }
+	NATIVE_DECL BOOL _0x98539FC453AEA639(Any p0, Any p1) { return invoke<BOOL>(0x98539FC453AEA639, p0, p1); }
+	NATIVE_DECL BOOL _0x6506BFA755FB209C() { return invoke<BOOL>(0x6506BFA755FB209C); }
+	NATIVE_DECL Any _0x7FD2990AF016795E(Any* p0, Any* p1, Any p2, Any p3, Any p4) { return invoke<Any>(0x7FD2990AF016795E, p0, p1, p2, p3, p4); }
+	NATIVE_DECL Any _0x5E0165278F6339EE(Any p0) { return invoke<Any>(0x5E0165278F6339EE, p0); }
+	NATIVE_DECL BOOL _0x2D5DC831176D0114(Any p0) { return invoke<BOOL>(0x2D5DC831176D0114, p0); }
+	NATIVE_DECL BOOL _0xEBFA8D50ADDC54C4(Any p0) { return invoke<BOOL>(0xEBFA8D50ADDC54C4, p0); }
+	NATIVE_DECL BOOL _0x162C23CA83ED0A62(Any p0) { return invoke<BOOL>(0x162C23CA83ED0A62, p0); }
+	NATIVE_DECL Any _0x40F7E66472DF3E5C(Any p0, Any p1) { return invoke<Any>(0x40F7E66472DF3E5C, p0, p1); }
+	NATIVE_DECL BOOL _0x5A34CD9C3C5BEC44(Any p0) { return invoke<BOOL>(0x5A34CD9C3C5BEC44, p0); }
+	NATIVE_DECL void _0x68103E2247887242() { invoke<Void>(0x68103E2247887242); }
+	NATIVE_DECL void _0xF98DDE0A8ED09323(BOOL p0) { invoke<Void>(0xF98DDE0A8ED09323, p0); }
+	NATIVE_DECL BOOL _0xF53E48461B71EECB(Any p0) { return invoke<BOOL>(0xF53E48461B71EECB, p0); }
+	NATIVE_DECL BOOL _0xB72999D3120599DF(Any* p0, Any p1, Any p2) { return invoke<BOOL>(0xB72999D3120599DF, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x2A48D9567940598F(Any* p0, Any p1, Any p2, Any p3) { return invoke<BOOL>(0x2A48D9567940598F, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0xA21E3BAD0A42D199() { return invoke<Any>(0xA21E3BAD0A42D199); }
+	NATIVE_DECL Any _0x356F9FB0698C1FEB(Any p0, Any p1) { return invoke<Any>(0x356F9FB0698C1FEB, p0, p1); }
+	NATIVE_DECL Any _0xCAF4CA2F87779F8F(Any* p0, Any p1) { return invoke<Any>(0xCAF4CA2F87779F8F, p0, p1); }
+	NATIVE_DECL Any _0xB5C4B18B12A2AF23(Any* p0, Any p1) { return invoke<Any>(0xB5C4B18B12A2AF23, p0, p1); }
+	NATIVE_DECL BOOL _0xE2C3CEC3C0903A00(Any* p0) { return invoke<BOOL>(0xE2C3CEC3C0903A00, p0); }
+	NATIVE_DECL Any _0x9B5DB6CEAFAA10BB(Any* p0, Any p1, Any* p2, BOOL p3) { return invoke<Any>(0x9B5DB6CEAFAA10BB, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0x308F96458B7087CC(Any* p0, Any p1, Any p2, Any p3, Any* p4, BOOL p5) { return invoke<Any>(0x308F96458B7087CC, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL Any _0x6E2FD8CF7EB10E53(Any p0, Any p1) { return invoke<Any>(0x6E2FD8CF7EB10E53, p0, p1); }
+	NATIVE_DECL void _0x7A17B7981560FFA5(Any* p0) { invoke<Void>(0x7A17B7981560FFA5, p0); }
+	NATIVE_DECL Any _0x8BD6C6DEA20E82C6(Any p0) { return invoke<Any>(0x8BD6C6DEA20E82C6, p0); }
+	NATIVE_DECL Any _0xCBAC13F065C47596() { return invoke<Any>(0xCBAC13F065C47596); }
+	NATIVE_DECL BOOL _0xCD954F330693F5F2() { return invoke<BOOL>(0xCD954F330693F5F2); }
+	NATIVE_DECL BOOL _0xFBC30B70B3CDB87E() { return invoke<BOOL>(0xFBC30B70B3CDB87E); }
+	NATIVE_DECL BOOL _IS_ROCKSTAR_BANNED() { return invoke<BOOL>(0x8020A73847E0CA7D); }
+	NATIVE_DECL Any _0xDEB2B99A1AF1A2A6(Any p0) { return invoke<Any>(0xDEB2B99A1AF1A2A6, p0); }
+	NATIVE_DECL void _0x0A428058079EE65C(BOOL p0) { invoke<Void>(0x0A428058079EE65C, p0); }
+	NATIVE_DECL BOOL _0xAADED99A6B268A27() { return invoke<BOOL>(0xAADED99A6B268A27); }
+	NATIVE_DECL void _0x63246A24F5747510(BOOL p0, Any* p1) { invoke<Void>(0x63246A24F5747510, p0, p1); }
+	NATIVE_DECL BOOL _0xE258570E0C116A66() { return invoke<BOOL>(0xE258570E0C116A66); }
+	NATIVE_DECL void _0x4440FEE3EFE78F54(BOOL p0) { invoke<Void>(0x4440FEE3EFE78F54, p0); }
+	NATIVE_DECL BOOL _0xE404BFF0ABA23CDC(Any* p0) { return invoke<BOOL>(0xE404BFF0ABA23CDC, p0); }
+	NATIVE_DECL BOOL _0xC223D299C670413D(Any p0, Any p1, Any p2, Any p3) { return invoke<BOOL>(0xC223D299C670413D, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0xA021095C983F20D8() { return invoke<BOOL>(0xA021095C983F20D8); }
+	NATIVE_DECL Any _0x6D87BA8EF15226CD() { return invoke<Any>(0x6D87BA8EF15226CD); }
+	NATIVE_DECL Any _0x277865A734918AE6() { return invoke<Any>(0x277865A734918AE6); }
+	NATIVE_DECL void _0xBB51299166B844F3() { invoke<Void>(0xBB51299166B844F3); }
+	NATIVE_DECL BOOL _0x0E2C3AEE6CE603B7() { return invoke<BOOL>(0x0E2C3AEE6CE603B7); }
+	NATIVE_DECL Any _0x1BB50CD340A996E6() { return invoke<Any>(0x1BB50CD340A996E6); }
+	NATIVE_DECL BOOL _0x101F538C25ABB39A(BOOL p0, Any p1) { return invoke<BOOL>(0x101F538C25ABB39A, p0, p1); }
+	NATIVE_DECL void _0xC505036A35AFD01B(BOOL p0) { invoke<Void>(0xC505036A35AFD01B, p0); }
+	NATIVE_DECL void _0x267C78C60E806B9A(Any p0, BOOL p1) { invoke<Void>(0x267C78C60E806B9A, p0, p1); }
+	NATIVE_DECL void _0x6BFF5F84102DF80A(Any p0) { invoke<Void>(0x6BFF5F84102DF80A, p0); }
+	NATIVE_DECL void _0x5C497525F803486B() { invoke<Void>(0x5C497525F803486B); }
+	NATIVE_DECL BOOL _0x16D3D49902F697BB(Any p0) { return invoke<BOOL>(0x16D3D49902F697BB, p0); }
+	NATIVE_DECL float _0xD414BE129BB81B32(Any p0) { return invoke<float>(0xD414BE129BB81B32, p0); }
+	NATIVE_DECL float _0x0E3A041ED6AC2B45(Any p0) { return invoke<float>(0x0E3A041ED6AC2B45, p0); }
+	NATIVE_DECL float _0x350C23949E43686C(Any p0) { return invoke<float>(0x350C23949E43686C, p0); }
+	NATIVE_DECL Any _0xFF8FCF9FFC458A1C(Any p0) { return invoke<Any>(0xFF8FCF9FFC458A1C, p0); }
+	NATIVE_DECL Any _0x3765C3A3E8192E10(Any p0) { return invoke<Any>(0x3765C3A3E8192E10, p0); }
+	NATIVE_DECL Any _0x52C1EADAF7B10302(Any p0) { return invoke<Any>(0x52C1EADAF7B10302, p0); }
+	NATIVE_DECL void _0xAEDF1BC1C133D6E3() { invoke<Void>(0xAEDF1BC1C133D6E3); }
+	NATIVE_DECL void _0x6FD992C4A1C1B986() { invoke<Void>(0x6FD992C4A1C1B986); }
+	NATIVE_DECL Any _0x255A5EF65EDA9167(BOOL p0) { return invoke<Any>(0x255A5EF65EDA9167, p0); }
+	NATIVE_DECL BOOL _0xDCC4B7F7112E8AB7(Any p0) { return invoke<BOOL>(0xDCC4B7F7112E8AB7, p0); }
+	NATIVE_DECL void _0xD041A32992A55F84(Any p0, float p1) { invoke<Void>(0xD041A32992A55F84, p0, p1); }
+	NATIVE_DECL void _0x0C8BC052AE87D744(Any p0, BOOL p1) { invoke<Void>(0x0C8BC052AE87D744, p0, p1); }
+	NATIVE_DECL Any _0x07F723401B9D921C(Any p0) { return invoke<Any>(0x07F723401B9D921C, p0); }
+	NATIVE_DECL BOOL _0xE525878A35B9EEBD(BOOL p0, BOOL p1) { return invoke<BOOL>(0xE525878A35B9EEBD, p0, p1); }
+	NATIVE_DECL BOOL _0x8E7CE19219669AEB(Any p0) { return invoke<BOOL>(0x8E7CE19219669AEB, p0); }
+	NATIVE_DECL void _0x777D0571A466B520(BOOL p0) { invoke<Void>(0x777D0571A466B520, p0); }
+	NATIVE_DECL Any _0xD0541EF28E9C4783() { return invoke<Any>(0xD0541EF28E9C4783); }
+	NATIVE_DECL BOOL _0xFBE782B3165AC8EC(Any p0) { return invoke<BOOL>(0xFBE782B3165AC8EC, p0); }
+	NATIVE_DECL Any _0xDB438CC9BC6F4022() { return invoke<Any>(0xDB438CC9BC6F4022); }
+	NATIVE_DECL Any _0x32C90CDFAF40514C() { return invoke<Any>(0x32C90CDFAF40514C); }
+	NATIVE_DECL void _0x29FE035D35B8589C(BOOL p0) { invoke<Void>(0x29FE035D35B8589C, p0); }
+	NATIVE_DECL void _0x157D8F3DE12B307F(Any p0, Any p1) { invoke<Void>(0x157D8F3DE12B307F, p0, p1); }
+	NATIVE_DECL BOOL _0x6D206D383BB5F6B1(Any p0, Any p1) { return invoke<BOOL>(0x6D206D383BB5F6B1, p0, p1); }
+	NATIVE_DECL BOOL _0x4664D213A0CCAF40() { return invoke<BOOL>(0x4664D213A0CCAF40); }
+	NATIVE_DECL BOOL _0x12AEB56B489415C5() { return invoke<BOOL>(0x12AEB56B489415C5); }
+	NATIVE_DECL Any _0x37A834AEC6A4F74A() { return invoke<Any>(0x37A834AEC6A4F74A); }
+	NATIVE_DECL BOOL _0xFEFCC345CE357453(Any p0, Any p1, Any* p2, Any p3) { return invoke<BOOL>(0xFEFCC345CE357453, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x3FE141FDB990E3D1() { invoke<Void>(0x3FE141FDB990E3D1); }
+	NATIVE_DECL void _0x9ADAC065D9F6706F(Any p0) { invoke<Void>(0x9ADAC065D9F6706F, p0); }
+	NATIVE_DECL Any _0xAC6153A0722F524C() { return invoke<Any>(0xAC6153A0722F524C); }
+	NATIVE_DECL void _0xA197C35F73AC0F12(Any p0, Any p1, Any* p2, Any* p3) { invoke<Void>(0xA197C35F73AC0F12, p0, p1, p2, p3); }
 }
 
 namespace OBJECT
@@ -6030,6 +6957,95 @@ namespace OBJECT
 	NATIVE_DECL void _SET_OBJECT_PROMPT_NAME(Object object, const char* name) { invoke<Void>(0xAEE6C800E124CFE1, object, name); }
 	// _SET_FORCE* - _SET_LOCAL*
 	NATIVE_DECL void _0x3DF1A0A58498E209(Object object, BOOL p1) { invoke<Void>(0x3DF1A0A58498E209, object, p1); }
+	NATIVE_DECL void _0x581EDBE56E8D62C9(Any p0, BOOL p1) { invoke<Void>(0x581EDBE56E8D62C9, p0, p1); }
+	NATIVE_DECL void _0xA22712E8471AA08E(Any p0, BOOL p1, BOOL p2) { invoke<Void>(0xA22712E8471AA08E, p0, p1, p2); }
+	NATIVE_DECL void _0xE157A8A336C7F04A(Any p0, Any p1) { invoke<Void>(0xE157A8A336C7F04A, p0, p1); }
+	NATIVE_DECL Vector3 _GET_OBJECT_OFFSET_FROM_COORDS(float xPos, float yPos, float zPos, float heading, float xOffset, float yOffset, float zOffset) { return invoke<Vector3>(0x163E252DE035A133, xPos, yPos, zPos, heading, xOffset, yOffset, zOffset); }
+	NATIVE_DECL void _0xD99229FE93B46286(Any p0, BOOL p1, BOOL p2, BOOL p3, Any p4, Any p5, BOOL p6) { invoke<Void>(0xD99229FE93B46286, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL BOOL _0xB5DED7B65C604FDF(Any p0) { return invoke<BOOL>(0xB5DED7B65C604FDF, p0); }
+	NATIVE_DECL void _SET_DOOR_ACCELERATION_LIMIT(Hash doorHash, int limit) { invoke<Void>(0x6BAB9442830C7F53, doorHash, limit); }
+	NATIVE_DECL int _0x160AA1B32F6139B8(Hash doorHash) { return invoke<int>(0x160AA1B32F6139B8, doorHash); }
+	NATIVE_DECL void _0x03C27E13B42A0E82(Hash doorHash, float p1) { invoke<Void>(0x03C27E13B42A0E82, doorHash, p1); }
+	NATIVE_DECL void _0x9BA001CB45CBF627(Hash doorHash, float heading) { invoke<Void>(0x9BA001CB45CBF627, doorHash, heading); }
+	NATIVE_DECL void _0xB3B1546D23DF8DE1(Any p0, float p1, float p2, float p3, BOOL p4) { invoke<Void>(0xB3B1546D23DF8DE1, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _SET_DOOR_AJAR_ANGLE(Hash doorHash, float ajar, BOOL p2) { invoke<Void>(0xB6E6FBA95C7324AC, doorHash, ajar, p2); }
+	NATIVE_DECL void _0x1F1FABFE9B2A1254(Any p0, BOOL p1) { invoke<Void>(0x1F1FABFE9B2A1254, p0, p1); }
+	NATIVE_DECL BOOL _0x4F89DAD4156BA145(Any p0) { return invoke<BOOL>(0x4F89DAD4156BA145, p0); }
+	NATIVE_DECL void _0x985767F5FA45BC44(Any p0) { invoke<Void>(0x985767F5FA45BC44, p0); }
+	NATIVE_DECL float _0x8433E1954BE323FC(Any p0) { return invoke<float>(0x8433E1954BE323FC, p0); }
+	NATIVE_DECL BOOL _0x6E2AA80BB0C03728(Any p0, Any p1) { return invoke<BOOL>(0x6E2AA80BB0C03728, p0, p1); }
+	NATIVE_DECL void _0x1BC47A9DEDC8DF5D(Any p0, BOOL p1) { invoke<Void>(0x1BC47A9DEDC8DF5D, p0, p1); }
+	NATIVE_DECL float _0x65499865FCA6E5EC(Hash doorHash) { return invoke<float>(0x65499865FCA6E5EC, doorHash); }
+	NATIVE_DECL void _0xA93F925F1942E434(Any p0, BOOL p1) { invoke<Void>(0xA93F925F1942E434, p0, p1); }
+	NATIVE_DECL BOOL _0x4D8611DFE1126478(Any p0) { return invoke<BOOL>(0x4D8611DFE1126478, p0); }
+	NATIVE_DECL void _0xC07B91B996C1DE89(Any p0, BOOL p1) { invoke<Void>(0xC07B91B996C1DE89, p0, p1); }
+	NATIVE_DECL BOOL _DOES_DOOR_EXIST(Hash doorHash) { return invoke<BOOL>(0xC153C43EA202C8C1, doorHash); }
+	NATIVE_DECL BOOL _0x0943113E02322164(Any p0, Any p1) { return invoke<BOOL>(0x0943113E02322164, p0, p1); }
+	NATIVE_DECL void _0x276AAF0F1C7F2494(Any p0, BOOL p1) { invoke<Void>(0x276AAF0F1C7F2494, p0, p1); }
+	NATIVE_DECL Any _0xEBA314768FB35D58(Any p0) { return invoke<Any>(0xEBA314768FB35D58, p0); }
+	NATIVE_DECL void _0x5230BF34EB0EC645(Any p0) { invoke<Void>(0x5230BF34EB0EC645, p0); }
+	NATIVE_DECL void _0x4D89D607CB3DD1D2(Object object, BOOL toggle) { invoke<Void>(0x4D89D607CB3DD1D2, object, toggle); }
+	NATIVE_DECL void _0xE7E4C198B0185900(Object p0, Any p1, BOOL p2) { invoke<Void>(0xE7E4C198B0185900, p0, p1, p2); }
+	NATIVE_DECL void _0x8462BE2341A55B6F(Any p0) { invoke<Void>(0x8462BE2341A55B6F, p0); }
+	NATIVE_DECL void _0xAAACF33CBF9B990A(Any p0, Any p1) { invoke<Void>(0xAAACF33CBF9B990A, p0, p1); }
+	NATIVE_DECL void _0xE4EFB315BCD2A838(Any p0, Any p1) { invoke<Void>(0xE4EFB315BCD2A838, p0, p1); }
+	NATIVE_DECL void _0xF9C1681347C8BD15(Object object) { invoke<Void>(0xF9C1681347C8BD15, object); }
+	NATIVE_DECL Any _0x58DE624FA7FB0E7F(Any p0) { return invoke<Any>(0x58DE624FA7FB0E7F, p0); }
+	NATIVE_DECL void _0xFFB99FFD17F65889(Any p0, float p1) { invoke<Void>(0xFFB99FFD17F65889, p0, p1); }
+	NATIVE_DECL void _0xEB6F1A9B5510A5D2(Any p0, BOOL p1) { invoke<Void>(0xEB6F1A9B5510A5D2, p0, p1); }
+	NATIVE_DECL void _0xE2B3B852B537C398(BOOL p0) { invoke<Void>(0xE2B3B852B537C398, p0); }
+	NATIVE_DECL Any _0xFA3B61EC249B4674(Any p0) { return invoke<Any>(0xFA3B61EC249B4674, p0); }
+	NATIVE_DECL void _0xF49574E2332A8F06(Any p0, float p1) { invoke<Void>(0xF49574E2332A8F06, p0, p1); }
+	NATIVE_DECL void _0x63E39F09310F481F(Any p0, float p1) { invoke<Void>(0x63E39F09310F481F, p0, p1); }
+	NATIVE_DECL void _0x04D1D4E411CE52D0(Any p0, Any p1) { invoke<Void>(0x04D1D4E411CE52D0, p0, p1); }
+	NATIVE_DECL void _0x7FCD49388BC9B775(Any p0, Any p1) { invoke<Void>(0x7FCD49388BC9B775, p0, p1); }
+	NATIVE_DECL int _GET_DES_OBJECT(float x, float y, float z, float rotation, char* name) { return invoke<int>(0xB48FCED898292E52, x, y, z, rotation, name); }
+	NATIVE_DECL void _SET_DES_OBJECT_STATE(int handle, int state) { invoke<Void>(0x5C29F698D404C5E1, handle, state); }
+	NATIVE_DECL Any _GET_DES_OBJECT_STATE(int handle) { return invoke<Any>(0x899BA936634A322E, handle); }
+	NATIVE_DECL BOOL _DOES_DES_OBJECT_EXIST(int handle) { return invoke<BOOL>(0x52AF537A0C5B8AAD, handle); }
+	NATIVE_DECL float _0x260EE4FDBDF4DB01(Any p0) { return invoke<float>(0x260EE4FDBDF4DB01, p0); }
+	NATIVE_DECL void _0x2777150CC7D9365E(Any p0, BOOL p1) { invoke<Void>(0x2777150CC7D9365E, p0, p1); }
+	NATIVE_DECL void _0x0BF3B3BD47D79C08(Hash hash, int p1) { invoke<Void>(0x0BF3B3BD47D79C08, hash, p1); }
+	NATIVE_DECL void _0x78857FC65CADB909(BOOL p0) { invoke<Void>(0x78857FC65CADB909, p0); }
+	NATIVE_DECL void _0x634C19521485AB25(Any p0) { invoke<Void>(0x634C19521485AB25, p0); }
+	NATIVE_DECL BOOL _0x0378C08504160D0D(Any p0) { return invoke<BOOL>(0x0378C08504160D0D, p0); }
+	NATIVE_DECL BOOL _0x007BD043587F7C82(Any p0) { return invoke<BOOL>(0x007BD043587F7C82, p0); }
+	NATIVE_DECL BOOL _IS_PICKUP_WITHIN_RADIUS(Hash pickupHash, float x, float y, float z, float radius) { return invoke<BOOL>(0xF9C36251F6E48E33, pickupHash, x, y, z, radius); }
+	NATIVE_DECL void _0x758A5C1B3B1E1990(Any p0) { invoke<Void>(0x758A5C1B3B1E1990, p0); }
+	NATIVE_DECL void _0x94F3D956BFAEAE18(Any p0, Any p1, BOOL p2) { invoke<Void>(0x94F3D956BFAEAE18, p0, p1, p2); }
+	NATIVE_DECL void _0x88EAEC617CD26926(Hash p0, BOOL p1) { invoke<Void>(0x88EAEC617CD26926, p0, p1); }
+	NATIVE_DECL void _0xB8F5062070BB6DBD(Any p0, BOOL p1) { invoke<Void>(0xB8F5062070BB6DBD, p0, p1); }
+	NATIVE_DECL void _0x92E87F60F21A0C3A(Any p0, BOOL p1) { invoke<Void>(0x92E87F60F21A0C3A, p0, p1); }
+	NATIVE_DECL BOOL _0x9F52AD67D1A91BAD(Any p0, Any p1) { return invoke<BOOL>(0x9F52AD67D1A91BAD, p0, p1); }
+	NATIVE_DECL void _0x92AEFB5F6E294023(Object object, BOOL p1, BOOL p2) { invoke<Void>(0x92AEFB5F6E294023, object, p1, p2); }
+	NATIVE_DECL void _0x318516E02DE3ECE2(float p0) { invoke<Void>(0x318516E02DE3ECE2, p0); }
+	NATIVE_DECL void _0x4A8CB328CD6F1C9B(Any p0, BOOL p1) { invoke<Void>(0x4A8CB328CD6F1C9B, p0, p1); }
+	NATIVE_DECL void _0x81218CE01B672219(Any p0, BOOL p1) { invoke<Void>(0x81218CE01B672219, p0, p1); }
+	NATIVE_DECL void _0xAC9AE68F0A463752(Any p0) { invoke<Void>(0xAC9AE68F0A463752, p0); }
+	NATIVE_DECL void _0xEB9740A38FD6D634(Any p0, Any* p1) { invoke<Void>(0xEB9740A38FD6D634, p0, p1); }
+	NATIVE_DECL void _0x1607C7D9B3021DF5(Any p0, Any* p1) { invoke<Void>(0x1607C7D9B3021DF5, p0, p1); }
+	NATIVE_DECL void _0xF92099527DB8E2A7(Any p0, Any p1) { invoke<Void>(0xF92099527DB8E2A7, p0, p1); }
+	NATIVE_DECL void _0x00EE08603EADEE92(Any p0) { invoke<Void>(0x00EE08603EADEE92, p0); }
+	NATIVE_DECL Hash _GET_WEAPON_HASH_FROM_PICKUP(Pickup pickupHash) { return invoke<Hash>(0x08F96CA6C551AD51, pickupHash); }
+	NATIVE_DECL Any _0x44B09A23D728045A(Any p0) { return invoke<Any>(0x44B09A23D728045A, p0); }
+	NATIVE_DECL void _SET_OBJECT_TEXTURE_VARIANT(Object object, int paintIndex) { invoke<Void>(0x971DA0055324D033, object, paintIndex); }
+	NATIVE_DECL float _0x3397CD4E0353DFBA(Any p0) { return invoke<float>(0x3397CD4E0353DFBA, p0); }
+	NATIVE_DECL void _0x7D7285EFEAB5AF15(Any p0, float p1) { invoke<Void>(0x7D7285EFEAB5AF15, p0, p1); }
+	NATIVE_DECL void _0xC8E21C1677DC5E6F(Any p0, float p1) { invoke<Void>(0xC8E21C1677DC5E6F, p0, p1); }
+	NATIVE_DECL void _0x2797C633DCDBBAC5(Any p0, float p1, BOOL p2) { invoke<Void>(0x2797C633DCDBBAC5, p0, p1, p2); }
+	NATIVE_DECL void _0xF40AB58D83C35027(Any p0) { invoke<Void>(0xF40AB58D83C35027, p0); }
+	NATIVE_DECL void _0x646564A3B7DF68F8(Any p0, float p1, float p2) { invoke<Void>(0x646564A3B7DF68F8, p0, p1, p2); }
+	NATIVE_DECL Hash _GET_PICKUP_HASH(Pickup pickupHash) { return invoke<Hash>(0x5EAAD83F8CFB4575, pickupHash); }
+	NATIVE_DECL void _MARK_OBJECT_FOR_DELETION(Object object) { invoke<Void>(0xADBE4809F19F927A, object); }
+	NATIVE_DECL void _0xCAAF2BCCFEF37F77(Any p0, Any p1) { invoke<Void>(0xCAAF2BCCFEF37F77, p0, p1); }
+	NATIVE_DECL BOOL _0xB6CBD40F8EA69E8A(Any p0) { return invoke<BOOL>(0xB6CBD40F8EA69E8A, p0); }
+	NATIVE_DECL void _0x1461DF6DB886BE3F(Any p0) { invoke<Void>(0x1461DF6DB886BE3F, p0); }
+	NATIVE_DECL void _0x98D2D9C053A1F449(Any p0, BOOL p1) { invoke<Void>(0x98D2D9C053A1F449, p0, p1); }
+	NATIVE_DECL void _0xE1C708BA4885796B(Any p0, BOOL p1) { invoke<Void>(0xE1C708BA4885796B, p0, p1); }
+	NATIVE_DECL void _0xB7017DA4D498269F(Any p0, BOOL p1) { invoke<Void>(0xB7017DA4D498269F, p0, p1); }
+	NATIVE_DECL void _0xE124889AE0521FCF(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0xE124889AE0521FCF, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xD503D6F0986D58BC(Any p0, Any p1) { invoke<Void>(0xD503D6F0986D58BC, p0, p1); }
+	NATIVE_DECL void _0xAEE6C800E124CFE1(Any p0, Any* p1) { invoke<Void>(0xAEE6C800E124CFE1, p0, p1); }
 }
 
 namespace PAD
@@ -8197,6 +9213,479 @@ namespace PED
 	NATIVE_DECL BOOL _0xEBAAC9A750E7563B(Ped ped) { return invoke<BOOL>(0xEBAAC9A750E7563B, ped); }
 	NATIVE_DECL void _0x992187D975635DF5(Any p0, Any p1) { invoke<Void>(0x992187D975635DF5, p0, p1); }
 	NATIVE_DECL void _0x0B787A37EEDD226F(Any p0, Any p1) { invoke<Void>(0x0B787A37EEDD226F, p0, p1); }
+	NATIVE_DECL void _0x39A2FC5AF55A52B1(Any p0, Any p1) { invoke<Void>(0x39A2FC5AF55A52B1, p0, p1); }
+	NATIVE_DECL void _0x36E4B61DC56DE77C(Any p0, float p1, float p2, Any p3, Any p4) { invoke<Void>(0x36E4B61DC56DE77C, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0x66C047719B0E80E1(Any p0, Any p1) { invoke<Void>(0x66C047719B0E80E1, p0, p1); }
+	NATIVE_DECL void _FREEZE_PED_CAMERA_ROTATION(Ped ped) { invoke<Void>(0xFF287323B0E2C69A, ped); }
+	NATIVE_DECL BOOL _0x6DB875AFC584FA32(Any p0, Any p1) { return invoke<BOOL>(0x6DB875AFC584FA32, p0, p1); }
+	NATIVE_DECL Any _0x84D0BF2B21862059(Any p0) { return invoke<Any>(0x84D0BF2B21862059, p0); }
+	NATIVE_DECL BOOL _0x9C81338B2E62CE0A(Any p0, Any p1, Any p2) { return invoke<BOOL>(0x9C81338B2E62CE0A, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xB7DBB2986B87E230(Any p0, float p1) { return invoke<BOOL>(0xB7DBB2986B87E230, p0, p1); }
+	NATIVE_DECL float _0x285D36C5C72B0569(Any p0) { return invoke<float>(0x285D36C5C72B0569, p0); }
+	NATIVE_DECL Any _0x313778EDCA9158E2() { return invoke<Any>(0x313778EDCA9158E2); }
+	NATIVE_DECL void _0xED9582B3DA8F02B4(Any p0) { invoke<Void>(0xED9582B3DA8F02B4, p0); }
+	NATIVE_DECL void _0xF008E0BA1FE1D644(Any p0) { invoke<Void>(0xF008E0BA1FE1D644, p0); }
+	NATIVE_DECL void _0x7D4E70A67A651C71(Any p0) { invoke<Void>(0x7D4E70A67A651C71, p0); }
+	NATIVE_DECL Any _0x62DE46F061CAA468() { return invoke<Any>(0x62DE46F061CAA468); }
+	NATIVE_DECL Any _0x5C16855277819BBF() { return invoke<Any>(0x5C16855277819BBF); }
+	NATIVE_DECL Any _0x5E420FF293EE5472() { return invoke<Any>(0x5E420FF293EE5472); }
+	NATIVE_DECL void _0xA77FA7BE9312F8C0(float p0) { invoke<Void>(0xA77FA7BE9312F8C0, p0); }
+	NATIVE_DECL void _0x9E3842E5DAD69F80(Any p0) { invoke<Void>(0x9E3842E5DAD69F80, p0); }
+	NATIVE_DECL void _0xAB0D553FE20A6E25(float p0) { invoke<Void>(0xAB0D553FE20A6E25, p0); }
+	NATIVE_DECL void _0xC0258742B034DFAF(float p0) { invoke<Void>(0xC0258742B034DFAF, p0); }
+	NATIVE_DECL void _0xBA0980B5C0A11924(float p0) { invoke<Void>(0xBA0980B5C0A11924, p0); }
+	NATIVE_DECL void _0xDB48E99F8E064E56(float p0) { invoke<Void>(0xDB48E99F8E064E56, p0); }
+	NATIVE_DECL void _0x28CB6391ACEDD9DB(float p0) { invoke<Void>(0x28CB6391ACEDD9DB, p0); }
+	NATIVE_DECL void _0x95423627A9CA598E(Any p0) { invoke<Void>(0x95423627A9CA598E, p0); }
+	NATIVE_DECL void _0x4759CC730F947C81() { invoke<Void>(0x4759CC730F947C81); }
+	NATIVE_DECL BOOL _0x0EE3F0D7FECCC54F() { return invoke<BOOL>(0x0EE3F0D7FECCC54F); }
+	NATIVE_DECL void _0x7C00CFC48A782DC0(Any p0, Any p1, float p2, float p3, float p4, float p5, float p6, float p7, Any p8, BOOL p9) { invoke<Void>(0x7C00CFC48A782DC0, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9); }
+	NATIVE_DECL void _0x19C975B81BE53C28(Any p0, Any p1) { invoke<Void>(0x19C975B81BE53C28, p0, p1); }
+	NATIVE_DECL void _0x028F76B6E78246EB(Any p0, Any p1, Any p2, BOOL p3) { invoke<Void>(0x028F76B6E78246EB, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x5337B721C51883A9(Any p0, BOOL p1, BOOL p2) { invoke<Void>(0x5337B721C51883A9, p0, p1, p2); }
+	NATIVE_DECL Any _0xF89AA2BD01FC06B7(Any p0, Any p1, Any p2, BOOL p3, BOOL p4, BOOL p5, BOOL p6) { return invoke<Any>(0xF89AA2BD01FC06B7, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL BOOL _0xAAB0FE202E9FC9F0(Any p0, Any p1) { return invoke<BOOL>(0xAAB0FE202E9FC9F0, p0, p1); }
+	NATIVE_DECL BOOL _0x95CBC65780DE7EB1(Any p0, BOOL p1) { return invoke<BOOL>(0x95CBC65780DE7EB1, p0, p1); }
+	NATIVE_DECL Any _0x4C8B59171957BCF7(Any p0) { return invoke<Any>(0x4C8B59171957BCF7, p0); }
+	NATIVE_DECL void _0xB8AB265426CFE6DD(Any p0, Any p1) { invoke<Void>(0xB8AB265426CFE6DD, p0, p1); }
+	NATIVE_DECL Any _0xE8D1CCB9375C101B(Any p0, Any p1) { return invoke<Any>(0xE8D1CCB9375C101B, p0, p1); }
+	NATIVE_DECL void _0xA691C10054275290(Any p0, Any p1, Any p2) { invoke<Void>(0xA691C10054275290, p0, p1, p2); }
+	NATIVE_DECL void _0x931B241409216C1F(Any p0, Any p1, BOOL p2) { invoke<Void>(0x931B241409216C1F, p0, p1, p2); }
+	NATIVE_DECL Any _0xF103823FFE72BB49(Any p0) { return invoke<Any>(0xF103823FFE72BB49, p0); }
+	NATIVE_DECL void _0xBCC76708E5677E1D(Any p0, BOOL p1) { invoke<Void>(0xBCC76708E5677E1D, p0, p1); }
+	NATIVE_DECL Any _0x454AD4DA6C41B5BD(Any p0) { return invoke<Any>(0x454AD4DA6C41B5BD, p0); }
+	NATIVE_DECL void _0xA69899995997A63B(Any p0, Any p1) { invoke<Void>(0xA69899995997A63B, p0, p1); }
+	NATIVE_DECL BOOL _0xD543D3A8FDE4F185(Any p0, Any p1) { return invoke<BOOL>(0xD543D3A8FDE4F185, p0, p1); }
+	NATIVE_DECL BOOL _0x7FC84E85D98F063D(Any p0) { return invoke<BOOL>(0x7FC84E85D98F063D, p0); }
+	NATIVE_DECL void _0xE0B61ED8BB37712F(Any p0) { invoke<Void>(0xE0B61ED8BB37712F, p0); }
+	NATIVE_DECL void _0x9911F4A24485F653(BOOL p0) { invoke<Void>(0x9911F4A24485F653, p0); }
+	NATIVE_DECL Any _0x88EFFED5FE8B0B4A(Any p0) { return invoke<Any>(0x88EFFED5FE8B0B4A, p0); }
+	NATIVE_DECL void _0x7528720101A807A5(Any p0, Any p1) { invoke<Void>(0x7528720101A807A5, p0, p1); }
+	NATIVE_DECL Any _0x6CFC373008A1EDAF(Any p0) { return invoke<Any>(0x6CFC373008A1EDAF, p0); }
+	NATIVE_DECL void _0xDACE03C65C6666DB(Any p0, Any p1) { invoke<Void>(0xDACE03C65C6666DB, p0, p1); }
+	NATIVE_DECL Any _0xB29C553BA582D09E(Any* p0, Any p1, Any p2, Any p3) { return invoke<Any>(0xB29C553BA582D09E, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0x6B89FAA36FC909A3(Any* p0, Any p1, Any p2, Any p3) { return invoke<Any>(0x6B89FAA36FC909A3, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x9E7738B291706746(Any* p0, Any p1, Any p2) { return invoke<BOOL>(0x9E7738B291706746, p0, p1, p2); }
+	NATIVE_DECL void _0x73B6F907B913C860(Any p0, float p1) { invoke<Void>(0x73B6F907B913C860, p0, p1); }
+	NATIVE_DECL float _0x92C8EACA29F6BED6(Any p0) { return invoke<float>(0x92C8EACA29F6BED6, p0); }
+	NATIVE_DECL void _0xD77AE48611B7B10A(Any p0, float p1) { invoke<Void>(0xD77AE48611B7B10A, p0, p1); }
+	NATIVE_DECL float _0x936E7CAD0AE2EE14(Any p0) { return invoke<float>(0x936E7CAD0AE2EE14, p0); }
+	NATIVE_DECL void _0x069EDDF1FD4DEB0A(Any p0, float p1) { invoke<Void>(0x069EDDF1FD4DEB0A, p0, p1); }
+	NATIVE_DECL void _0xC2266AA617668AD3(Any p0, float p1) { invoke<Void>(0xC2266AA617668AD3, p0, p1); }
+	NATIVE_DECL Any _0xDC9273D95976BA22(Any p0) { return invoke<Any>(0xDC9273D95976BA22, p0); }
+	NATIVE_DECL void _0x2BA918C823B8BA56(Any p0, float p1) { invoke<Void>(0x2BA918C823B8BA56, p0, p1); }
+	NATIVE_DECL void _0x9B6808EC46BE849B(Any p0, float p1) { invoke<Void>(0x9B6808EC46BE849B, p0, p1); }
+	NATIVE_DECL void _0xFECA2081F61ED2CD(Any p0, Any p1, Any p2, BOOL p3) { invoke<Void>(0xFECA2081F61ED2CD, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0xD6740E14E4CEFC0B(Any p0) { return invoke<Any>(0xD6740E14E4CEFC0B, p0); }
+	NATIVE_DECL Any _0x59643424B68D52B5(Any p0) { return invoke<Any>(0x59643424B68D52B5, p0); }
+	NATIVE_DECL BOOL _0x26AF0E8E30BD2A2C(Ped ped) { return invoke<BOOL>(0x26AF0E8E30BD2A2C, ped); }
+	NATIVE_DECL Any _0x31167ED4324B758D(Any p0) { return invoke<Any>(0x31167ED4324B758D, p0); }
+	NATIVE_DECL void _0x52D59AB61DDC05DD(Ped ped, BOOL p1) { invoke<Void>(0x52D59AB61DDC05DD, ped, p1); }
+	NATIVE_DECL void _0x733C87D4CE22BEA2(Any p0) { invoke<Void>(0x733C87D4CE22BEA2, p0); }
+	NATIVE_DECL void _0x028E7B3BBA0BD2FC(Any p0) { invoke<Void>(0x028E7B3BBA0BD2FC, p0); }
+	NATIVE_DECL Any _0xFA8C10DCE0706D43(Any p0) { return invoke<Any>(0xFA8C10DCE0706D43, p0); }
+	NATIVE_DECL Any _0x2BA9D7BF629F920C(Any p0) { return invoke<Any>(0x2BA9D7BF629F920C, p0); }
+	NATIVE_DECL Any _0x900CA00CE703E1E2(Any p0) { return invoke<Any>(0x900CA00CE703E1E2, p0); }
+	NATIVE_DECL void _0x7DE9692C6F64CFE8(Any p0, BOOL p1, Any* p2, BOOL p3) { invoke<Void>(0x7DE9692C6F64CFE8, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0xD5FE956C70FF370B(Any p0) { return invoke<Any>(0xD5FE956C70FF370B, p0); }
+	NATIVE_DECL Any _0xC48A9EB0D499B3E5(Any p0) { return invoke<Any>(0xC48A9EB0D499B3E5, p0); }
+	NATIVE_DECL BOOL _0x878B68960C1C2A35(Any p0, Any p1) { return invoke<BOOL>(0x878B68960C1C2A35, p0, p1); }
+	NATIVE_DECL Any _0x7583A9D35248B83F(Any p0) { return invoke<Any>(0x7583A9D35248B83F, p0); }
+	NATIVE_DECL BOOL _0x06FA94C835787C64(Any p0) { return invoke<BOOL>(0x06FA94C835787C64, p0); }
+	NATIVE_DECL BOOL _0xBD6B242B8BD5543A(Any p0) { return invoke<BOOL>(0xBD6B242B8BD5543A, p0); }
+	NATIVE_DECL BOOL _0x77525BBF433F2CD6(Any p0) { return invoke<BOOL>(0x77525BBF433F2CD6, p0); }
+	NATIVE_DECL Any _0xC22AA08A8ADB87D4(Any p0) { return invoke<Any>(0xC22AA08A8ADB87D4, p0); }
+	NATIVE_DECL Any _0x569F1E1237508DEB(Any p0) { return invoke<Any>(0x569F1E1237508DEB, p0); }
+	NATIVE_DECL BOOL _0x3BBDD6143FF16F98(Any p0, Any p1, Any* p2, Any* p3, Any* p4) { return invoke<BOOL>(0x3BBDD6143FF16F98, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0x2B02DB082258625F(Any p0, Any p1, Any* p2, Any p3, Any* p4) { return invoke<BOOL>(0x2B02DB082258625F, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0xA0774E388CE4A679(Any p0, Any p1, Any* p2, Any* p3) { return invoke<BOOL>(0xA0774E388CE4A679, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0xBEC65C6049B3219D(Any p0, Any p1, Any* p2, Any* p3, Any* p4, BOOL p5) { return invoke<BOOL>(0xBEC65C6049B3219D, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL BOOL _0xBDED916A9F9B0604(Any p0, Any p1, Any* p2, Any p3, Any* p4, BOOL p5) { return invoke<BOOL>(0xBDED916A9F9B0604, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL Any _0x4D0D2E3D8BC000EB(Any p0, Any* p1, BOOL p2) { return invoke<Any>(0x4D0D2E3D8BC000EB, p0, p1, p2); }
+	NATIVE_DECL int _0x1E98817B311AE98A(Ped ped) { return invoke<int>(0x1E98817B311AE98A, ped); }
+	NATIVE_DECL int _0x5407B7288D0478B7(Any p0, Any p1) { return invoke<int>(0x5407B7288D0478B7, p0, p1); }
+	NATIVE_DECL Any _0x7BE607DAFF382FD2(Any p0, Any p1, Any p2) { return invoke<Any>(0x7BE607DAFF382FD2, p0, p1, p2); }
+	NATIVE_DECL BOOL _IS_ENEMY_IN_RANGE(Ped ped, float x, float y, float z, float range, Any p5) { return invoke<BOOL>(0x336B3D200AB007CB, ped, x, y, z, range, p5); }
+	NATIVE_DECL Any _0xCD66FEA29400A0B5(Any p0) { return invoke<Any>(0xCD66FEA29400A0B5, p0); }
+	NATIVE_DECL Any _0x3CC4A718C258BDD0(Any p0) { return invoke<Any>(0x3CC4A718C258BDD0, p0); }
+	NATIVE_DECL void _0xDC91F22F09BC6C2F(Any p0, BOOL p1) { invoke<Void>(0xDC91F22F09BC6C2F, p0, p1); }
+	NATIVE_DECL Any _0xF4860514AD354226(Any p0, float p1, float p2, float p3, float p4, Any* p5) { return invoke<Any>(0xF4860514AD354226, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL Any _0xE76687023D8C8505(Any p0, Any p1) { return invoke<Any>(0xE76687023D8C8505, p0, p1); }
+	NATIVE_DECL void _0x20E54854DEF6A54A(Any p0, Any p1) { invoke<Void>(0x20E54854DEF6A54A, p0, p1); }
+	NATIVE_DECL void _0x244E8C282188E40F(Any p0, Any p1) { invoke<Void>(0x244E8C282188E40F, p0, p1); }
+	NATIVE_DECL BOOL _0x909AD9E9A92A10DF(Any p0) { return invoke<BOOL>(0x909AD9E9A92A10DF, p0); }
+	NATIVE_DECL BOOL _0x917760CFE7A0E0F1(Any p0) { return invoke<BOOL>(0x917760CFE7A0E0F1, p0); }
+	NATIVE_DECL Any _0x13A1B061007C906B(Any p0) { return invoke<Any>(0x13A1B061007C906B, p0); }
+	NATIVE_DECL void _0x4E23CD07BD161E06(Any p0, float p1, float p2, float p3, Any p4) { invoke<Void>(0x4E23CD07BD161E06, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0xB05945C1E9E60D91(Any p0, Any p1, Any p2, Any p3) { return invoke<BOOL>(0xB05945C1E9E60D91, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x7CC7D3B7AF7FB71F(Any p0, float p1) { return invoke<BOOL>(0x7CC7D3B7AF7FB71F, p0, p1); }
+	NATIVE_DECL void _0x478F6B9920446CE2(Any p0, BOOL p1) { invoke<Void>(0x478F6B9920446CE2, p0, p1); }
+	NATIVE_DECL void _0x0E9E95FDEDCC9D35(Any p0, Any p1, BOOL p2) { invoke<Void>(0x0E9E95FDEDCC9D35, p0, p1, p2); }
+	NATIVE_DECL Vehicle SET_EXCLUSIVE_PHONE_RELATIONSHIPS(Ped ped) { return invoke<Vehicle>(0xF92691AED837A5FC, ped); }
+	NATIVE_DECL Any _0xE4770DA1B8FF4FD1(Any p0) { return invoke<Any>(0xE4770DA1B8FF4FD1, p0); }
+	NATIVE_DECL Any _0x5064DB5083C29921(Any p0) { return invoke<Any>(0x5064DB5083C29921, p0); }
+	NATIVE_DECL Any _0x4E76CB57222A00E5(Any p0) { return invoke<Any>(0x4E76CB57222A00E5, p0); }
+	NATIVE_DECL Any _0x849BD6C6314793D0(Any p0) { return invoke<Any>(0x849BD6C6314793D0, p0); }
+	NATIVE_DECL BOOL _0x1D46B417F926D34D(Any p0) { return invoke<BOOL>(0x1D46B417F926D34D, p0); }
+	NATIVE_DECL void _0x7FB0088E8769CDDB(Any p0, Any p1) { invoke<Void>(0x7FB0088E8769CDDB, p0, p1); }
+	NATIVE_DECL void _0x8B3CB08158E98481(Any p0, BOOL p1) { invoke<Void>(0x8B3CB08158E98481, p0, p1); }
+	NATIVE_DECL void _0x1CE875505D45338A(Any p0, Any p1, Any p2) { invoke<Void>(0x1CE875505D45338A, p0, p1, p2); }
+	NATIVE_DECL void _0xBAD2A311667A50D7(Any p0, BOOL p1) { invoke<Void>(0xBAD2A311667A50D7, p0, p1); }
+	NATIVE_DECL void _0x24C82EF607105FAA(Any p0, Any p1) { invoke<Void>(0x24C82EF607105FAA, p0, p1); }
+	NATIVE_DECL Any _0xD7AD3C7EBAF88C92(Any p0) { return invoke<Any>(0xD7AD3C7EBAF88C92, p0); }
+	NATIVE_DECL void _0xB8B6430EAD2D2437(Any p0, Any p1) { invoke<Void>(0xB8B6430EAD2D2437, p0, p1); }
+	NATIVE_DECL BOOL _0x331550B212014B92(Any p0, Any p1) { return invoke<BOOL>(0x331550B212014B92, p0, p1); }
+	NATIVE_DECL void _0x20C5459379D75C1C(Any p0, Any* p1) { invoke<Void>(0x20C5459379D75C1C, p0, p1); }
+	NATIVE_DECL void _0xA3C53CDE922BC78B(Any p0, Any* p1) { invoke<Void>(0xA3C53CDE922BC78B, p0, p1); }
+	NATIVE_DECL BOOL _0x9337183FDA2E9035(Any p0, Any p1) { return invoke<BOOL>(0x9337183FDA2E9035, p0, p1); }
+	NATIVE_DECL BOOL _0xA454D234E45BB6E5(Any p0, Any p1) { return invoke<BOOL>(0xA454D234E45BB6E5, p0, p1); }
+	NATIVE_DECL BOOL _0xE33F98BD76490ABC(Any p0, Any p1, BOOL p2) { return invoke<BOOL>(0xE33F98BD76490ABC, p0, p1, p2); }
+	NATIVE_DECL void _0xF6B82FCE03B43A37(Any p0, Any p1) { invoke<Void>(0xF6B82FCE03B43A37, p0, p1); }
+	NATIVE_DECL void _0x7DD7FB3480D8083E(Any p0) { invoke<Void>(0x7DD7FB3480D8083E, p0); }
+	NATIVE_DECL Ped _GET_PED_AS_GROUP_LEADER(int groupID) { return invoke<Ped>(0x5CCE68DBD5FE93EC, groupID); }
+	NATIVE_DECL BOOL _0xDC88D06719070C39(Any p0) { return invoke<BOOL>(0xDC88D06719070C39, p0); }
+	NATIVE_DECL void _0x3AE3552E7C207CC5(Any p0, Any* p1) { invoke<Void>(0x3AE3552E7C207CC5, p0, p1); }
+	NATIVE_DECL void _0x923583741DC87BCE(Any p0, Any* p1) { invoke<Void>(0x923583741DC87BCE, p0, p1); }
+	NATIVE_DECL void _0x4FD80C3DD84B817B(Any p0) { invoke<Void>(0x4FD80C3DD84B817B, p0); }
+	NATIVE_DECL void _0x89F5E7ADECCCB49C(Any p0, Any* p1) { invoke<Void>(0x89F5E7ADECCCB49C, p0, p1); }
+	NATIVE_DECL void _0x58F7DB5BD8FA2288(Any p0) { invoke<Void>(0x58F7DB5BD8FA2288, p0); }
+	NATIVE_DECL void _0xEAA8242C8479C27D(Any p0, Any* p1) { invoke<Void>(0xEAA8242C8479C27D, p0, p1); }
+	NATIVE_DECL void _0xF6E1E9F47A7686F8(Any p0, Any p1) { invoke<Void>(0xF6E1E9F47A7686F8, p0, p1); }
+	NATIVE_DECL void _0x1E4C940233FC0C6F(Any p0, float p1, float p2, float p3, Any p4, float p5) { invoke<Void>(0x1E4C940233FC0C6F, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0xAAB050DA48B57978(Any p0, Any* p1, Any p2, Any p3, Any p4) { invoke<Void>(0xAAB050DA48B57978, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0x935CF6E42BAF7F4D(Any p0) { invoke<Void>(0x935CF6E42BAF7F4D, p0); }
+	NATIVE_DECL void _0x406CCF555B04FAD3(Any p0, BOOL p1, float p2) { invoke<Void>(0x406CCF555B04FAD3, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x50F124E6EF188B22(Any p0) { return invoke<BOOL>(0x50F124E6EF188B22, p0); }
+	NATIVE_DECL float _0x6FB76442469ABD68(Any p0) { return invoke<float>(0x6FB76442469ABD68, p0); }
+	NATIVE_DECL Any _0x268B3AEBF032A88D(Any p0) { return invoke<Any>(0x268B3AEBF032A88D, p0); }
+	NATIVE_DECL void _0xC17A94CC8FC3C61A(Any p0, Any p1, float p2, float p3, float p4) { invoke<Void>(0xC17A94CC8FC3C61A, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0x25ACFC650B65C538(Any p0, float p1) { invoke<Void>(0x25ACFC650B65C538, p0, p1); }
+	NATIVE_DECL float _0x1D491CCF7211FB74(Any p0) { return invoke<float>(0x1D491CCF7211FB74, p0); }
+	NATIVE_DECL void _0xD8736EFDA38EDC5C(Any p0, float p1, float p2, float p3, float p4) { invoke<Void>(0xD8736EFDA38EDC5C, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0x6E5CBCB3941D7D08(Any p0, Any p1) { return invoke<BOOL>(0x6E5CBCB3941D7D08, p0, p1); }
+	NATIVE_DECL void _0x4707E9C23D8CA3FE(Any p0, Any p1) { invoke<Void>(0x4707E9C23D8CA3FE, p0, p1); }
+	NATIVE_DECL void _0x221F4D9912B7FE86(Any p0, BOOL p1) { invoke<Void>(0x221F4D9912B7FE86, p0, p1); }
+	NATIVE_DECL void _SET_PED_RAGDOLL_BLOCKING_FLAGS(Ped ped, int flags) { invoke<Void>(0x26695EC767728D84, ped, flags); }
+	NATIVE_DECL void _RESET_PED_RAGDOLL_BLOCKING_FLAGS(Ped ped, int flags) { invoke<Void>(0xD86D101FCFD00A4B, ped, flags); }
+	NATIVE_DECL void _0xFC3DB99C8144CD81(Any p0, Any p1, BOOL p2, BOOL p3, BOOL p4) { invoke<Void>(0xFC3DB99C8144CD81, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0x1854217C640B39EC(Any p0, Any p1, float p2, float p3, float p4, float p5, BOOL p6, BOOL p7) { invoke<Void>(0x1854217C640B39EC, p0, p1, p2, p3, p4, p5, p6, p7); }
+	NATIVE_DECL BOOL _0xBA63D9FE45412247(Ped ped, BOOL p1) { return invoke<BOOL>(0xBA63D9FE45412247, ped, p1); }
+	NATIVE_DECL Any _0xEF2E6F870783369B(Any p0, BOOL p1) { return invoke<Any>(0xEF2E6F870783369B, p0, p1); }
+	NATIVE_DECL void _0xF9ACF4A08098EA25(Ped ped, BOOL p1) { invoke<Void>(0xF9ACF4A08098EA25, ped, p1); }
+	NATIVE_DECL BOOL _0x88A5564B19C15391(Any p0) { return invoke<BOOL>(0x88A5564B19C15391, p0); }
+	NATIVE_DECL void _0x58D32261AE0F0843(Any p0, Any p1, float p2, float p3, float p4, float p5, float p6, float p7, Any* p8) { invoke<Void>(0x58D32261AE0F0843, p0, p1, p2, p3, p4, p5, p6, p7, p8); }
+	NATIVE_DECL void _0xFFD54D9FE71B966A(Any p0, Any p1, Any p2, float p3, float p4, float p5, float p6, float p7, float p8, float p9) { invoke<Void>(0xFFD54D9FE71B966A, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9); }
+	NATIVE_DECL void _0x66B1CB778D911F49(Any p0, float p1) { invoke<Void>(0x66B1CB778D911F49, p0, p1); }
+	NATIVE_DECL void _0x7F5D88333EE8A86F(Any p0, Any p1) { invoke<Void>(0x7F5D88333EE8A86F, p0, p1); }
+	NATIVE_DECL void _0x7043D0681285BA2D(Any* p0) { invoke<Void>(0x7043D0681285BA2D, p0); }
+	NATIVE_DECL BOOL _0x8D9BFCE3352DE47F(Any p0) { return invoke<BOOL>(0x8D9BFCE3352DE47F, p0); }
+	NATIVE_DECL void _0xF9CFF5BB70E8A2CB(Any p0, float p1) { invoke<Void>(0xF9CFF5BB70E8A2CB, p0, p1); }
+	NATIVE_DECL void _0x6585D955A68452A5(Ped ped) { invoke<Void>(0x6585D955A68452A5, ped); }
+	NATIVE_DECL Any _0x4C39C95AE5DB1329(Any p0, BOOL p1, Any p2) { return invoke<Any>(0x4C39C95AE5DB1329, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x91A5F9CBEBB9D936(Any p0) { return invoke<BOOL>(0x91A5F9CBEBB9D936, p0); }
+	NATIVE_DECL BOOL _0x34D6AC1157C8226C(Any p0, Any p1) { return invoke<BOOL>(0x34D6AC1157C8226C, p0, p1); }
+	NATIVE_DECL BOOL _0x9C54041BB66BCF9E(Any p0, Any p1) { return invoke<BOOL>(0x9C54041BB66BCF9E, p0, p1); }
+	NATIVE_DECL BOOL _0xAB643407D0B26F07(Any p0, Any p1, BOOL p2, BOOL p3, BOOL p4) { return invoke<BOOL>(0xAB643407D0B26F07, p0, p1, p2, p3, p4); }
+	NATIVE_DECL Any _0xFE07FF6495D52E2A(Any p0, Any p1, Any p2, Any p3) { return invoke<Any>(0xFE07FF6495D52E2A, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x9A77DFD295E29B09(Any p0, BOOL p1) { invoke<Void>(0x9A77DFD295E29B09, p0, p1); }
+	NATIVE_DECL Any _0xEC6935EBE0847B90(Any p0, Any p1, Any p2, Any p3) { return invoke<Any>(0xEC6935EBE0847B90, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xA3A9299C4F2ADB98(Any p0) { invoke<Void>(0xA3A9299C4F2ADB98, p0); }
+	NATIVE_DECL void _0xF1C03A5352243A30(Any p0) { invoke<Void>(0xF1C03A5352243A30, p0); }
+	NATIVE_DECL Any _0xEEED8FAFEC331A70(Any p0, Any p1, Any p2, Any p3, Any p4) { return invoke<Any>(0xEEED8FAFEC331A70, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0x802092B07E3B1EEA(Any p0, Any p1, Any p2, Any p3, Any p4) { return invoke<BOOL>(0x802092B07E3B1EEA, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0x62FDAD5E01D2DD47(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5) { return invoke<BOOL>(0x62FDAD5E01D2DD47, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL BOOL _0x463803429297117C(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5) { return invoke<BOOL>(0x463803429297117C, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0x8B3B71C80A29A4BB(Any p0, Any p1, Any p2) { invoke<Void>(0x8B3B71C80A29A4BB, p0, p1, p2); }
+	NATIVE_DECL void _0xEE9DF765990E8D1D(Any p0, BOOL p1) { invoke<Void>(0xEE9DF765990E8D1D, p0, p1); }
+	NATIVE_DECL void _0xF5846EDB26A98A24(Ped ped, BOOL p1) { invoke<Void>(0xF5846EDB26A98A24, ped, p1); }
+	NATIVE_DECL void _0x6647C5F6F5792496(Ped ped, BOOL p1) { invoke<Void>(0x6647C5F6F5792496, ped, p1); }
+	NATIVE_DECL void _0x80038740C96AD17F(Any p0, Any p1) { invoke<Void>(0x80038740C96AD17F, p0, p1); }
+	NATIVE_DECL void _0x78C4E9961DB3EB5B(Any p0, Any p1) { invoke<Void>(0x78C4E9961DB3EB5B, p0, p1); }
+	NATIVE_DECL Any _0x4C57F27D1554E6B0(Any p0, float p1, float p2, float p3, BOOL p4, float p5, Any p6, float p7) { return invoke<Any>(0x4C57F27D1554E6B0, p0, p1, p2, p3, p4, p5, p6, p7); }
+	NATIVE_DECL BOOL _0x772A1969F649E902(Any p0) { return invoke<BOOL>(0x772A1969F649E902, p0); }
+	NATIVE_DECL BOOL _0xAA9F048DCF69B6DC(Any p0) { return invoke<BOOL>(0xAA9F048DCF69B6DC, p0); }
+	NATIVE_DECL void _0xADD31A5C7A5FAA73(Any p0, Any p1) { invoke<Void>(0xADD31A5C7A5FAA73, p0, p1); }
+	NATIVE_DECL BOOL _0x078076AB50FB117F(Any p0, float p1, float p2, float p3, float p4, BOOL p5) { return invoke<BOOL>(0x078076AB50FB117F, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0xFD6943B6DF77E449(Any p0, BOOL p1) { invoke<Void>(0xFD6943B6DF77E449, p0, p1); }
+	NATIVE_DECL void _0x815C0074A1BC0D93(Any p0, Any p1) { invoke<Void>(0x815C0074A1BC0D93, p0, p1); }
+	NATIVE_DECL Any _0xFFDE295662405B25(Any p0) { return invoke<Any>(0xFFDE295662405B25, p0); }
+	NATIVE_DECL BOOL _0xCC2B20596E29E4E3(Any p0, Any p1) { return invoke<BOOL>(0xCC2B20596E29E4E3, p0, p1); }
+	NATIVE_DECL void _0xBD75500141E4725C(Any p0, Any p1) { invoke<Void>(0xBD75500141E4725C, p0, p1); }
+	NATIVE_DECL void _0x8ACC0506743A8A5C(Any p0, Any p1, Any p2, float p3) { invoke<Void>(0x8ACC0506743A8A5C, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x78815FC52832B690(Any p0, Any p1) { invoke<Void>(0x78815FC52832B690, p0, p1); }
+	NATIVE_DECL void _0x8B1E8E35A6E814EA(Any p0, Any p1, float p2) { invoke<Void>(0x8B1E8E35A6E814EA, p0, p1, p2); }
+	NATIVE_DECL void _0x1FA132CBCD7CB239(Any p0, Any p1) { invoke<Void>(0x1FA132CBCD7CB239, p0, p1); }
+	NATIVE_DECL BOOL _0xDCCA191DF9980FD7(Ped ped, Any p1, Any p2) { return invoke<BOOL>(0xDCCA191DF9980FD7, ped, p1, p2); }
+	NATIVE_DECL Any _0x6127F25ED21C533C(Any p0) { return invoke<Any>(0x6127F25ED21C533C, p0); }
+	NATIVE_DECL Any _0xEC6B59BE445FEC51(Any p0) { return invoke<Any>(0xEC6B59BE445FEC51, p0); }
+	NATIVE_DECL void _0x8BA83CC4288CD56D(Any p0, Any p1) { invoke<Void>(0x8BA83CC4288CD56D, p0, p1); }
+	NATIVE_DECL BOOL _0xC48AF420371C7407(Any p0, Any p1) { return invoke<BOOL>(0xC48AF420371C7407, p0, p1); }
+	NATIVE_DECL void _0x9238A3D970BBB0A9(Any p0, Any p1) { invoke<Void>(0x9238A3D970BBB0A9, p0, p1); }
+	NATIVE_DECL void _0x6DBF2D78709AD70B(Any p0, float p1) { invoke<Void>(0x6DBF2D78709AD70B, p0, p1); }
+	NATIVE_DECL void _0xB8DE69D9473B7593(Any p0, Any p1) { invoke<Void>(0xB8DE69D9473B7593, p0, p1); }
+	NATIVE_DECL void _0x949B2F9ED2917F5D(Any p0, Any p1) { invoke<Void>(0x949B2F9ED2917F5D, p0, p1); }
+	NATIVE_DECL Any _0xB346C85D49CC998E(Any p0, Any p1) { return invoke<Any>(0xB346C85D49CC998E, p0, p1); }
+	NATIVE_DECL void _0xC163DAC52AC975D3(Any p0, Any p1) { invoke<Void>(0xC163DAC52AC975D3, p0, p1); }
+	NATIVE_DECL void _0xBBF6D1D07C02D00A(Any p0, Any p1) { invoke<Void>(0xBBF6D1D07C02D00A, p0, p1); }
+	NATIVE_DECL Any _0x02AA2096FE00F3E1(Any p0, Any p1) { return invoke<Any>(0x02AA2096FE00F3E1, p0, p1); }
+	NATIVE_DECL void _0x4DB9D03AC4E1FA84(Any p0, float p1, float p2, BOOL p3) { invoke<Void>(0x4DB9D03AC4E1FA84, p0, p1, p2, p3); }
+	NATIVE_DECL float _0xEBE89623EB861271(Any p0, BOOL p1) { return invoke<float>(0xEBE89623EB861271, p0, p1); }
+	NATIVE_DECL void _0x925A160133003AC6(Any p0, BOOL p1) { invoke<Void>(0x925A160133003AC6, p0, p1); }
+	NATIVE_DECL BOOL _0x0E99E3BF11BB6367(Any p0) { return invoke<BOOL>(0x0E99E3BF11BB6367, p0); }
+	NATIVE_DECL BOOL _0x3BDFCF25B58B0415(Any p0) { return invoke<BOOL>(0x3BDFCF25B58B0415, p0); }
+	NATIVE_DECL Any _0xD0B7AEB56229D317(Any p0) { return invoke<Any>(0xD0B7AEB56229D317, p0); }
+	NATIVE_DECL Any _0x2311F15D971AA680(Any p0) { return invoke<Any>(0x2311F15D971AA680, p0); }
+	NATIVE_DECL Any _0x753B15AD0FD6F3E3(Any p0) { return invoke<Any>(0x753B15AD0FD6F3E3, p0); }
+	NATIVE_DECL BOOL _0x630E7B01F091A197(Any p0, Any p1) { return invoke<BOOL>(0x630E7B01F091A197, p0, p1); }
+	NATIVE_DECL void _0x604190F0CF0DF158(Any p0, Any* p1) { invoke<Void>(0x604190F0CF0DF158, p0, p1); }
+	NATIVE_DECL void _0x789DABD18E9024DB(Any p0, Any p1, BOOL p2) { invoke<Void>(0x789DABD18E9024DB, p0, p1, p2); }
+	NATIVE_DECL void _0xEAE3B5B019C8D23F(Any p0, Any p1) { invoke<Void>(0xEAE3B5B019C8D23F, p0, p1); }
+	NATIVE_DECL Any _0xF3C873ED0C595109(Any p0) { return invoke<Any>(0xF3C873ED0C595109, p0); }
+	NATIVE_DECL void _0x8301D87B1B89E219(Any p0, Any p1) { invoke<Void>(0x8301D87B1B89E219, p0, p1); }
+	NATIVE_DECL BOOL _0x99A6E246C315BF60(Any p0, float p1) { return invoke<BOOL>(0x99A6E246C315BF60, p0, p1); }
+	NATIVE_DECL void _0x56E9C26CD29D1ED6(Any p0, Any p1) { invoke<Void>(0x56E9C26CD29D1ED6, p0, p1); }
+	NATIVE_DECL Any _0xB086C8C0F5701D14(Any p0) { return invoke<Any>(0xB086C8C0F5701D14, p0); }
+	NATIVE_DECL void _0x2208438012482A1A(Ped ped, BOOL p1, BOOL p2) { invoke<Void>(0x2208438012482A1A, ped, p1, p2); }
+	NATIVE_DECL BOOL _0xC488B8C0E52560D8(Any p0) { return invoke<BOOL>(0xC488B8C0E52560D8, p0); }
+	NATIVE_DECL void _0x6D07B371E9439019(Any p0) { invoke<Void>(0x6D07B371E9439019, p0); }
+	NATIVE_DECL void _0xD65FDC686A031C83(Any p0, Any p1, float p2) { invoke<Void>(0xD65FDC686A031C83, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x68821369A2CEADD5(Any p0, Any p1) { return invoke<BOOL>(0x68821369A2CEADD5, p0, p1); }
+	NATIVE_DECL BOOL _0xFCF37A457CB96DC0(Any p0, float p1, float p2, float p3, float p4) { return invoke<BOOL>(0xFCF37A457CB96DC0, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _TRACK_PED_VISIBILITY(Ped ped) { invoke<Void>(0x7D7A2E43E74E2EB8, ped); }
+	NATIVE_DECL void _0x3088634CF8C819CF(Any p0) { invoke<Void>(0x3088634CF8C819CF, p0); }
+	NATIVE_DECL void GET_PED_FLOOD_INVINCIBILITY(Ped ped, BOOL p1) { invoke<Void>(0x2BC338A7B21F4608, ped, p1); }
+	NATIVE_DECL void _0x75BA1CB3B7D40CAF(Ped ped, BOOL p1) { invoke<Void>(0x75BA1CB3B7D40CAF, ped, p1); }
+	NATIVE_DECL Any _0x511F1A683387C7E2(Any p0) { return invoke<Any>(0x511F1A683387C7E2, p0); }
+	NATIVE_DECL BOOL _0x164CECC59E70DF86(Any p0, float p1) { return invoke<BOOL>(0x164CECC59E70DF86, p0, p1); }
+	NATIVE_DECL BOOL _0x5102307CE88798EB(Any p0) { return invoke<BOOL>(0x5102307CE88798EB, p0); }
+	NATIVE_DECL Any _0x2D64376CF437363E(Any p0) { return invoke<Any>(0x2D64376CF437363E, p0); }
+	NATIVE_DECL BOOL _0x118D476A6F1A13F1(Any p0) { return invoke<BOOL>(0x118D476A6F1A13F1, p0); }
+	NATIVE_DECL BOOL _0xC8D523BF5BBD3808(Any p0, Any p1) { return invoke<BOOL>(0xC8D523BF5BBD3808, p0, p1); }
+	NATIVE_DECL Any _0x7F9B9791D4CB71F6(Any p0, Any p1, BOOL p2, BOOL p3) { return invoke<Any>(0x7F9B9791D4CB71F6, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0x9D9473CB82D83A30(Any p0, Any p1, BOOL p2) { return invoke<Any>(0x9D9473CB82D83A30, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x0EA9EACBA3B01601(Any p0, Any p1, BOOL p2) { return invoke<BOOL>(0x0EA9EACBA3B01601, p0, p1, p2); }
+	NATIVE_DECL Any _0xC5303F460A40D21D(Any p0, Any p1) { return invoke<Any>(0xC5303F460A40D21D, p0, p1); }
+	NATIVE_DECL void _0xE3144B932DFDFF65(Any p0, float p1, Any p2, BOOL p3, BOOL p4) { invoke<Void>(0xE3144B932DFDFF65, p0, p1, p2, p3, p4); }
+	NATIVE_DECL Any _0x0105FEE8F9091255(Any p0, Any p1) { return invoke<Any>(0x0105FEE8F9091255, p0, p1); }
+	NATIVE_DECL BOOL _0xF60165E1D2C5370B(Ped ped, Any* p1, Any* p2) { return invoke<BOOL>(0xF60165E1D2C5370B, ped, p1, p2); }
+	NATIVE_DECL float _0x46BF2A810679D6E6(Any p0, float p1) { return invoke<float>(0x46BF2A810679D6E6, p0, p1); }
+	NATIVE_DECL float _0xCA95924C893A0C91(Any p0, float p1) { return invoke<float>(0xCA95924C893A0C91, p0, p1); }
+	NATIVE_DECL void _0xBAE08F00021BFFB2(Any p0, BOOL p1) { invoke<Void>(0xBAE08F00021BFFB2, p0, p1); }
+	NATIVE_DECL void _0xCAC43D060099EA72(Any p0) { invoke<Void>(0xCAC43D060099EA72, p0); }
+	NATIVE_DECL BOOL _0xA0BC8FAED8CFEB3C(Any p0) { return invoke<BOOL>(0xA0BC8FAED8CFEB3C, p0); }
+	NATIVE_DECL BOOL _0xEBB208D6AE712C03(Any p0) { return invoke<BOOL>(0xEBB208D6AE712C03, p0); }
+	NATIVE_DECL Any _0xB676EFDA03DADA52(Any p0, BOOL p1) { return invoke<Any>(0xB676EFDA03DADA52, p0, p1); }
+	NATIVE_DECL void _0x2DF9038C90AD5264(float p0, float p1, float p2, float p3, float p4, int interiorFlags, float scale, int duration, float p8) { invoke<Void>(0x2DF9038C90AD5264, p0, p1, p2, p3, p4, interiorFlags, scale, duration, p8); }
+	NATIVE_DECL void _0xB2AFF10216DEFA2F(float x, float y, float z, float p3, float p4, float p5, float p6, int interiorFlags, float scale, int duration, float p10) { invoke<Void>(0xB2AFF10216DEFA2F, x, y, z, p3, p4, p5, p6, interiorFlags, scale, duration, p10); }
+	NATIVE_DECL void _0x8B74032DDD2156FE(Any p0, Any p1, float p2, Any p3, float p4) { invoke<Void>(0x8B74032DDD2156FE, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xFEE4A5459472A9F8() { invoke<Void>(0xFEE4A5459472A9F8); }
+	NATIVE_DECL Any _0x3C67506996001F5E() { return invoke<Any>(0x3C67506996001F5E); }
+	NATIVE_DECL Any _0xA586FBEB32A53DBB() { return invoke<Any>(0xA586FBEB32A53DBB); }
+	NATIVE_DECL Any _0xF445DE8DA80A1792() { return invoke<Any>(0xF445DE8DA80A1792); }
+	NATIVE_DECL Any _0xA635C11B8C44AFC2() { return invoke<Any>(0xA635C11B8C44AFC2); }
+	NATIVE_DECL void _0x280C7E3AC7F56E90(Any p0, Any* p1, Any* p2, Any* p3) { invoke<Void>(0x280C7E3AC7F56E90, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xB782F8238512BAD5(Any p0, Any* p1) { invoke<Void>(0xB782F8238512BAD5, p0, p1); }
+	NATIVE_DECL void _0x5C3C55EAAD19915F(Any p0, Any* p1) { invoke<Void>(0x5C3C55EAAD19915F, p0, p1); }
+	NATIVE_DECL BOOL _0xDE3904B22695D9F9(Any p0, Any* p1) { return invoke<BOOL>(0xDE3904B22695D9F9, p0, p1); }
+	NATIVE_DECL void _0xFC3BAB1801A8255A(Any p0, Any* p1) { invoke<Void>(0xFC3BAB1801A8255A, p0, p1); }
+	NATIVE_DECL void _0xF7EA250B9A919E03(Any p0, Any p1) { invoke<Void>(0xF7EA250B9A919E03, p0, p1); }
+	NATIVE_DECL BOOL _0x854BC9B1A1CCD034(Any p0, Any p1) { return invoke<BOOL>(0x854BC9B1A1CCD034, p0, p1); }
+	NATIVE_DECL void _0xDE7B2B4144906CDF(Any p0, Any p1) { invoke<Void>(0xDE7B2B4144906CDF, p0, p1); }
+	NATIVE_DECL BOOL _0x06087579E7AA85A9(Any p0, Any p1, float p2, float p3, float p4, float p5) { return invoke<BOOL>(0x06087579E7AA85A9, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0xD8C3BE3EE94CAF2D(Any p0, Any p1, Any p2, Any p3, Any p4) { invoke<Void>(0xD8C3BE3EE94CAF2D, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0x3AA24CCC0D451379(Any p0) { return invoke<BOOL>(0x3AA24CCC0D451379, p0); }
+	NATIVE_DECL BOOL _0xD453BB601D4A606E(Any p0) { return invoke<BOOL>(0xD453BB601D4A606E, p0); }
+	NATIVE_DECL Any _0x3D9F958834AB9C30(Any p0) { return invoke<Any>(0x3D9F958834AB9C30, p0); }
+	NATIVE_DECL Any _0x42429C674B61238B(Any p0) { return invoke<Any>(0x42429C674B61238B, p0); }
+	NATIVE_DECL BOOL _0x2C76FA0E01681F8D(Any p0, Any p1) { return invoke<BOOL>(0x2C76FA0E01681F8D, p0, p1); }
+	NATIVE_DECL void _0xAE6004120C18DF97(Any p0, Any p1, BOOL p2) { invoke<Void>(0xAE6004120C18DF97, p0, p1, p2); }
+	NATIVE_DECL Any _0x4642182A298187D0(Any p0, Any p1, Any* p2, Any p3, Any p4) { return invoke<Any>(0x4642182A298187D0, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0x6B67320E0D57856A(Any p0, Any* p1, Any p2, Any p3) { invoke<Void>(0x6B67320E0D57856A, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0xD806CD2A4F2C2996(Any p0) { return invoke<Any>(0xD806CD2A4F2C2996, p0); }
+	NATIVE_DECL Any _0x09B83E68DE004CD4(Any p0) { return invoke<Any>(0x09B83E68DE004CD4, p0); }
+	NATIVE_DECL Any _0xA033D7E4BBF9844D(Any p0) { return invoke<Any>(0xA033D7E4BBF9844D, p0); }
+	NATIVE_DECL Any _0x79443D56C8DF45EE(Any p0) { return invoke<Any>(0x79443D56C8DF45EE, p0); }
+	NATIVE_DECL BOOL _0x608BC6A6AACD5036(Any* p0, Any p1, Any p2, Any p3) { return invoke<BOOL>(0x608BC6A6AACD5036, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xED00D72F81CF7278(Any p0, BOOL p1, BOOL p2) { invoke<Void>(0xED00D72F81CF7278, p0, p1, p2); }
+	NATIVE_DECL void _0xB5ACE8B23A438EC0(Any p0, Any p1) { invoke<Void>(0xB5ACE8B23A438EC0, p0, p1); }
+	NATIVE_DECL BOOL _0xA911EE21EDF69DAF(Any p0) { return invoke<BOOL>(0xA911EE21EDF69DAF, p0); }
+	NATIVE_DECL Any _0x6F43C351A5D51E2F(Any p0, Any* p1) { return invoke<Any>(0x6F43C351A5D51E2F, p0, p1); }
+	NATIVE_DECL Any _0x9682F850056C9ADE(Any p0) { return invoke<Any>(0x9682F850056C9ADE, p0); }
+	NATIVE_DECL Any _0x833F0053340EF413(Any p0) { return invoke<Any>(0x833F0053340EF413, p0); }
+	NATIVE_DECL Any _0xB65A4DAB460A19BD(Any p0) { return invoke<Any>(0xB65A4DAB460A19BD, p0); }
+	NATIVE_DECL Any _0x0C31C51168E80365(Any p0) { return invoke<Any>(0x0C31C51168E80365, p0); }
+	NATIVE_DECL void _0x6569F31A01B4C097(Any p0, Any p1, BOOL p2) { invoke<Void>(0x6569F31A01B4C097, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xE4C11F104620DDCE(Any p0, Any p1) { return invoke<BOOL>(0xE4C11F104620DDCE, p0, p1); }
+	NATIVE_DECL Any _0x5463C962BC7777C3(Any p0, Any p1, Any* p2, Any p3, Any p4) { return invoke<Any>(0x5463C962BC7777C3, p0, p1, p2, p3, p4); }
+	NATIVE_DECL Any _0x14169FA823679E41(Any p0) { return invoke<Any>(0x14169FA823679E41, p0); }
+	NATIVE_DECL BOOL _0xB655DB7582AEC805(Any p0) { return invoke<BOOL>(0xB655DB7582AEC805, p0); }
+	NATIVE_DECL void _0x39ED303390DDEAC7(Any p0, BOOL p1, Any p2, Any p3, Any p4) { invoke<Void>(0x39ED303390DDEAC7, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0x7A4E00364B5D727B(Any p0) { return invoke<BOOL>(0x7A4E00364B5D727B, p0); }
+	NATIVE_DECL void _0x5240864E847C691C(Any p0, Any p1) { invoke<Void>(0x5240864E847C691C, p0, p1); }
+	NATIVE_DECL Any _0x89BFDF6D53145545(Any p0) { return invoke<Any>(0x89BFDF6D53145545, p0); }
+	NATIVE_DECL void _0x2890418B39BC8FFF(Any p0, Any p1) { invoke<Void>(0x2890418B39BC8FFF, p0, p1); }
+	NATIVE_DECL void _0x4B9668DB91DC39B8(Any p0) { invoke<Void>(0x4B9668DB91DC39B8, p0); }
+	NATIVE_DECL void _0xD67B6F3BCF81BA47(Any p0, Any p1) { invoke<Void>(0xD67B6F3BCF81BA47, p0, p1); }
+	NATIVE_DECL void _0xF6262491C7704A63(Any p0, Any p1) { invoke<Void>(0xF6262491C7704A63, p0, p1); }
+	NATIVE_DECL Any _0x88D9D76D78065487(Any p0) { return invoke<Any>(0x88D9D76D78065487, p0); }
+	NATIVE_DECL void _0x5BCF0B79D4F5DBA3(Any p0, float p1) { invoke<Void>(0x5BCF0B79D4F5DBA3, p0, p1); }
+	NATIVE_DECL void _0xB285AD0EC870B2DF(Any p0, Any p1) { invoke<Void>(0xB285AD0EC870B2DF, p0, p1); }
+	NATIVE_DECL void _0xC494C76A34266E82(Any p0, Any p1) { invoke<Void>(0xC494C76A34266E82, p0, p1); }
+	NATIVE_DECL BOOL _0xC3995D396F1D97B6(Any p0, Any p1, Any p2) { return invoke<BOOL>(0xC3995D396F1D97B6, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x947E43F544B6AB34(Any p0, Any p1, Any p2, Any p3) { return invoke<BOOL>(0x947E43F544B6AB34, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x19173C3F15367B54(Any p0, Any p1, Any p2) { invoke<Void>(0x19173C3F15367B54, p0, p1, p2); }
+	NATIVE_DECL void _0x5708EDD71B50C008(Any p0, Any p1, Any p2) { invoke<Void>(0x5708EDD71B50C008, p0, p1, p2); }
+	NATIVE_DECL Any _0x7CC2186C32D3540A(Any p0, Any p1) { return invoke<Any>(0x7CC2186C32D3540A, p0, p1); }
+	NATIVE_DECL BOOL _0x1E017404784AA6A3(Any p0, Any p1) { return invoke<BOOL>(0x1E017404784AA6A3, p0, p1); }
+	NATIVE_DECL void _0x2B4CE170DE09F346(Any p0, Any p1) { invoke<Void>(0x2B4CE170DE09F346, p0, p1); }
+	NATIVE_DECL BOOL _0x7C8AA850617651D9(Any p0, Any p1) { return invoke<BOOL>(0x7C8AA850617651D9, p0, p1); }
+	NATIVE_DECL float _0x42688E94E96FD9B4(Any p0, Any p1, Any p2) { return invoke<float>(0x42688E94E96FD9B4, p0, p1, p2); }
+	NATIVE_DECL void _0x06D26A96CA1BCA75(Any p0, Any p1, float p2, Any p3) { invoke<Void>(0x06D26A96CA1BCA75, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x33FA048675821DA7(Any p0, Any p1) { return invoke<BOOL>(0x33FA048675821DA7, p0, p1); }
+	NATIVE_DECL void _0x2EB75FB86C41F026(Any p0, Any p1, BOOL p2) { invoke<Void>(0x2EB75FB86C41F026, p0, p1, p2); }
+	NATIVE_DECL void _0xA1EB5D029E0191D3(Any p0, Any p1, float p2) { invoke<Void>(0xA1EB5D029E0191D3, p0, p1, p2); }
+	NATIVE_DECL void _0x01B21B81865E2A1F(Any p0, Any p1) { invoke<Void>(0x01B21B81865E2A1F, p0, p1); }
+	NATIVE_DECL void _0x05CE6AF4DF071D23(Any p0, float p1) { invoke<Void>(0x05CE6AF4DF071D23, p0, p1); }
+	NATIVE_DECL void _0x801917E7D7BCE418(Any p0) { invoke<Void>(0x801917E7D7BCE418, p0); }
+	NATIVE_DECL void _0xD05AD61F242C626B(Any p0, Any p1) { invoke<Void>(0xD05AD61F242C626B, p0, p1); }
+	NATIVE_DECL Any _0x226CF9B159E38F42(Any p0) { return invoke<Any>(0x226CF9B159E38F42, p0); }
+	NATIVE_DECL BOOL _0xEF3A8772F085B4AA(Any p0) { return invoke<BOOL>(0xEF3A8772F085B4AA, p0); }
+	NATIVE_DECL BOOL _0xE9B168527B337BF0(Any p0, Any p1) { return invoke<BOOL>(0xE9B168527B337BF0, p0, p1); }
+	NATIVE_DECL BOOL _0x0CAB404CD2DB41F5(Any p0, Any p1) { return invoke<BOOL>(0x0CAB404CD2DB41F5, p0, p1); }
+	NATIVE_DECL Any _0x243E1B4607040057(Any p0) { return invoke<Any>(0x243E1B4607040057, p0); }
+	NATIVE_DECL void _0x5653AB26C82938CF(Any p0, Any p1, float p2) { invoke<Void>(0x5653AB26C82938CF, p0, p1, p2); }
+	NATIVE_DECL float _0xFD1BA1EEF7985BB8(Any p0, Any p1) { return invoke<float>(0xFD1BA1EEF7985BB8, p0, p1); }
+	NATIVE_DECL BOOL _0x3E592D0486DEC0F6(Any p0) { return invoke<BOOL>(0x3E592D0486DEC0F6, p0); }
+	NATIVE_DECL BOOL _0x29FCE825613FEFCA(Any p0, Any p1) { return invoke<BOOL>(0x29FCE825613FEFCA, p0, p1); }
+	NATIVE_DECL void _0x8AC1D721B2097B6E(Any p0, float p1, float p2) { invoke<Void>(0x8AC1D721B2097B6E, p0, p1, p2); }
+	NATIVE_DECL Any _0xEC9A1261BF0CE510(Any p0) { return invoke<Any>(0xEC9A1261BF0CE510, p0); }
+	NATIVE_DECL BOOL _0xFB4891BD7578CDC1(Any p0, Any p1) { return invoke<BOOL>(0xFB4891BD7578CDC1, p0, p1); }
+	NATIVE_DECL BOOL _0x137772000DAF42C5(Any p0) { return invoke<BOOL>(0x137772000DAF42C5, p0); }
+	NATIVE_DECL void _0xFFA1594703ED27CA(Any p0, Any p1) { invoke<Void>(0xFFA1594703ED27CA, p0, p1); }
+	NATIVE_DECL void _0xBC6DF00D7A4A6819(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8) { invoke<Void>(0xBC6DF00D7A4A6819, p0, p1, p2, p3, p4, p5, p6, p7, p8); }
+	NATIVE_DECL void _0xD710A5007C2AC539(Any p0, Any p1, BOOL p2) { invoke<Void>(0xD710A5007C2AC539, p0, p1, p2); }
+	NATIVE_DECL Any _0xA622E66EEE92A08D(Any p0) { return invoke<Any>(0xA622E66EEE92A08D, p0); }
+	NATIVE_DECL Any _0xCCB97B51893C662F(Any p0, Any p1) { return invoke<Any>(0xCCB97B51893C662F, p0, p1); }
+	NATIVE_DECL Any _0x90403E8107B60E81(Any p0) { return invoke<Any>(0x90403E8107B60E81, p0); }
+	NATIVE_DECL Any _0x9B90842304C938A7(Any p0, Any p1, Any p2) { return invoke<Any>(0x9B90842304C938A7, p0, p1, p2); }
+	NATIVE_DECL void _0xCC8CA3E88256E58F(Any p0, BOOL p1, BOOL p2, BOOL p3, BOOL p4, BOOL p5) { invoke<Void>(0xCC8CA3E88256E58F, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0x1902C4CFCC5BE57C(Any p0, Any p1) { invoke<Void>(0x1902C4CFCC5BE57C, p0, p1); }
+	NATIVE_DECL Any _0x30569F348D126A5A(Any p0) { return invoke<Any>(0x30569F348D126A5A, p0); }
+	NATIVE_DECL void _0x66FF395445A88A6E(Any p0, Any p1, BOOL p2) { invoke<Void>(0x66FF395445A88A6E, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xC0E880B7A441164D(Any p0, Any p1) { return invoke<BOOL>(0xC0E880B7A441164D, p0, p1); }
+	NATIVE_DECL BOOL _0x4FF3C2B4E6A196C1(Any p0, Any p1, Any p2) { return invoke<BOOL>(0x4FF3C2B4E6A196C1, p0, p1, p2); }
+	NATIVE_DECL void _0x0BFA1BD465CDFEFD(Any p0) { invoke<Void>(0x0BFA1BD465CDFEFD, p0); }
+	NATIVE_DECL void SET_PED_VISIBLE(Any p0, BOOL p1) { invoke<Void>(0x283978A15512B2FE, p0, p1); }
+	NATIVE_DECL Any _0x10C70A515BC03707(Any p0) { return invoke<Any>(0x10C70A515BC03707, p0); }
+	NATIVE_DECL void _0x77FF8D35EEC6BBC4(Any p0, Any p1, BOOL p2) { invoke<Void>(0x77FF8D35EEC6BBC4, p0, p1, p2); }
+	NATIVE_DECL void _0xA5BAE410B03E7371(Any p0, Any p1, BOOL p2, BOOL p3) { invoke<Void>(0xA5BAE410B03E7371, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x98082246107A6ACF(Any p0, Any p1) { return invoke<BOOL>(0x98082246107A6ACF, p0, p1); }
+	NATIVE_DECL void _0x4EFC1F8FF1AD94DE(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5) { invoke<Void>(0x4EFC1F8FF1AD94DE, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL Any _0xF97C34C33487D569(Any p0, BOOL p1) { return invoke<Any>(0xF97C34C33487D569, p0, p1); }
+	NATIVE_DECL BOOL _0xC0940AC858C1E126(Any p0) { return invoke<BOOL>(0xC0940AC858C1E126, p0); }
+	NATIVE_DECL BOOL _0x43E4DA469541A9C9(Any p0) { return invoke<BOOL>(0x43E4DA469541A9C9, p0); }
+	NATIVE_DECL Any _0x0BCD4091C8EABA42(Any p0, float p1, float p2, float p3, float p4, BOOL p5, BOOL p6, BOOL p7, BOOL p8, BOOL p9) { return invoke<Any>(0x0BCD4091C8EABA42, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9); }
+	NATIVE_DECL void _0x3972F78A78B5D9DF(Any p0) { invoke<Void>(0x3972F78A78B5D9DF, p0); }
+	NATIVE_DECL Any _0x13154A76CE0CF9AB(Any p0, Any p1) { return invoke<Any>(0x13154A76CE0CF9AB, p0, p1); }
+	NATIVE_DECL void _0x4592B8B9B0EF5F48(Any p0) { invoke<Void>(0x4592B8B9B0EF5F48, p0); }
+	NATIVE_DECL Any _0x91FE941F9FCFB702(Any p0, BOOL p1) { return invoke<Any>(0x91FE941F9FCFB702, p0, p1); }
+	NATIVE_DECL Any _0xF6D9E1F3560CBF8E(Any p0, Any p1, Any p2, BOOL p3, BOOL p4) { return invoke<Any>(0xF6D9E1F3560CBF8E, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0x13E7320C762F0477(Any p0) { invoke<Void>(0x13E7320C762F0477, p0); }
+	NATIVE_DECL BOOL _0xB0B2C6D170B0E8E5(Any p0) { return invoke<BOOL>(0xB0B2C6D170B0E8E5, p0); }
+	NATIVE_DECL BOOL _0x93FFD92F05EC32FD(BOOL p0) { return invoke<BOOL>(0x93FFD92F05EC32FD, p0); }
+	NATIVE_DECL Any _0x9641A9A20310F6B8(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9) { return invoke<Any>(0x9641A9A20310F6B8, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9); }
+	NATIVE_DECL Any _0x610438375E5D1801(Any p0) { return invoke<Any>(0x610438375E5D1801, p0); }
+	NATIVE_DECL BOOL _0xB25E57FC8E37114D(Any p0) { return invoke<BOOL>(0xB25E57FC8E37114D, p0); }
+	NATIVE_DECL Any _0xEAF682A14F8E5F53(Any p0, float p1, float p2, float p3, float p4, BOOL p5, BOOL p6, BOOL p7, BOOL p8) { return invoke<Any>(0xEAF682A14F8E5F53, p0, p1, p2, p3, p4, p5, p6, p7, p8); }
+	NATIVE_DECL BOOL _0x74F512E29CB717E2(Any p0, Any p1, BOOL p2, BOOL p3) { return invoke<BOOL>(0x74F512E29CB717E2, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x314C5465195F3B30(Any p0, float p1) { invoke<Void>(0x314C5465195F3B30, p0, p1); }
+	NATIVE_DECL Any _0xB292203008EBBAAC(Any p0) { return invoke<Any>(0xB292203008EBBAAC, p0); }
+	NATIVE_DECL Any _0x0CEEB6F4780B1F2F(Any p0, Any p1) { return invoke<Any>(0x0CEEB6F4780B1F2F, p0, p1); }
+	NATIVE_DECL void _0xA73F50E8796150D5(Any p0, Any p1) { invoke<Void>(0xA73F50E8796150D5, p0, p1); }
+	NATIVE_DECL void _0xC412AA1C73111FE0(Any p0, Any p1, Any p2, Any p3, BOOL p4) { invoke<Void>(0xC412AA1C73111FE0, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0x627F7F3A0C4C51FF(Any p0, Any p1) { invoke<Void>(0x627F7F3A0C4C51FF, p0, p1); }
+	NATIVE_DECL void _0x13A210949FCBD92B(Any p0, BOOL p1) { invoke<Void>(0x13A210949FCBD92B, p0, p1); }
+	NATIVE_DECL void _0xDD9540E7B1C9714F(Any p0, Any p1, float p2, float p3, float p4) { invoke<Void>(0xDD9540E7B1C9714F, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xDE1B1907A83A1550(Any p0, float p1) { invoke<Void>(0xDE1B1907A83A1550, p0, p1); }
+	NATIVE_DECL float _0x95B8E397B8F4360F(Any p0) { return invoke<float>(0x95B8E397B8F4360F, p0); }
+	NATIVE_DECL void _0xEF5A3D2285D8924B(Any p0, float p1) { invoke<Void>(0xEF5A3D2285D8924B, p0, p1); }
+	NATIVE_DECL Any _0x825F6DD559A0895B(Any p0) { return invoke<Any>(0x825F6DD559A0895B, p0); }
+	NATIVE_DECL void _0x345C9F993A8AB4A4(Any p0, float p1) { invoke<Void>(0x345C9F993A8AB4A4, p0, p1); }
+	NATIVE_DECL Any _0xE7687EB2F634ABF0(Any p0) { return invoke<Any>(0xE7687EB2F634ABF0, p0); }
+	NATIVE_DECL BOOL _0xC3D4B754C0E86B9E(Any p0, float p1) { return invoke<BOOL>(0xC3D4B754C0E86B9E, p0, p1); }
+	NATIVE_DECL float _0x775A1CA7893AA8B5(Any p0) { return invoke<float>(0x775A1CA7893AA8B5, p0); }
+	NATIVE_DECL float _0x22F2A386D43048A9(Any p0) { return invoke<float>(0x22F2A386D43048A9, p0); }
+	NATIVE_DECL float _0xCB42AFE2B613EE55(Any p0) { return invoke<float>(0xCB42AFE2B613EE55, p0); }
+	NATIVE_DECL void _0x36513AFFC703C60D(Any p0) { invoke<Void>(0x36513AFFC703C60D, p0); }
+	NATIVE_DECL void SET_PED_STAMINA(Any p0, float p1) { invoke<Void>(0x675680D089BFA21F, p0, p1); }
+	NATIVE_DECL Any _0xFC3B580C4380B5B7(Any p0) { return invoke<Any>(0xFC3B580C4380B5B7, p0); }
+	NATIVE_DECL Any _0x16F2C8C084AB2092(Any p0) { return invoke<Any>(0x16F2C8C084AB2092, p0); }
+	NATIVE_DECL Any _0xFEAB3DB4EDB236EB(Any p0) { return invoke<Any>(0xFEAB3DB4EDB236EB, p0); }
+	NATIVE_DECL Any _0x1F714E7A9DADFC42(Any p0) { return invoke<Any>(0x1F714E7A9DADFC42, p0); }
+	NATIVE_DECL Any _0x4F5EBE70081E5A20(float p0, float p1, float p2, float p3, float p4, float p5, float p6, float p7, Any p8) { return invoke<Any>(0x4F5EBE70081E5A20, p0, p1, p2, p3, p4, p5, p6, p7, p8); }
+	NATIVE_DECL void _0x87247BC60B60BED8(Any p0) { invoke<Void>(0x87247BC60B60BED8, p0); }
+	NATIVE_DECL Any _0x57779B55B83E2BEA(Any p0) { return invoke<Any>(0x57779B55B83E2BEA, p0); }
+	NATIVE_DECL Any _0xC5E7204F322E49EB(Any p0, Any p1, Any p2) { return invoke<Any>(0xC5E7204F322E49EB, p0, p1, p2); }
+	NATIVE_DECL void _0x0B46E25761519058(Any p0, Any p1, Any p2) { invoke<Void>(0x0B46E25761519058, p0, p1, p2); }
+	NATIVE_DECL void _0x6BEFAA907B076859(Any p0) { invoke<Void>(0x6BEFAA907B076859, p0); }
+	NATIVE_DECL void _0x92DAABA2C1C10B0E(Any p0) { invoke<Void>(0x92DAABA2C1C10B0E, p0); }
+	NATIVE_DECL void _0x8472A1789478F82F(Any p0) { invoke<Void>(0x8472A1789478F82F, p0); }
+	NATIVE_DECL BOOL _0x31DC8D3F216D8509(Any p0) { return invoke<BOOL>(0x31DC8D3F216D8509, p0); }
+	NATIVE_DECL Any _0x86BB5FF45F193A02(Any p0, Any p1, Any p2, Any p3, Any p4, float p5, Any p6) { return invoke<Any>(0x86BB5FF45F193A02, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL void _0x96C349DE04C49011(Any p0, Any p1) { invoke<Void>(0x96C349DE04C49011, p0, p1); }
+	NATIVE_DECL void _0x3329AAE2882FC8E4(Any p0, Any p1, Any p2) { invoke<Void>(0x3329AAE2882FC8E4, p0, p1, p2); }
+	NATIVE_DECL void _0x6C76BC24F8BB709A(Any p0, Any p1, float p2) { invoke<Void>(0x6C76BC24F8BB709A, p0, p1, p2); }
+	NATIVE_DECL void _0x057C4F092E2298BE(Any p0, Any p1, float p2) { invoke<Void>(0x057C4F092E2298BE, p0, p1, p2); }
+	NATIVE_DECL void _0x1ED8588524AC9BE1(Any p0, Any p1, Any p2) { invoke<Void>(0x1ED8588524AC9BE1, p0, p1, p2); }
+	NATIVE_DECL void _0x2DF59FFE6FFD6044(Any p0, Any p1, Any p2, Any p3, Any p4) { invoke<Void>(0x2DF59FFE6FFD6044, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xF2EA041F1146D75B(Any p0, Any p1, Any p2, float p3, Any p4) { invoke<Void>(0xF2EA041F1146D75B, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0x253A63B5BADBC398(Any p0, Any p1, Any p2, Any p3, Any p4) { invoke<Void>(0x253A63B5BADBC398, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xB63B9178D0F58D82(Any p0) { invoke<Void>(0xB63B9178D0F58D82, p0); }
+	NATIVE_DECL BOOL _0xFB1E7998B8595825(Any p0, float p1) { return invoke<BOOL>(0xFB1E7998B8595825, p0, p1); }
+	NATIVE_DECL void _0xDDCF6FEA5D7ACC17(Any p0, Any p1) { invoke<Void>(0xDDCF6FEA5D7ACC17, p0, p1); }
+	NATIVE_DECL void _0x2A5AFD2B8381A6E1(Any p0) { invoke<Void>(0x2A5AFD2B8381A6E1, p0); }
+	NATIVE_DECL BOOL _0xA9C28516A6DC9D56(Any p0, Any p1, Any* p2, Any* p3, Any* p4, Any* p5) { return invoke<BOOL>(0xA9C28516A6DC9D56, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL BOOL _0xE7998FEC53A33BBE(Any p0, Any p1, Any* p2, Any* p3, Any* p4, Any* p5) { return invoke<BOOL>(0xE7998FEC53A33BBE, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0x5F53010C4C3F6BAF(Any p0, Any* p1, Any p2, Any p3) { invoke<Void>(0x5F53010C4C3F6BAF, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xCB9401F918CB0F75(Any p0, Any* p1, BOOL p2, Any p3) { invoke<Void>(0xCB9401F918CB0F75, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x437C08DB4FEBE2BD(Any p0, Any* p1, float p2, Any p3) { invoke<Void>(0x437C08DB4FEBE2BD, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xA762C9D6CF165E0D(Any p0, Any* p1, Any* p2, Any p3) { invoke<Void>(0xA762C9D6CF165E0D, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x81B75428A7813E67(Any p0, Any* p1) { invoke<Void>(0x81B75428A7813E67, p0, p1); }
+	NATIVE_DECL void _0xA6F67BEC53379A32(Any p0, Any* p1) { invoke<Void>(0xA6F67BEC53379A32, p0, p1); }
+	NATIVE_DECL void _0x411189E51B8020BA(Any p0, Any* p1) { invoke<Void>(0x411189E51B8020BA, p0, p1); }
+	NATIVE_DECL void _0x0E17378642156790(Any p0, Any* p1) { invoke<Void>(0x0E17378642156790, p0, p1); }
+	NATIVE_DECL BOOL _0x498F2E77982D6945(Any p0, Any* p1) { return invoke<BOOL>(0x498F2E77982D6945, p0, p1); }
+	NATIVE_DECL float _0x56E58D4D118FB45E(Any p0, Any* p1) { return invoke<float>(0x56E58D4D118FB45E, p0, p1); }
+	NATIVE_DECL Any _0xBF5E791BBBF90A3C(Any p0, Any* p1) { return invoke<Any>(0xBF5E791BBBF90A3C, p0, p1); }
+	NATIVE_DECL Any _0xB71B91B398F8F067(Any p0, Any* p1) { return invoke<Any>(0xB71B91B398F8F067, p0, p1); }
+	NATIVE_DECL BOOL _0x4912DFE492DB98CD(Any p0, Any* p1) { return invoke<BOOL>(0x4912DFE492DB98CD, p0, p1); }
+	NATIVE_DECL float _0xA29FD00D45311EB7(Any p0, Any* p1) { return invoke<float>(0xA29FD00D45311EB7, p0, p1); }
+	NATIVE_DECL void _0x7FF72DE061DF55E2(Any p0, Any p1, float p2) { invoke<Void>(0x7FF72DE061DF55E2, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xAF61B3CD8C3B82C3(Any p0) { return invoke<BOOL>(0xAF61B3CD8C3B82C3, p0); }
+	NATIVE_DECL void _0xD3A7B003ED343FD9(Any p0, Any p1, BOOL p2, BOOL p3, BOOL p4) { invoke<Void>(0xD3A7B003ED343FD9, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xDF631E4BCE1B1FC4(Any p0, Any p1, BOOL p2, BOOL p3) { invoke<Void>(0xDF631E4BCE1B1FC4, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x66B957AAC2EAAEAB(Any p0, Any p1, Any p2, BOOL p3, BOOL p4, BOOL p5) { invoke<Void>(0x66B957AAC2EAAEAB, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL Any _0x77BA37622E22023B(Any p0, Any p1, BOOL p2, Any* p3, Any* p4) { return invoke<Any>(0x77BA37622E22023B, p0, p1, p2, p3, p4); }
+	NATIVE_DECL Any _0xFFCC2DB2D9953401(Any p0, Any p1, BOOL p2) { return invoke<Any>(0xFFCC2DB2D9953401, p0, p1, p2); }
+	NATIVE_DECL Any _0x6243635AF2F1B826(Any p0, Any p1, Any p2, BOOL p3) { return invoke<Any>(0x6243635AF2F1B826, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0x5FF9A878C3D115B8(Any p0, Any p1, BOOL p2) { return invoke<Any>(0x5FF9A878C3D115B8, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x63342C50EC115CE8(Any p0, Any p1, Any p2, Any p3, BOOL p4, Any* p5, Any* p6, Any* p7, Any* p8, Any* p9, Any* p10, Any* p11, Any* p12) { return invoke<BOOL>(0x63342C50EC115CE8, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12); }
+	NATIVE_DECL Any _0xAAB86462966168CE(Any p0, BOOL p1) { return invoke<Any>(0xAAB86462966168CE, p0, p1); }
+	NATIVE_DECL Any _0x7E02E4218D916B94(Any p0, Any p1, BOOL p2) { return invoke<Any>(0x7E02E4218D916B94, p0, p1, p2); }
+	NATIVE_DECL void _0x59BD177A1A48600A(Any p0, BOOL p1) { invoke<Void>(0x59BD177A1A48600A, p0, p1); }
+	NATIVE_DECL void _0xFCA8FB9E15FA80D3(Any p0, Any p1) { invoke<Void>(0xFCA8FB9E15FA80D3, p0, p1); }
+	NATIVE_DECL void _0x4A48B6E03BABB4AC(Any p0, Any* p1) { invoke<Void>(0x4A48B6E03BABB4AC, p0, p1); }
+	NATIVE_DECL void _0xC2745D9261664901(Any p0, Any p1) { invoke<Void>(0xC2745D9261664901, p0, p1); }
+	NATIVE_DECL void _0x19B14E04B009E28B(Any p0, Any* p1) { invoke<Void>(0x19B14E04B009E28B, p0, p1); }
+	NATIVE_DECL BOOL _0xBA208A8D6399A3AC(Any p0, Any p1) { return invoke<BOOL>(0xBA208A8D6399A3AC, p0, p1); }
+	NATIVE_DECL void _0xCE6B874286D640BB(Any p0, Any p1) { invoke<Void>(0xCE6B874286D640BB, p0, p1); }
+	NATIVE_DECL Any _0x7BCC6087D130312A(Any p0) { return invoke<Any>(0x7BCC6087D130312A, p0); }
+	NATIVE_DECL void _0xCE7A6C1D5CDE1F9D(Any p0, Any p1, Any* p2, Any* p3) { invoke<Void>(0xCE7A6C1D5CDE1F9D, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x3A50753042B6891B(Any p0, Any* p1) { invoke<Void>(0x3A50753042B6891B, p0, p1); }
+	NATIVE_DECL void _0x932786CE3C76477C(Any p0, float p1) { invoke<Void>(0x932786CE3C76477C, p0, p1); }
+	NATIVE_DECL void _0x09E378C52B1433B5(Any p0, float p1, float p2, float p3, float p4) { invoke<Void>(0x09E378C52B1433B5, p0, p1, p2, p3, p4); }
+	NATIVE_DECL Any _0x2942457417A5FD24(Any p0) { return invoke<Any>(0x2942457417A5FD24, p0); }
+	NATIVE_DECL void _0xA5950E16B8F31052(Any p0, BOOL p1, float p2) { invoke<Void>(0xA5950E16B8F31052, p0, p1, p2); }
 }
 
 namespace PERSCHAR
@@ -9165,6 +10654,187 @@ namespace PLAYER
 	// Observed values: 10000 = short cooldown, 35000 = long cooldown. The wanted UI only exposes short/long states and must be cleared manually after the cooldown ends.
 	NATIVE_DECL void _SET_WANTED_COOLDOWN(int ms) { invoke<Void>(0x39D8D7082BC34B72, ms); }
 	NATIVE_DECL void _0x1AD8AD999C27F44A(Any p0) { invoke<Void>(0x1AD8AD999C27F44A, p0); }
+	NATIVE_DECL Any _0x5EBE38A20BC51C27(Any p0) { return invoke<Any>(0x5EBE38A20BC51C27, p0); }
+	NATIVE_DECL BOOL _0x0760D6F70EBCC05C(Any p0) { return invoke<BOOL>(0x0760D6F70EBCC05C, p0); }
+	NATIVE_DECL Any _0x5B6193813E03E4E9(Any* p0) { return invoke<Any>(0x5B6193813E03E4E9, p0); }
+	NATIVE_DECL void _0xEA6DE0CD15AECBE2(Any p0) { invoke<Void>(0xEA6DE0CD15AECBE2, p0); }
+	NATIVE_DECL BOOL _0x51BEA356B1C60225(Any p0, Any p1) { return invoke<BOOL>(0x51BEA356B1C60225, p0, p1); }
+	NATIVE_DECL void _0x0751D461F06E41CE(Any p0, Any p1, Any p2, BOOL p3) { invoke<Void>(0x0751D461F06E41CE, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x6614F9039BD31931(Any p0, Any p1, Any p2) { return invoke<BOOL>(0x6614F9039BD31931, p0, p1, p2); }
+	NATIVE_DECL void _0xA3DB37EDF9A74635(Any p0, Any p1, Any p2, Any p3, BOOL p4) { invoke<Void>(0xA3DB37EDF9A74635, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0xEA8F168A76A0B9BC(Any p0, Any p1, Any p2, Any p3) { return invoke<BOOL>(0xEA8F168A76A0B9BC, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x16752DAA7E6D3F72(Player player) { invoke<Void>(0x16752DAA7E6D3F72, player); }
+	NATIVE_DECL void _0x8674D138391FFB1B(Any p0, BOOL p1) { invoke<Void>(0x8674D138391FFB1B, p0, p1); }
+	NATIVE_DECL Any _0xA82964B9D8D6A983() { return invoke<Any>(0xA82964B9D8D6A983); }
+	NATIVE_DECL void _0xD0B0B044112BF424(Player player) { invoke<Void>(0xD0B0B044112BF424, player); }
+	NATIVE_DECL void _0x96722257E5381E00(Player player) { invoke<Void>(0x96722257E5381E00, player); }
+	NATIVE_DECL void _0xCBCCF73FFA69CC6B(Player player) { invoke<Void>(0xCBCCF73FFA69CC6B, player); }
+	NATIVE_DECL void _0xD2DFC9CCA5596A11(float p0) { invoke<Void>(0xD2DFC9CCA5596A11, p0); }
+	NATIVE_DECL void _0x5CE5CACC01D0F985() { invoke<Void>(0x5CE5CACC01D0F985); }
+	NATIVE_DECL BOOL _0x1A51BFE60708E482(Any p0) { return invoke<BOOL>(0x1A51BFE60708E482, p0); }
+	NATIVE_DECL BOOL _0x3EE1F7A8C32F24E1(Any p0, Any* p1, BOOL p2, BOOL p3) { return invoke<BOOL>(0x3EE1F7A8C32F24E1, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0xBEA3A6E5F5F79A6F(Any p0, Any* p1) { return invoke<BOOL>(0xBEA3A6E5F5F79A6F, p0, p1); }
+	NATIVE_DECL BOOL _0x04D7F33640662FA2(Any p0) { return invoke<BOOL>(0x04D7F33640662FA2, p0); }
+	NATIVE_DECL BOOL _0x7AE93C45EC14A166(Any p0, Any* p1) { return invoke<BOOL>(0x7AE93C45EC14A166, p0, p1); }
+	NATIVE_DECL void _0xD1A70C1E8D1031FE(Any p0, BOOL p1) { invoke<Void>(0xD1A70C1E8D1031FE, p0, p1); }
+	NATIVE_DECL void _0xACA45DDCEF6071C4(Any p0, BOOL p1) { invoke<Void>(0xACA45DDCEF6071C4, p0, p1); }
+	NATIVE_DECL void _0xA0C683284DF027C7(Any p0, Any p1, BOOL p2) { invoke<Void>(0xA0C683284DF027C7, p0, p1, p2); }
+	NATIVE_DECL void _0xAC22AA6DF4D1C1DE(Any p0, Any p1, float p2, float p3, Any p4, Any p5, BOOL p6) { invoke<Void>(0xAC22AA6DF4D1C1DE, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL void _0x0C6B89876262A99D(Any p0, Any p1) { invoke<Void>(0x0C6B89876262A99D, p0, p1); }
+	NATIVE_DECL BOOL _0x2009F8AB7A5E9D6D(Any p0) { return invoke<BOOL>(0x2009F8AB7A5E9D6D, p0); }
+	NATIVE_DECL BOOL _0xE24C64D9ADED2EF5(Any p0, Any p1) { return invoke<BOOL>(0xE24C64D9ADED2EF5, p0, p1); }
+	NATIVE_DECL Any _0xE631EAF35828FA67(Any p0) { return invoke<Any>(0xE631EAF35828FA67, p0); }
+	NATIVE_DECL void _0xCBB54CC7FFFFAB86(Any p0, Any p1, BOOL p2, BOOL p3) { invoke<Void>(0xCBB54CC7FFFFAB86, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x6ADF821FBF21920E(Any p0, Any p1) { invoke<Void>(0x6ADF821FBF21920E, p0, p1); }
+	NATIVE_DECL void _0x8F2A81C09DA9124A(Any p0) { invoke<Void>(0x8F2A81C09DA9124A, p0); }
+	NATIVE_DECL void _0x39BED552DB46FFA9(Any p0, Any p1) { invoke<Void>(0x39BED552DB46FFA9, p0, p1); }
+	NATIVE_DECL Any _0x054473164C012699(Any p0) { return invoke<Any>(0x054473164C012699, p0); }
+	NATIVE_DECL void _0x3946FC742AC305CD(Any p0, Any p1, Any* p2, float p3, float p4, float p5, Any p6, Any* p7) { invoke<Void>(0x3946FC742AC305CD, p0, p1, p2, p3, p4, p5, p6, p7); }
+	NATIVE_DECL void _0xC67A4910425F11F1(Any p0, Any* p1) { invoke<Void>(0xC67A4910425F11F1, p0, p1); }
+	NATIVE_DECL void _0x4A056257802DD3E5(Any p0, BOOL p1) { invoke<Void>(0x4A056257802DD3E5, p0, p1); }
+	NATIVE_DECL void _0x19B4F71703902238(Any p0) { invoke<Void>(0x19B4F71703902238, p0); }
+	NATIVE_DECL BOOL _0x72AD59F7B7FB6E24(Any p0, Any p1) { return invoke<BOOL>(0x72AD59F7B7FB6E24, p0, p1); }
+	NATIVE_DECL BOOL _0x1A6E84F13C952094(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x1A6E84F13C952094, p0, p1, p2); }
+	NATIVE_DECL void _0x78B3D19AF6391A55(Any p0, Any* p1) { invoke<Void>(0x78B3D19AF6391A55, p0, p1); }
+	NATIVE_DECL void _0x95EE1DEE1DCD9070(Any p0, BOOL p1) { invoke<Void>(0x95EE1DEE1DCD9070, p0, p1); }
+	NATIVE_DECL BOOL _0xDE6C85975F9D4894(Any p0) { return invoke<BOOL>(0xDE6C85975F9D4894, p0); }
+	NATIVE_DECL void _0xBBA140062B15A8AC(Any p0) { invoke<Void>(0xBBA140062B15A8AC, p0); }
+	NATIVE_DECL void _0xAE637BB8EF017875(Any p0, BOOL p1) { invoke<Void>(0xAE637BB8EF017875, p0, p1); }
+	NATIVE_DECL BOOL _0xB16223CB7DA965F0(Any p0) { return invoke<BOOL>(0xB16223CB7DA965F0, p0); }
+	NATIVE_DECL void _0x28A13BF6B05C3D83(Any p0, BOOL p1) { invoke<Void>(0x28A13BF6B05C3D83, p0, p1); }
+	NATIVE_DECL void _0xC0B21F235C02139C(Any p0) { invoke<Void>(0xC0B21F235C02139C, p0); }
+	NATIVE_DECL void _0x51345AE20F22C261(Any p0, float p1, BOOL p2, BOOL p3, BOOL p4) { invoke<Void>(0x51345AE20F22C261, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0x2498035289B5688F(Any p0, float p1) { invoke<Void>(0x2498035289B5688F, p0, p1); }
+	NATIVE_DECL float _0x811A748B1BE231BA(Any p0) { return invoke<float>(0x811A748B1BE231BA, p0); }
+	NATIVE_DECL float _0x029884FB65821B07(Any p0) { return invoke<float>(0x029884FB65821B07, p0); }
+	NATIVE_DECL void _0x200114E99552462B(Any p0, float p1, BOOL p2) { invoke<Void>(0x200114E99552462B, p0, p1, p2); }
+	NATIVE_DECL void RESTORE_SPECIAL_ABILITY(Any p0, Any p1, BOOL p2) { invoke<Void>(0x1D77B47AFA584E90, p0, p1, p2); }
+	NATIVE_DECL void _0x5A498FCA232F71E1(Any p0, float p1) { invoke<Void>(0x5A498FCA232F71E1, p0, p1); }
+	NATIVE_DECL float _0xAB3773E7AA1E9DCC(Any p0) { return invoke<float>(0xAB3773E7AA1E9DCC, p0); }
+	NATIVE_DECL void _0x00BA333DA05ADC23(Any p0, Any p1) { invoke<Void>(0x00BA333DA05ADC23, p0, p1); }
+	NATIVE_DECL void _0xB783F75940B23014(Any p0, float p1) { invoke<Void>(0xB783F75940B23014, p0, p1); }
+	NATIVE_DECL void _0xC0B1C05B313693D1(Any p0, float p1) { invoke<Void>(0xC0B1C05B313693D1, p0, p1); }
+	NATIVE_DECL void _0xAE4BCC79C587EBBF(Any p0, float p1, BOOL p2) { invoke<Void>(0xAE4BCC79C587EBBF, p0, p1, p2); }
+	NATIVE_DECL float _0x3A6AE4EEE30370FE(Any p0, BOOL p1) { return invoke<float>(0x3A6AE4EEE30370FE, p0, p1); }
+	NATIVE_DECL float _0xA81D24AE0AF99A5E(Any p0) { return invoke<float>(0xA81D24AE0AF99A5E, p0); }
+	NATIVE_DECL float _0xDF66A37936D5F3D9(Any p0) { return invoke<float>(0xDF66A37936D5F3D9, p0); }
+	NATIVE_DECL float _0x592F58BC4D2A2CF3(Any p0, BOOL p1) { return invoke<float>(0x592F58BC4D2A2CF3, p0, p1); }
+	NATIVE_DECL float _0x0317C947D062854E(Any p0) { return invoke<float>(0x0317C947D062854E, p0); }
+	NATIVE_DECL float _0x0FF421E467373FCF(Any p0) { return invoke<float>(0x0FF421E467373FCF, p0); }
+	NATIVE_DECL void _0x768E81AE285A4B67(Any p0, Any p1) { invoke<Void>(0x768E81AE285A4B67, p0, p1); }
+	NATIVE_DECL void _0x0E1DB1F8F5B561DC(float p0, float p1, float p2, Any p3, Any p4, Any p5) { invoke<Void>(0x0E1DB1F8F5B561DC, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0xA63FCAD3A6FEC6D2(Any p0, BOOL p1) { invoke<Void>(0xA63FCAD3A6FEC6D2, p0, p1); }
+	NATIVE_DECL BOOL _0xE022CC1B545F1D9F(Any p0) { return invoke<BOOL>(0xE022CC1B545F1D9F, p0); }
+	NATIVE_DECL void _0x1710BC33CFB83634(Any p0) { invoke<Void>(0x1710BC33CFB83634, p0); }
+	NATIVE_DECL void _0x64FF4BF9AF59E139(Any p0, BOOL p1) { invoke<Void>(0x64FF4BF9AF59E139, p0, p1); }
+	NATIVE_DECL BOOL _0x45AB66D02B601FA7(Any p0) { return invoke<BOOL>(0x45AB66D02B601FA7, p0); }
+	NATIVE_DECL BOOL _HAS_PLAYER_TELEPORT_FINISHED(Player player) { return invoke<BOOL>(0xC39DCE4672CBFBC1, player); }
+	NATIVE_DECL float _0x22CD23BB0C45E0CD(Any p0) { return invoke<float>(0x22CD23BB0C45E0CD, p0); }
+	NATIVE_DECL void _0x535ED4605F89AB6E(Any p0, float p1) { invoke<Void>(0x535ED4605F89AB6E, p0, p1); }
+	NATIVE_DECL void _0xFECA17CF3343694B(Any p0, float p1) { invoke<Void>(0xFECA17CF3343694B, p0, p1); }
+	NATIVE_DECL float _0x617D3494AD58200F(Any p0) { return invoke<float>(0x617D3494AD58200F, p0); }
+	NATIVE_DECL void _0xBBADFB5E5E5766FB(Any p0, float p1) { invoke<Void>(0xBBADFB5E5E5766FB, p0, p1); }
+	NATIVE_DECL float _0x68A0389E0718AC8F(Any p0) { return invoke<float>(0x68A0389E0718AC8F, p0); }
+	NATIVE_DECL void _0x8FBF9EDB378CCB8C(Any p0, Any p1) { invoke<Void>(0x8FBF9EDB378CCB8C, p0, p1); }
+	NATIVE_DECL Any _0x46FA0AE18F4C7FA9(Any p0) { return invoke<Any>(0x46FA0AE18F4C7FA9, p0); }
+	NATIVE_DECL void _0xD2CB0FB0FDCB473D(Any p0, Any p1) { invoke<Void>(0xD2CB0FB0FDCB473D, p0, p1); }
+	NATIVE_DECL Any _0xB48050D326E9A2F3(Any p0) { return invoke<Any>(0xB48050D326E9A2F3, p0); }
+	NATIVE_DECL BOOL _0x227B06324234FB09(Any p0, Any p1) { return invoke<BOOL>(0x227B06324234FB09, p0, p1); }
+	NATIVE_DECL Any _0xD3F7445CEA2E5035(Any p0) { return invoke<Any>(0xD3F7445CEA2E5035, p0); }
+	NATIVE_DECL void _0xDF93973251FB2CA5(Any p0, BOOL p1) { invoke<Void>(0xDF93973251FB2CA5, p0, p1); }
+	NATIVE_DECL void _0x09C28F828EE674FA(Any p0, float p1, Any p2) { invoke<Void>(0x09C28F828EE674FA, p0, p1, p2); }
+	NATIVE_DECL void _0x2D3ACE3DE0A2B622(Any p0, float p1) { invoke<Void>(0x2D3ACE3DE0A2B622, p0, p1); }
+	NATIVE_DECL void _0xB427911EA6DFFEF3(Any p0, float p1) { invoke<Void>(0xB427911EA6DFFEF3, p0, p1); }
+	NATIVE_DECL void _0x914071FF93AF2692(Any p0, float p1) { invoke<Void>(0x914071FF93AF2692, p0, p1); }
+	NATIVE_DECL float _0x2E78D822208E740A(Any p0) { return invoke<float>(0x2E78D822208E740A, p0); }
+	NATIVE_DECL void _0x497A6539BB0E8787(Any p0, float p1, float p2) { invoke<Void>(0x497A6539BB0E8787, p0, p1, p2); }
+	NATIVE_DECL void _0x93F499CAE53FCD05(Any p0, Any p1, float p2) { invoke<Void>(0x93F499CAE53FCD05, p0, p1, p2); }
+	NATIVE_DECL void _0xD04AD186CE8BB129(Any p0, Any p1, float p2) { invoke<Void>(0xD04AD186CE8BB129, p0, p1, p2); }
+	NATIVE_DECL float _0xFE0304050261442C(Any p0, Any p1) { return invoke<float>(0xFE0304050261442C, p0, p1); }
+	NATIVE_DECL void _0xFC79DCC94D0A5897(Any p0, Any p1, float p2) { invoke<Void>(0xFC79DCC94D0A5897, p0, p1, p2); }
+	NATIVE_DECL void _0x59F0AFF3E0A1B019(Any p0, Any p1, BOOL p2) { invoke<Void>(0x59F0AFF3E0A1B019, p0, p1, p2); }
+	NATIVE_DECL void _0xAF341032E97FB061(Any p0, float p1) { invoke<Void>(0xAF341032E97FB061, p0, p1); }
+	NATIVE_DECL void _0x43F50A7CD2482156(Any p0, float p1) { invoke<Void>(0x43F50A7CD2482156, p0, p1); }
+	NATIVE_DECL void _0x967FF5BC0CFE6D26(Any p0, float p1) { invoke<Void>(0x967FF5BC0CFE6D26, p0, p1); }
+	NATIVE_DECL void _0x4EA69188FBCE6A7D(Any p0, float p1) { invoke<Void>(0x4EA69188FBCE6A7D, p0, p1); }
+	NATIVE_DECL void _0xDEE80FEDFDD43C9B(Any p0, float p1) { invoke<Void>(0xDEE80FEDFDD43C9B, p0, p1); }
+	NATIVE_DECL BOOL _0xFB6EB8785F808551(Player player, int p1, BOOL p2) { return invoke<BOOL>(0xFB6EB8785F808551, player, p1, p2); }
+	NATIVE_DECL void _0x5B9813ECF7633FE8(BOOL p0) { invoke<Void>(0x5B9813ECF7633FE8, p0); }
+	NATIVE_DECL Any _0xCCE7C695C164C35F(Any p0) { return invoke<Any>(0xCCE7C695C164C35F, p0); }
+	NATIVE_DECL void _0xF0FE8E790BFEB5BB(Any p0, Any p1) { invoke<Void>(0xF0FE8E790BFEB5BB, p0, p1); }
+	NATIVE_DECL BOOL _0x8A0643B0B4CA276B(Any p0, Any p1) { return invoke<BOOL>(0x8A0643B0B4CA276B, p0, p1); }
+	NATIVE_DECL void _0x2797B8D66DD0EBB8(Any p0, Any p1, BOOL p2) { invoke<Void>(0x2797B8D66DD0EBB8, p0, p1, p2); }
+	NATIVE_DECL void _0x6B5DDFB967E5073D(Any p0, BOOL p1) { invoke<Void>(0x6B5DDFB967E5073D, p0, p1); }
+	NATIVE_DECL BOOL _0x32348719DCED2969(Any p0) { return invoke<BOOL>(0x32348719DCED2969, p0); }
+	NATIVE_DECL void _0x83FCD6921FC8FD05(Any p0, Any p1) { invoke<Void>(0x83FCD6921FC8FD05, p0, p1); }
+	NATIVE_DECL float _0xE92261BD28C0878F(Any p0) { return invoke<float>(0xE92261BD28C0878F, p0); }
+	NATIVE_DECL void _0x870634493CB4372C(Any p0, float p1) { invoke<Void>(0x870634493CB4372C, p0, p1); }
+	NATIVE_DECL Any _0x27AD7162D3FED01E(Any p0, Any p1) { return invoke<Any>(0x27AD7162D3FED01E, p0, p1); }
+	NATIVE_DECL Any _0xCCD9B77F70D31C9D(Any p0) { return invoke<Any>(0xCCD9B77F70D31C9D, p0); }
+	NATIVE_DECL void _0x2B12B6FC8B8772AB(Any p0, Any p1) { invoke<Void>(0x2B12B6FC8B8772AB, p0, p1); }
+	NATIVE_DECL void _0xE910932F4B30BE23(Any p0) { invoke<Void>(0xE910932F4B30BE23, p0); }
+	NATIVE_DECL void _0x131E294EF60160DF(Any p0, float p1, float p2, float p3, float p4, Any p5) { invoke<Void>(0x131E294EF60160DF, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0x0E9057A9DA78D0F8(Any p0, Any p1) { invoke<Void>(0x0E9057A9DA78D0F8, p0, p1); }
+	NATIVE_DECL void _0x543DFE14BE720027(Any p0, Any p1, BOOL p2) { invoke<Void>(0x543DFE14BE720027, p0, p1, p2); }
+	NATIVE_DECL void _0xAC67098A1E54ABB0(Any p0, Any p1, Any* p2) { invoke<Void>(0xAC67098A1E54ABB0, p0, p1, p2); }
+	NATIVE_DECL void _0x9DAE1380CC5C6451(Any p0, Any p1) { invoke<Void>(0x9DAE1380CC5C6451, p0, p1); }
+	NATIVE_DECL void _0x9A957912CE2EABD1(Any p0, Any p1, Any* p2) { invoke<Void>(0x9A957912CE2EABD1, p0, p1, p2); }
+	NATIVE_DECL void _0xE5D3EB37ABC1EB03(Any p0) { invoke<Void>(0xE5D3EB37ABC1EB03, p0); }
+	NATIVE_DECL BOOL _0x0E6846476906C9DD(Any p0, Any p1) { return invoke<BOOL>(0x0E6846476906C9DD, p0, p1); }
+	NATIVE_DECL void _0x40AB73092C95B5F5(Any p0, Any* p1, Any p2, Any p3) { invoke<Void>(0x40AB73092C95B5F5, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x6ECFC621A168424C(Any p0, Any p1, Any p2) { invoke<Void>(0x6ECFC621A168424C, p0, p1, p2); }
+	NATIVE_DECL void _0xDC5E09D012D759C4(Any p0, Any p1, Any p2) { invoke<Void>(0xDC5E09D012D759C4, p0, p1, p2); }
+	NATIVE_DECL void _0x330CA55A3647FA1C(Any p0, BOOL p1) { invoke<Void>(0x330CA55A3647FA1C, p0, p1); }
+	NATIVE_DECL BOOL _0xA62BBAAE67A05BB0(Any p0) { return invoke<BOOL>(0xA62BBAAE67A05BB0, p0); }
+	NATIVE_DECL void _0x2C41D93F550D5E37(Any p0, BOOL p1, Any* p2) { invoke<Void>(0x2C41D93F550D5E37, p0, p1, p2); }
+	NATIVE_DECL void _0x22C8B10802301381(Any p0, Any p1) { invoke<Void>(0x22C8B10802301381, p0, p1); }
+	NATIVE_DECL void _0xE0D6C2A146A5C993(Any p0, float p1) { invoke<Void>(0xE0D6C2A146A5C993, p0, p1); }
+	NATIVE_DECL void _0xCE285A4413B00B7F(Any p0, Any p1) { invoke<Void>(0xCE285A4413B00B7F, p0, p1); }
+	NATIVE_DECL Any _0x3813E11A378958A5(Any p0) { return invoke<Any>(0x3813E11A378958A5, p0); }
+	NATIVE_DECL void _0x2AF423D6ECB2C485(Any p0, Any p1) { invoke<Void>(0x2AF423D6ECB2C485, p0, p1); }
+	NATIVE_DECL void _0xDFC85C5199045026(Any p0, float p1) { invoke<Void>(0xDFC85C5199045026, p0, p1); }
+	NATIVE_DECL Any _0x1DA5C5B0923E1B85(Any p0) { return invoke<Any>(0x1DA5C5B0923E1B85, p0); }
+	NATIVE_DECL void _0x62ED71E133B6C9F1(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0x62ED71E133B6C9F1, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xBC02B3D151D3859F(Any p0, BOOL p1) { invoke<Void>(0xBC02B3D151D3859F, p0, p1); }
+	NATIVE_DECL void _0x907B16B3834C69E2(Any p0, float p1) { invoke<Void>(0x907B16B3834C69E2, p0, p1); }
+	NATIVE_DECL void _0x292F0B6EDC82E3A4(Any p0, float p1) { invoke<Void>(0x292F0B6EDC82E3A4, p0, p1); }
+	NATIVE_DECL void _0x7146CF430965927C(Any p0, BOOL p1) { invoke<Void>(0x7146CF430965927C, p0, p1); }
+	NATIVE_DECL void _0xE133C1EC5300F740(Any p0, Any p1, Any p2) { invoke<Void>(0xE133C1EC5300F740, p0, p1, p2); }
+	NATIVE_DECL void _0x00EB5A760638DB55(Any p0, Any p1, float p2) { invoke<Void>(0x00EB5A760638DB55, p0, p1, p2); }
+	NATIVE_DECL void _0x11A7FF918EF6BC66(Any p0, float p1) { invoke<Void>(0x11A7FF918EF6BC66, p0, p1); }
+	NATIVE_DECL void _0xBE0C524970892D41(Any p0, float p1) { invoke<Void>(0xBE0C524970892D41, p0, p1); }
+	NATIVE_DECL void _0xFE7C9CF376D23342(Any p0, float p1) { invoke<Void>(0xFE7C9CF376D23342, p0, p1); }
+	NATIVE_DECL void _0x7761A30432C91297(Any p0, float p1, float p2) { invoke<Void>(0x7761A30432C91297, p0, p1, p2); }
+	NATIVE_DECL void _0x5006C36652D6EC56(Any p0, float p1) { invoke<Void>(0x5006C36652D6EC56, p0, p1); }
+	NATIVE_DECL void _0xED591CB17C8BA216(Any p0, float p1, float p2) { invoke<Void>(0xED591CB17C8BA216, p0, p1, p2); }
+	NATIVE_DECL void _0x1F0E3A4434565F8F(Any p0, float p1) { invoke<Void>(0x1F0E3A4434565F8F, p0, p1); }
+	NATIVE_DECL void _0xC6366A585659D15C(Any p0, Any* p1) { invoke<Void>(0xC6366A585659D15C, p0, p1); }
+	NATIVE_DECL void _0x98CD760DE43B612E(Any p0, Any* p1) { invoke<Void>(0x98CD760DE43B612E, p0, p1); }
+	NATIVE_DECL void _0x0FAF95D71ED67ADE(Any p0, Any* p1) { invoke<Void>(0x0FAF95D71ED67ADE, p0, p1); }
+	NATIVE_DECL void _0xCFFC3ECCD7A5CCEB(Any p0, Any p1, Any p2) { invoke<Void>(0xCFFC3ECCD7A5CCEB, p0, p1, p2); }
+	NATIVE_DECL void _0x9F9A829C6751F3C7(Any p0, Any p1, BOOL p2) { invoke<Void>(0x9F9A829C6751F3C7, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xFE691E89C08937B6(Any p0, Any p1) { return invoke<BOOL>(0xFE691E89C08937B6, p0, p1); }
+	NATIVE_DECL Any _0xF49F14462F0AE27C(Any p0) { return invoke<Any>(0xF49F14462F0AE27C, p0); }
+	NATIVE_DECL Any _0xAD03B03737CE6810(Any p0) { return invoke<Any>(0xAD03B03737CE6810, p0); }
+	NATIVE_DECL void _0xE6D4E435B56D5BD0(Any p0, Any p1) { invoke<Void>(0xE6D4E435B56D5BD0, p0, p1); }
+	NATIVE_DECL Any _0xB9050A97594C8832(Any p0) { return invoke<Any>(0xB9050A97594C8832, p0); }
+	NATIVE_DECL Any _0x7C803BDC8343228D(Any p0) { return invoke<Any>(0x7C803BDC8343228D, p0); }
+	NATIVE_DECL void _0xD0E02AA618020D17(Any p0, Any p1) { invoke<Void>(0xD0E02AA618020D17, p0, p1); }
+	NATIVE_DECL Any _0x5CA6BBD4A7D8145E(Any p0) { return invoke<Any>(0x5CA6BBD4A7D8145E, p0); }
+	NATIVE_DECL void _0x6A4404BDFA62CE2C(Any p0, Any p1) { invoke<Void>(0x6A4404BDFA62CE2C, p0, p1); }
+	NATIVE_DECL Any _0x0139637A3BFF8B6D(Any p0, Any* p1) { return invoke<Any>(0x0139637A3BFF8B6D, p0, p1); }
+	NATIVE_DECL Any _0x8E84119A23C16623(Any p0, Any p1, Any p2) { return invoke<Any>(0x8E84119A23C16623, p0, p1, p2); }
+	NATIVE_DECL Any _0x0335106F3ACABBED(Any p0) { return invoke<Any>(0x0335106F3ACABBED, p0); }
+	NATIVE_DECL Any _0x755E08680F21EF30(Any p0) { return invoke<Any>(0x755E08680F21EF30, p0); }
+	NATIVE_DECL Any _0x36E3D8B5A6552FE8(Any p0) { return invoke<Any>(0x36E3D8B5A6552FE8, p0); }
+	NATIVE_DECL void _0x946D46CD6DFB9742(Any p0, Any p1, Any p2) { invoke<Void>(0x946D46CD6DFB9742, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x0772F87D7B07719A(Any p0, Any p1, Any p2) { return invoke<BOOL>(0x0772F87D7B07719A, p0, p1, p2); }
+	NATIVE_DECL void _0x7C32191D9FB2BDEA(Any p0) { invoke<Void>(0x7C32191D9FB2BDEA, p0); }
+	NATIVE_DECL BOOL _0x354F689C4FFAAB37(Any p0) { return invoke<BOOL>(0x354F689C4FFAAB37, p0); }
+	NATIVE_DECL void _0xFB0E622B401884D3(Any p0) { invoke<Void>(0xFB0E622B401884D3, p0); }
+	NATIVE_DECL void _0xDC68829BB3F37023(Any p0, BOOL p1) { invoke<Void>(0xDC68829BB3F37023, p0, p1); }
+	NATIVE_DECL void _0x5F8E0303C229C84B(Any p0, Any* p1) { invoke<Void>(0x5F8E0303C229C84B, p0, p1); }
+	NATIVE_DECL void _0x506CE71FB6E8CF5E(Any p0, Any p1) { invoke<Void>(0x506CE71FB6E8CF5E, p0, p1); }
 }
 
 namespace POPULATION
@@ -9207,6 +10877,23 @@ namespace POPULATION
 	// Only used for Special Event (XMAS).
 	// _SET_P*
 	NATIVE_DECL void _0xEC116EDB683AD479(BOOL p0) { invoke<Void>(0xEC116EDB683AD479, p0); }
+	NATIVE_DECL Any _0xA1E3171ED0E47564(Any p0) { return invoke<Any>(0xA1E3171ED0E47564, p0); }
+	NATIVE_DECL Any _0x3EAFA1C533B7139E(Any p0, Any p1) { return invoke<Any>(0x3EAFA1C533B7139E, p0, p1); }
+	NATIVE_DECL Any _0x6B12ED8C77E8567B(Any p0, Any p1, Any p2, BOOL p3, BOOL p4, float p5, float p6, float p7) { return invoke<Any>(0x6B12ED8C77E8567B, p0, p1, p2, p3, p4, p5, p6, p7); }
+	NATIVE_DECL Any _0x9AC1C64FE46B6D09(Any p0) { return invoke<Any>(0x9AC1C64FE46B6D09, p0); }
+	NATIVE_DECL void _0xA6E6A66FC4CA4224(Any p0) { invoke<Void>(0xA6E6A66FC4CA4224, p0); }
+	NATIVE_DECL BOOL _0xA5BD585005EFCAD4(Any p0) { return invoke<BOOL>(0xA5BD585005EFCAD4, p0); }
+	NATIVE_DECL void _0x3E6A49D9B519E85C(Any p0, Any p1) { invoke<Void>(0x3E6A49D9B519E85C, p0, p1); }
+	NATIVE_DECL void _0x60CDE717A6D47769(Any p0, Any p1, Any p2) { invoke<Void>(0x60CDE717A6D47769, p0, p1, p2); }
+	NATIVE_DECL void _0x217A54DE2D200305(Any p0, Any p1) { invoke<Void>(0x217A54DE2D200305, p0, p1); }
+	NATIVE_DECL void _0xB56D41A694E42E86(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6) { invoke<Void>(0xB56D41A694E42E86, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL void _0x74C2B3DC0B294102(Any p0) { invoke<Void>(0x74C2B3DC0B294102, p0); }
+	NATIVE_DECL void _0x18262CAFEBB5FBE1(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6) { invoke<Void>(0x18262CAFEBB5FBE1, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL void _0xA1CFB35069D23C23(Any p0) { invoke<Void>(0xA1CFB35069D23C23, p0); }
+	NATIVE_DECL void _0xF74E134F40192884(Any p0, Any p1) { invoke<Void>(0xF74E134F40192884, p0, p1); }
+	NATIVE_DECL void _0xC6DCC2A3A8825C85(Any p0) { invoke<Void>(0xC6DCC2A3A8825C85, p0); }
+	NATIVE_DECL void _0xBC90BDF4E5228EA1() { invoke<Void>(0xBC90BDF4E5228EA1); }
+	NATIVE_DECL Any _0x595478B3BBC3076D() { return invoke<Any>(0x595478B3BBC3076D); }
 }
 
 namespace POSSE
@@ -9312,6 +10999,7 @@ namespace RECORDING
 	// 
 	// Old name: _STOP_RECORDING_THIS_FRAME
 	NATIVE_DECL void REPLAY_PREVENT_RECORDING_THIS_FRAME() { invoke<Void>(0xA8C44C13419634F2); }
+	NATIVE_DECL void _0xA8C44C13419634F2() { invoke<Void>(0xA8C44C13419634F2); }
 }
 
 namespace REPLAY
@@ -9478,6 +11166,60 @@ namespace SCRIPT
 	NATIVE_DECL int START_NEW_SCRIPT_WITH_ARGS(const char* scriptName, Any* args, int argCount, int stackSize) { return invoke<int>(0xB8BA7F44DF1575E1, scriptName, args, argCount, stackSize); }
 	NATIVE_DECL int START_NEW_SCRIPT_WITH_NAME_HASH(Hash scriptHash, int stackSize) { return invoke<int>(0xEB1C67C3A5333A92, scriptHash, stackSize); }
 	NATIVE_DECL int START_NEW_SCRIPT_WITH_NAME_HASH_AND_ARGS(Hash scriptHash, Any* args, int argCount, int stackSize) { return invoke<int>(0xC4BB298BD441BE78, scriptHash, args, argCount, stackSize); }
+	NATIVE_DECL void _0x31010318BA9897AC(Any* p0, BOOL p1) { invoke<Void>(0x31010318BA9897AC, p0, p1); }
+	NATIVE_DECL void _0xD426E2E3288469D6(Any* p0, BOOL p1) { invoke<Void>(0xD426E2E3288469D6, p0, p1); }
+	NATIVE_DECL void _0x20F4CB76689ACDBC(Any* p0) { invoke<Void>(0x20F4CB76689ACDBC, p0); }
+	NATIVE_DECL void _0xDE544B7EC0C187CC(Any* p0) { invoke<Void>(0xDE544B7EC0C187CC, p0); }
+	NATIVE_DECL Any _0x72B2E00C9BAC6789(Any* p0, Any p1) { return invoke<Any>(0x72B2E00C9BAC6789, p0, p1); }
+	NATIVE_DECL BOOL _0x179A6F0EE2E79026(Any* p0) { return invoke<BOOL>(0x179A6F0EE2E79026, p0); }
+	NATIVE_DECL Any _0xFA3B530A5CC693D5(Any* p0, Any p1) { return invoke<Any>(0xFA3B530A5CC693D5, p0, p1); }
+	NATIVE_DECL void _0xC6DFB8C04C86D5A5(Any* p0, Any p1, Any p2) { invoke<Void>(0xC6DFB8C04C86D5A5, p0, p1, p2); }
+	NATIVE_DECL Any _0x462C687BEA254BD9(Any* p0) { return invoke<Any>(0x462C687BEA254BD9, p0); }
+	NATIVE_DECL Any _0x2F050A3FF8738245(Any* p0) { return invoke<Any>(0x2F050A3FF8738245, p0); }
+	NATIVE_DECL BOOL _DOES_SCRIPT_WITH_NAME_HASH_EXIST(Hash scriptHash) { return invoke<BOOL>(0xA34E89749F628284, scriptHash); }
+	NATIVE_DECL BOOL _0xFF975BC4435A0FA3(Any p0) { return invoke<BOOL>(0xFF975BC4435A0FA3, p0); }
+	NATIVE_DECL void _0xD92FA81B64920E85(Any p0, Any* p1, Any* p2) { invoke<Void>(0xD92FA81B64920E85, p0, p1, p2); }
+	NATIVE_DECL Any _0x724CB89D35B283D0(Any p0) { return invoke<Any>(0x724CB89D35B283D0, p0); }
+	NATIVE_DECL void _BEGIN_ENUMERATING_THREADS() { invoke<Void>(0x39382EB8DCD8684D); }
+	NATIVE_DECL int _GET_ID_OF_NEXT_THREAD_IN_ENUMERATION() { return invoke<int>(0x3CE3FB167E837D7C); }
+	NATIVE_DECL BOOL _0x20B7F69B40C6B755(Any p0) { return invoke<BOOL>(0x20B7F69B40C6B755, p0); }
+	NATIVE_DECL int _GET_NUMBER_OF_INSTANCES_OF_SCRIPT_WITH_NAME_HASH(Hash scriptHash) { return invoke<int>(0x8E34C953364A76DD, scriptHash); }
+	NATIVE_DECL void _0x7DE4643157AD646C(Any p0) { invoke<Void>(0x7DE4643157AD646C, p0); }
+	NATIVE_DECL void _0x7423F7835770F619(Any p0) { invoke<Void>(0x7423F7835770F619, p0); }
+	NATIVE_DECL BOOL _0x9E4EF615E307FBBE() { return invoke<BOOL>(0x9E4EF615E307FBBE); }
+	NATIVE_DECL BOOL _0x30BED53646C86D11(Any p0) { return invoke<BOOL>(0x30BED53646C86D11, p0); }
+	NATIVE_DECL Any _0x54AE4FDEEFEAB77E() { return invoke<Any>(0x54AE4FDEEFEAB77E); }
+	NATIVE_DECL void _0x4768D5252EAEB76F(Any p0, Any p1, BOOL p2) { invoke<Void>(0x4768D5252EAEB76F, p0, p1, p2); }
+	NATIVE_DECL void _0x8B61C950A148FFA2(Any* p0, Any p1, Any p2, Any p3) { invoke<Void>(0x8B61C950A148FFA2, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _GET_NO_LOADING_SCREEN() { return invoke<BOOL>(0x323DAF00687E0F28); }
+	NATIVE_DECL void _0x1E5B70E53DB661E5(Any p0, Any p1, Any p2, Any* p3, Any* p4, Any* p5) { invoke<Void>(0x1E5B70E53DB661E5, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0x778D4733E0F2F265(BOOL p0) { invoke<Void>(0x778D4733E0F2F265, p0); }
+	NATIVE_DECL BOOL _0xB54ADBE65D528FCB() { return invoke<BOOL>(0xB54ADBE65D528FCB); }
+	NATIVE_DECL void _0xBC2C927F5C264243(Any p0) { invoke<Void>(0xBC2C927F5C264243, p0); }
+	NATIVE_DECL void _0xE98204D3C25AE14C(Any* p0) { invoke<Void>(0xE98204D3C25AE14C, p0); }
+	NATIVE_DECL Any _0x2238EC3EC631AB1F() { return invoke<Any>(0x2238EC3EC631AB1F); }
+	NATIVE_DECL void _0x4858148E3B8A75D0() { invoke<Void>(0x4858148E3B8A75D0); }
+	NATIVE_DECL void _0x2EB67D564DCC09D5(Any p0) { invoke<Void>(0x2EB67D564DCC09D5, p0); }
+	NATIVE_DECL void _0x6D1431744182CDE8(Any p0) { invoke<Void>(0x6D1431744182CDE8, p0); }
+	NATIVE_DECL void _0x49BA5678BA040CA7(Any* p0) { invoke<Void>(0x49BA5678BA040CA7, p0); }
+	NATIVE_DECL void _0x3ABF7BA1C3E2C8CF(Any* p0) { invoke<Void>(0x3ABF7BA1C3E2C8CF, p0); }
+	NATIVE_DECL BOOL _0x4AE1DFF337A86FDE(Any p0, Any* p1) { return invoke<BOOL>(0x4AE1DFF337A86FDE, p0, p1); }
+	NATIVE_DECL Any _0x55C40B7592BAD213(Any p0, Any* p1) { return invoke<Any>(0x55C40B7592BAD213, p0, p1); }
+	NATIVE_DECL Any _0x829CD22E043A2577(Any p0) { return invoke<Any>(0x829CD22E043A2577, p0); }
+	NATIVE_DECL void _0xBE7D814CFA181B56() { invoke<Void>(0xBE7D814CFA181B56); }
+	NATIVE_DECL void _0x7D654266025E921B(Any p0) { invoke<Void>(0x7D654266025E921B, p0); }
+	NATIVE_DECL void _0x50B72A754EE64A71(Any p0) { invoke<Void>(0x50B72A754EE64A71, p0); }
+	NATIVE_DECL BOOL _0x7409669C5ED50144(Any p0) { return invoke<BOOL>(0x7409669C5ED50144, p0); }
+	NATIVE_DECL BOOL _0xAC8FAB22A914AE34(Any* p0, Any p1, Any p2, Any* p3) { return invoke<BOOL>(0xAC8FAB22A914AE34, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0xB9467E41DAB1CF2C(Any* p0, Any p1, Any p2, Any* p3) { return invoke<BOOL>(0xB9467E41DAB1CF2C, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x4293B44A855F82CC(Any* p0, Any p1, Any* p2) { return invoke<BOOL>(0x4293B44A855F82CC, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xB952A3AC41D58F2F(Any p0) { return invoke<BOOL>(0xB952A3AC41D58F2F, p0); }
+	NATIVE_DECL BOOL _0xDC3914A99B4A5FDF(Any p0) { return invoke<BOOL>(0xDC3914A99B4A5FDF, p0); }
+	NATIVE_DECL BOOL _0x66EE5B93C308F734(Any p0) { return invoke<BOOL>(0x66EE5B93C308F734, p0); }
+	NATIVE_DECL void _0xE66F392BFCE734AF(Any p0, BOOL p1) { invoke<Void>(0xE66F392BFCE734AF, p0, p1); }
+	NATIVE_DECL BOOL _0x42A7EB5C814C2DE0(Any p0) { return invoke<BOOL>(0x42A7EB5C814C2DE0, p0); }
+	NATIVE_DECL void _0x11986B05885564D2(BOOL p0) { invoke<Void>(0x11986B05885564D2, p0); }
+	NATIVE_DECL BOOL _0x380FFA15B72408FB(Any p0) { return invoke<BOOL>(0x380FFA15B72408FB, p0); }
 }
 
 namespace SAVE
@@ -9557,6 +11299,9 @@ namespace SHAPETEST
 	// 	SHAPETEST_STATUS_RESULTS_READY
 	// };
 	NATIVE_DECL int GET_SHAPE_TEST_RESULT(ScrHandle shapeTestHandle, BOOL* hit, Vector3* endCoords, Vector3* surfaceNormal, Entity* entityHit) { return invoke<int>(0xEDE8AC7C5108FB1D, shapeTestHandle, hit, endCoords, surfaceNormal, entityHit); }
+	NATIVE_DECL int _START_SHAPE_TEST_RAY(float x1, float y1, float z1, float x2, float y2, float z2, int flags, Entity entity, int p8) { return invoke<int>(0x377906D8A31E5586, x1, y1, z1, x2, y2, z2, flags, entity, p8); }
+	NATIVE_DECL int _START_SHAPE_TEST_CAPSULE_2(float x1, float y1, float z1, float x2, float y2, float z2, float radius, int flags, Entity entity, Any p9) { return invoke<int>(0xAA5B7C8309F73230, x1, y1, z1, x2, y2, z2, radius, flags, entity, p9); }
+	NATIVE_DECL int _START_SHAPE_TEST_SURROUNDING_COORDS(Vector3* pVec1, Vector3* pVec2, int flag, Entity entity, int flag2) { return invoke<int>(0x9839013D8B6014F1, pVec1, pVec2, flag, entity, flag2); }
 }
 
 namespace SOCIALCLUB
@@ -9595,12 +11340,44 @@ namespace SOCIALCLUB
 	NATIVE_DECL BOOL SC_COMMUNITY_EVENT_GET_EXTRA_DATA_FLOAT_BY_ID(int p0, const char* p1, float* p2) { return invoke<BOOL>(0x91C9E2A0F9DD6DD4, p0, p1, p2); }
 	NATIVE_DECL BOOL SC_COMMUNITY_EVENT_GET_EXTRA_DATA_STRING_BY_ID(int p0, const char* p1, char* p2) { return invoke<BOOL>(0x049D2196D9D11184, p0, p1, p2); }
 	NATIVE_DECL BOOL SC_COMMUNITY_EVENT_GET_DISPLAY_NAME_BY_ID(int p0, char* p1) { return invoke<BOOL>(0x11EA52CAD1B55910, p0, p1); }
+	NATIVE_DECL int _GET_TOTAL_SC_INBOX_IDS() { return invoke<int>(0x8EF0F633280C0663); }
+	NATIVE_DECL Hash _SC_INBOX_MESSAGE_INIT(int p0) { return invoke<Hash>(0xFF92537C4DDC1241, p0); }
+	NATIVE_DECL BOOL _IS_SC_INBOX_VALID(int p0) { return invoke<BOOL>(0x74CF39E030A382C4, p0); }
+	NATIVE_DECL BOOL _SC_INBOX_MESSAGE_POP(int p0) { return invoke<BOOL>(0x63CAC501FFF66DC4, p0); }
+	NATIVE_DECL char* _SC_INBOX_MESSAGE_GET_STRING(int p0) { return invoke<char*>(0x176D077685CD83E4, p0); }
+	NATIVE_DECL BOOL _0xA31DAFCDC33775E9(Any p0, float p1) { return invoke<BOOL>(0xA31DAFCDC33775E9, p0, p1); }
+	NATIVE_DECL BOOL _0x0000000085488C49(Any* p0, Any p1, BOOL p2) { return invoke<BOOL>(0x0000000085488C49, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x00000000467F4CAA(Any* p0, float p1, BOOL p2) { return invoke<BOOL>(0x00000000467F4CAA, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x00000000EB2D93B3(Any* p0, Any* p1, BOOL p2) { return invoke<BOOL>(0x00000000EB2D93B3, p0, p1, p2); }
+	NATIVE_DECL BOOL _SC_START_CHECK_STRING_TASK(char* string, int* taskHandle) { return invoke<BOOL>(0x9C74AC9D87B3FFF4, string, taskHandle); }
+	NATIVE_DECL BOOL _SC_HAS_CHECK_STRING_TASK_COMPLETED(int taskHandle) { return invoke<BOOL>(0x08C8052AF40C4247, taskHandle); }
+	NATIVE_DECL int _SC_GET_CHECK_STRING_STATUS(int taskHandle) { return invoke<int>(0x3A10BCD0C8AA0B82, taskHandle); }
+	NATIVE_DECL Any _0xF302973BB8BE70E6(Any p0) { return invoke<Any>(0xF302973BB8BE70E6, p0); }
+	NATIVE_DECL int _0x0CF3BFB99EBBE5B1(Any p0) { return invoke<int>(0x0CF3BFB99EBBE5B1, p0); }
+	NATIVE_DECL Any _0xCBF743C984695CF3() { return invoke<Any>(0xCBF743C984695CF3); }
+	NATIVE_DECL Any _0xD635DF6BAA5A6017() { return invoke<Any>(0xD635DF6BAA5A6017); }
+	NATIVE_DECL BOOL _0xB4411D4D6B81438E(Any* p0, Any* p1) { return invoke<BOOL>(0xB4411D4D6B81438E, p0, p1); }
+	NATIVE_DECL BOOL _0x060BBAD634C2B44B(Any* p0, Any* p1) { return invoke<BOOL>(0x060BBAD634C2B44B, p0, p1); }
+	NATIVE_DECL BOOL _0x9F6DCD0C939C71E9(Any* p0, Any* p1) { return invoke<BOOL>(0x9F6DCD0C939C71E9, p0, p1); }
+	NATIVE_DECL BOOL _0x89D9BDE7334B110F(Any* p0) { return invoke<BOOL>(0x89D9BDE7334B110F, p0); }
+	NATIVE_DECL BOOL _0x09937EB0CEBC2F9F(Any* p0) { return invoke<BOOL>(0x09937EB0CEBC2F9F, p0); }
+	NATIVE_DECL Any _0x03C03ABBABBEF752(Any* p0) { return invoke<Any>(0x03C03ABBABBEF752, p0); }
+	NATIVE_DECL BOOL _0x3519CC3525319A96(Any* p0, Any* p1, Any* p2) { return invoke<BOOL>(0x3519CC3525319A96, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x1BDB56DB258F052D(Any* p0, Any* p1, Any* p2) { return invoke<BOOL>(0x1BDB56DB258F052D, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xC8FC3B2432E8229D(Any* p0, Any* p1, Any* p2) { return invoke<BOOL>(0xC8FC3B2432E8229D, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x85EA0BEC7B1F7622(Any* p0, Any* p1) { return invoke<BOOL>(0x85EA0BEC7B1F7622, p0, p1); }
+	NATIVE_DECL BOOL _0x62B384FEFDE06817(Any p0) { return invoke<BOOL>(0x62B384FEFDE06817, p0); }
+	NATIVE_DECL BOOL _0x7C981DE05A7403A0(int p0, char* p1, Any* p2) { return invoke<BOOL>(0x7C981DE05A7403A0, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x91C9E2A0F9DD6DD4(Any p0, Any* p1, Any* p2) { return invoke<BOOL>(0x91C9E2A0F9DD6DD4, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x049D2196D9D11184(int p0, char* p1, Any* p2) { return invoke<BOOL>(0x049D2196D9D11184, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x11EA52CAD1B55910(Any p0, Any* p1) { return invoke<BOOL>(0x11EA52CAD1B55910, p0, p1); }
 }
 
 namespace SOCIALCLUBFEED
 {
 	NATIVE_DECL int _SC_FEED_SUBMIT_PRESET_MESSAGE(int type, int subType) { return invoke<int>(0xEFB64240F6B17817, type, subType); }
 	NATIVE_DECL BOOL SC_FEED_HUB_HAS_NEW_DATA() { return invoke<BOOL>(0x068332D20CB6F897); }
+	NATIVE_DECL Any _0xEFB64240F6B17817(Any p0, Any p1) { return invoke<Any>(0xEFB64240F6B17817, p0, p1); }
 }
 
 namespace SPACTIONPROXY
@@ -9611,6 +11388,12 @@ namespace SPACTIONPROXY
 	NATIVE_DECL BOOL _SPACTIONPROXY_GET_NEXT_PENDING_CRAFTING_ACTION(Any* data) { return invoke<BOOL>(0x1F471B79ACC97BEF, data); }
 	NATIVE_DECL BOOL _SPACTIONPROXY_GET_NEXT_PENDING_BUY_ACTION(Any* data) { return invoke<BOOL>(0x1F471B79ACC98BEF, data); }
 	NATIVE_DECL BOOL _SPACTIONPROXY_PROCESS_ACTION(Any p0, BOOL p1) { return invoke<BOOL>(0x1F471B79ACC94BEF, p0, p1); }
+	NATIVE_DECL BOOL _0x1F471B79ACC91BEE() { return invoke<BOOL>(0x1F471B79ACC91BEE); }
+	NATIVE_DECL Any _0x1F471B79ACC91BED() { return invoke<Any>(0x1F471B79ACC91BED); }
+	NATIVE_DECL Any _0x1F471B79ACC91BEC() { return invoke<Any>(0x1F471B79ACC91BEC); }
+	NATIVE_DECL BOOL _0x1F471B79ACC97BEF(Any* p0) { return invoke<BOOL>(0x1F471B79ACC97BEF, p0); }
+	NATIVE_DECL BOOL _0x1F471B79ACC98BEF(Any* p0) { return invoke<BOOL>(0x1F471B79ACC98BEF, p0); }
+	NATIVE_DECL Any _0x1F471B79ACC94BEF(Any* p0, Any p1) { return invoke<Any>(0x1F471B79ACC94BEF, p0, p1); }
 }
 
 namespace STATS
@@ -9736,6 +11519,55 @@ namespace STATS
 	NATIVE_DECL void _0x4F2D5FA23DB992DE() { invoke<Void>(0x4F2D5FA23DB992DE); }
 	// Only used in R* Script net_char_creator
 	NATIVE_DECL void _0x4E463A3CDEFFFE96() { invoke<Void>(0x4E463A3CDEFFFE96); }
+	NATIVE_DECL BOOL _0xC48FE1971C9743FF(Any* p0) { return invoke<BOOL>(0xC48FE1971C9743FF, p0); }
+	NATIVE_DECL BOOL _0xA4DDF5DF95E65EEE(Any* p0, Any p1, BOOL p2) { return invoke<BOOL>(0xA4DDF5DF95E65EEE, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x481BDF6A10C5EF68(Any* p0, float p1, BOOL p2) { return invoke<BOOL>(0x481BDF6A10C5EF68, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x3B5107353267D7A1(Any* p0, BOOL p1, BOOL p2) { return invoke<BOOL>(0x3B5107353267D7A1, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x05060A54834F2382(Any* p0, Any* p1, BOOL p2) { return invoke<BOOL>(0x05060A54834F2382, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x1FAE9B2FAA2DFE06(Any* p0, Any* p1, BOOL p2) { return invoke<BOOL>(0x1FAE9B2FAA2DFE06, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x767FBC2AC802EF3E(Any* p0, Any* p1) { return invoke<BOOL>(0x767FBC2AC802EF3E, p0, p1); }
+	NATIVE_DECL BOOL _0xD7AE6C9C9C6AC54D(Any* p0, Any* p1) { return invoke<BOOL>(0xD7AE6C9C9C6AC54D, p0, p1); }
+	NATIVE_DECL BOOL _0x11B5E6D2AE73F48F(Any* p0, Any* p1) { return invoke<BOOL>(0x11B5E6D2AE73F48F, p0, p1); }
+	NATIVE_DECL BOOL _0x8B0FACEFC36C824C(Any* p0, Any* p1) { return invoke<BOOL>(0x8B0FACEFC36C824C, p0, p1); }
+	NATIVE_DECL void _0x6A0184E904CDF25E(Any* p0, Any p1) { invoke<Void>(0x6A0184E904CDF25E, p0, p1); }
+	NATIVE_DECL void _0x4A47E38EA3D60939(Any* p0, float p1) { invoke<Void>(0x4A47E38EA3D60939, p0, p1); }
+	NATIVE_DECL void _0xBD861AE8A5181ED7(Any* p0, Any p1) { invoke<Void>(0xBD861AE8A5181ED7, p0, p1); }
+	NATIVE_DECL void _0x34B22DE38477EDB4(Any* p0) { invoke<Void>(0x34B22DE38477EDB4, p0); }
+	NATIVE_DECL Any _0xCAAE29CB5591B2A5(Any p0, Any p1) { return invoke<Any>(0xCAAE29CB5591B2A5, p0, p1); }
+	NATIVE_DECL BOOL _0xDCEC875A02991AD0(Any p0, Any p1, Any p2, Any* p3) { return invoke<BOOL>(0xDCEC875A02991AD0, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0x1E7384AB5D4F4581(Any p0) { return invoke<Any>(0x1E7384AB5D4F4581, p0); }
+	NATIVE_DECL void _0xDA26263C87CCE9C1(Any p0, float p1, Any p2, Any p3) { invoke<Void>(0xDA26263C87CCE9C1, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x831BF01C56149A8A(Any p0) { invoke<Void>(0x831BF01C56149A8A, p0); }
+	NATIVE_DECL void _0x7C2ABF6E556B21FC(Any p0, Any p1, BOOL p2, BOOL p3) { invoke<Void>(0x7C2ABF6E556B21FC, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x6B1044FDC2B09101(Any p0, Any p1) { invoke<Void>(0x6B1044FDC2B09101, p0, p1); }
+	NATIVE_DECL void _0x262EF7CF49CF1EB9(Any p0) { invoke<Void>(0x262EF7CF49CF1EB9, p0); }
+	NATIVE_DECL void _0xB22F05732F72F70C(Any p0) { invoke<Void>(0xB22F05732F72F70C, p0); }
+	NATIVE_DECL BOOL _0x01F4D242765C6B24(Any p0) { return invoke<BOOL>(0x01F4D242765C6B24, p0); }
+	NATIVE_DECL void _0xB2A38826E5886E83(Any p0, Any p1) { invoke<Void>(0xB2A38826E5886E83, p0, p1); }
+	NATIVE_DECL void _0xD5910ECF81A2278C(Any p0, Any p1, Any p2, Any* p3) { invoke<Void>(0xD5910ECF81A2278C, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x04DAC3929796EB87(Any p0, Any p1) { return invoke<BOOL>(0x04DAC3929796EB87, p0, p1); }
+	NATIVE_DECL Any _0x58CB53DB63F84DE9(Any p0) { return invoke<Any>(0x58CB53DB63F84DE9, p0); }
+	NATIVE_DECL Any _0x58CB53DB63F84DEA(Any p0) { return invoke<Any>(0x58CB53DB63F84DEA, p0); }
+	NATIVE_DECL void _0xDDBD560745B1EE9A(Any p0, Any p1, Any p2) { invoke<Void>(0xDDBD560745B1EE9A, p0, p1, p2); }
+	NATIVE_DECL void _0x86922D8C02FB7703(Any p0, Any p1, Any p2) { invoke<Void>(0x86922D8C02FB7703, p0, p1, p2); }
+	NATIVE_DECL void _0xDDBD560745B1EE9B(Any p0, Any p1, Any p2) { invoke<Void>(0xDDBD560745B1EE9B, p0, p1, p2); }
+	NATIVE_DECL void _0xDDBD560745B1EE9C(Any p0, Any p1) { invoke<Void>(0xDDBD560745B1EE9C, p0, p1); }
+	NATIVE_DECL void _0x4ABF7E4DB6279E8F(Any p0) { invoke<Void>(0x4ABF7E4DB6279E8F, p0); }
+	NATIVE_DECL void _0x43B0163154A50C86(Any p0) { invoke<Void>(0x43B0163154A50C86, p0); }
+	NATIVE_DECL void _0xC3FCB47344DCB638(Any p0, Any p1) { invoke<Void>(0xC3FCB47344DCB638, p0, p1); }
+	NATIVE_DECL void _0x00CE6A93324A590B(Any p0, Any p1) { invoke<Void>(0x00CE6A93324A590B, p0, p1); }
+	NATIVE_DECL Any _0x0B0576DD3A75E58D(Any p0) { return invoke<Any>(0x0B0576DD3A75E58D, p0); }
+	NATIVE_DECL Any _0xA785A52B59B7E7B2(Any p0) { return invoke<Any>(0xA785A52B59B7E7B2, p0); }
+	NATIVE_DECL Any _0xC0BB774787BBF301(Any p0, Any p1) { return invoke<Any>(0xC0BB774787BBF301, p0, p1); }
+	NATIVE_DECL void _0x97E18E7C098626DE(Any p0, Any p1, Any p2) { invoke<Void>(0x97E18E7C098626DE, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x997060BC223ADFF9() { return invoke<BOOL>(0x997060BC223ADFF9); }
+	NATIVE_DECL Any _0x332630B862277879() { return invoke<Any>(0x332630B862277879); }
+	NATIVE_DECL Any _0x70379B5C3FF1D209() { return invoke<Any>(0x70379B5C3FF1D209); }
+	NATIVE_DECL Any _0x8F5317729F791D10(Any p0) { return invoke<Any>(0x8F5317729F791D10, p0); }
+	NATIVE_DECL Any _0x610783F646894D25(Any p0, Any p1) { return invoke<Any>(0x610783F646894D25, p0, p1); }
+	NATIVE_DECL Any _0xBFFA88522FF0F730(Any p0, Any p1) { return invoke<Any>(0xBFFA88522FF0F730, p0, p1); }
+	NATIVE_DECL Any _0x7D675C9DDDB365BE(Any p0, Any p1) { return invoke<Any>(0x7D675C9DDDB365BE, p0, p1); }
+	NATIVE_DECL BOOL _0xBA61BA6205A3F5A8(Any p0, Any p1, Any p2, Any* p3, Any* p4) { return invoke<BOOL>(0xBA61BA6205A3F5A8, p0, p1, p2, p3, p4); }
 }
 
 namespace STREAMING
@@ -9881,6 +11713,46 @@ namespace STREAMING
 	NATIVE_DECL void _0xD840C130D7AACFA5(Any p0, Any p1, Any p2) { invoke<Void>(0xD840C130D7AACFA5, p0, p1, p2); }
 	NATIVE_DECL void _0x2E24C27B112B5B12(Any p0) { invoke<Void>(0x2E24C27B112B5B12, p0); }
 	NATIVE_DECL void _SET_GUARMA_WORLDHORIZON_ACTIVE(BOOL toggle) { invoke<Void>(0x74E2261D2A66849A, toggle); }
+	NATIVE_DECL BOOL _0xC3F09DE9D6D17DDA(Any p0) { return invoke<BOOL>(0xC3F09DE9D6D17DDA, p0); }
+	NATIVE_DECL Any _0x274EE1B90CFA669E(Any p0) { return invoke<Any>(0x274EE1B90CFA669E, p0); }
+	NATIVE_DECL BOOL _0xDA8B2EAF29E872E2(float p0, float p1, float p2) { return invoke<BOOL>(0xDA8B2EAF29E872E2, p0, p1, p2); }
+	NATIVE_DECL void _0xA8432A14D4DC2101(float p0, float p1, float p2) { invoke<Void>(0xA8432A14D4DC2101, p0, p1, p2); }
+	NATIVE_DECL void _0x2B6529C54D29037A(Any* p0) { invoke<Void>(0x2B6529C54D29037A, p0); }
+	NATIVE_DECL BOOL _0x2C04D89A0FB4E244(Any* p0) { return invoke<BOOL>(0x2C04D89A0FB4E244, p0); }
+	NATIVE_DECL void _0x57A197AD83F66BBF(Any* p0) { invoke<Void>(0x57A197AD83F66BBF, p0); }
+	NATIVE_DECL void _0xAC37644A538F7524(Any p0) { invoke<Void>(0xAC37644A538F7524, p0); }
+	NATIVE_DECL Any _0x19A6BE7D9C6884D3(Any p0, Any p1, Any p2, Any p3) { return invoke<Any>(0x19A6BE7D9C6884D3, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x9427C94D2E4094A4(Any p0, BOOL p1) { return invoke<BOOL>(0x9427C94D2E4094A4, p0, p1); }
+	NATIVE_DECL Any _0x4EDDD9E9CA5AF985(Any p0) { return invoke<Any>(0x4EDDD9E9CA5AF985, p0); }
+	NATIVE_DECL BOOL _0x9C77964B0E07B633(Any p0, Any p1, Any p2) { return invoke<BOOL>(0x9C77964B0E07B633, p0, p1, p2); }
+	NATIVE_DECL void _0x59767C5A7A9AE6DA(Any p0) { invoke<Void>(0x59767C5A7A9AE6DA, p0); }
+	NATIVE_DECL void _0x9E211A378F95C97C(Any p0) { invoke<Void>(0x9E211A378F95C97C, p0); }
+	NATIVE_DECL void _0x5A3E5CF7B4014B96(Any p0) { invoke<Void>(0x5A3E5CF7B4014B96, p0); }
+	NATIVE_DECL void _0x431E3AB760629B34(Any p0) { invoke<Void>(0x431E3AB760629B34, p0); }
+	NATIVE_DECL BOOL _0xD779B9B910BD3B7C(Any p0) { return invoke<BOOL>(0xD779B9B910BD3B7C, p0); }
+	NATIVE_DECL BOOL _0x93AC1B91CB6D9913(Any p0) { return invoke<BOOL>(0x93AC1B91CB6D9913, p0); }
+	NATIVE_DECL BOOL _0x73B40D97D7BAAD77(Any p0, Any p1, Any p2, Any p3) { return invoke<BOOL>(0x73B40D97D7BAAD77, p0, p1, p2, p3); }
+	NATIVE_DECL void _REMOVE_NAMED_PTFX_ASSET(char* assetName) { invoke<Void>(0xF20866829E1C81A2, assetName); }
+	NATIVE_DECL void _0x2F9AC754FE179D58(float p0) { invoke<Void>(0x2F9AC754FE179D58, p0); }
+	NATIVE_DECL float _0x8A3945405B31048F() { return invoke<float>(0x8A3945405B31048F); }
+	NATIVE_DECL void _SET_FOCUS_AREA(float x, float y, float z, float offsetX, float offsetY, float offsetZ) { invoke<Void>(0x25F6EF88664540E2, x, y, z, offsetX, offsetY, offsetZ); }
+	NATIVE_DECL void _0x3CACC83F6FED837C(char* p0, BOOL p1) { invoke<Void>(0x3CACC83F6FED837C, p0, p1); }
+	NATIVE_DECL void _0x19ABCC581D28E6F9(Any p0) { invoke<Void>(0x19ABCC581D28E6F9, p0); }
+	NATIVE_DECL BOOL _0x387AD749E3B69B70(float p0, float p1, float p2, float p3, float p4, float p5, float p6, Any p7) { return invoke<BOOL>(0x387AD749E3B69B70, p0, p1, p2, p3, p4, p5, p6, p7); }
+	NATIVE_DECL BOOL _0x513F8AA5BF2F17CF(float p0, float p1, float p2, float p3, Any p4) { return invoke<BOOL>(0x513F8AA5BF2F17CF, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0x5A8B01199C3E79C3() { invoke<Void>(0x5A8B01199C3E79C3); }
+	NATIVE_DECL Any _0xCF45DF50C7775F2A() { return invoke<Any>(0xCF45DF50C7775F2A); }
+	NATIVE_DECL BOOL _0x0909F71B5C070797() { return invoke<BOOL>(0x0909F71B5C070797); }
+	NATIVE_DECL BOOL _0x45BF3A6239A576B7() { return invoke<BOOL>(0x45BF3A6239A576B7); }
+	NATIVE_DECL void _0xA03A6812529AD9C8() { invoke<Void>(0xA03A6812529AD9C8); }
+	NATIVE_DECL void _0x20D504994FDC4412(Any* p0, Any* p1) { invoke<Void>(0x20D504994FDC4412, p0, p1); }
+	NATIVE_DECL void _0x31108BB5715D035F() { invoke<Void>(0x31108BB5715D035F); }
+	NATIVE_DECL Any _0xC2C05DEFE85A0B64() { return invoke<Any>(0xC2C05DEFE85A0B64); }
+	NATIVE_DECL void _0x040EE319EFD1D3B5() { invoke<Void>(0x040EE319EFD1D3B5); }
+	NATIVE_DECL Any _0xFC464598F6EE97B0() { return invoke<Any>(0xFC464598F6EE97B0); }
+	NATIVE_DECL void _0xD346248C1DCE0D76(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0xD346248C1DCE0D76, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x7C907E8A725E5FD2(BOOL p0) { invoke<Void>(0x7C907E8A725E5FD2, p0); }
+	NATIVE_DECL void _0x74E2261D2A66849A(BOOL p0) { invoke<Void>(0x74E2261D2A66849A, p0); }
 }
 
 namespace TASK
@@ -10980,6 +12852,67 @@ namespace TELEMETRY
 	NATIVE_DECL void _TELEMETRY_CHAR_CREATOR(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6) { invoke<Void>(0x7207AD471BC9278C, p0, p1, p2, p3, p4, p5, p6); }
 	// Note: this native was added in build 1491.50
 	NATIVE_DECL void _0x6F5BC5C4EAB42B15(int linkID, int type, const char* contentId) { invoke<Void>(0x6F5BC5C4EAB42B15, linkID, type, contentId); }
+	NATIVE_DECL void _0x9BEE018A63FFFAD9(BOOL p0) { invoke<Void>(0x9BEE018A63FFFAD9, p0); }
+	NATIVE_DECL void _0x15B0CC1B36F1DE29(Any* p0, Any p1, Any p2, BOOL p3) { invoke<Void>(0x15B0CC1B36F1DE29, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xD894437E12C17AEC(Any* p0, Any* p1) { invoke<Void>(0xD894437E12C17AEC, p0, p1); }
+	NATIVE_DECL void _0x8EC7890D446BD9C1(Any* p0, Any p1, Any p2) { invoke<Void>(0x8EC7890D446BD9C1, p0, p1, p2); }
+	NATIVE_DECL void _0x5DA4718DF897EB25(Any p0) { invoke<Void>(0x5DA4718DF897EB25, p0); }
+	NATIVE_DECL BOOL _0xE692D336F8A2A97F(Any* p0) { return invoke<BOOL>(0xE692D336F8A2A97F, p0); }
+	NATIVE_DECL void _0xF620F47B4F4A78C4(Any* p0, Any* p1) { invoke<Void>(0xF620F47B4F4A78C4, p0, p1); }
+	NATIVE_DECL void _0xA2058154357726BB(Any* p0, Any* p1) { invoke<Void>(0xA2058154357726BB, p0, p1); }
+	NATIVE_DECL void _0xEF3C68F56BAD7B69(Any* p0, Any* p1) { invoke<Void>(0xEF3C68F56BAD7B69, p0, p1); }
+	NATIVE_DECL void _0xECD67E9FA677CCCF(Any* p0) { invoke<Void>(0xECD67E9FA677CCCF, p0); }
+	NATIVE_DECL void _0x51EC204A6E5B5A1A(Any p0, Any* p1) { invoke<Void>(0x51EC204A6E5B5A1A, p0, p1); }
+	NATIVE_DECL void _0xAE693EC3A178F6C2(Any p0) { invoke<Void>(0xAE693EC3A178F6C2, p0); }
+	NATIVE_DECL void _0x7581972ADF5D699A(Any p0, Any* p1) { invoke<Void>(0x7581972ADF5D699A, p0, p1); }
+	NATIVE_DECL void _0x565EAA726B2CE3B7(BOOL p0) { invoke<Void>(0x565EAA726B2CE3B7, p0); }
+	NATIVE_DECL void _0x217F47761376E16E(Any p0, Any p1, Any p2, Any p3, BOOL p4) { invoke<Void>(0x217F47761376E16E, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xCD6F8A0335D821F9(Any p0) { invoke<Void>(0xCD6F8A0335D821F9, p0); }
+	NATIVE_DECL void _0x775B2ED944E44973(Any p0, Any p1, Any p2, float p3, float p4, float p5) { invoke<Void>(0x775B2ED944E44973, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0xF78E669FDC202E73() { invoke<Void>(0xF78E669FDC202E73); }
+	NATIVE_DECL void _0x2A374E6F0075EE81(Any p0, Any p1, Any p2, Any p3, Any p4) { invoke<Void>(0x2A374E6F0075EE81, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0x9BD8A9D0A774A6F8(Any p0, Any p1, Any p2, Any p3, Any p4) { invoke<Void>(0x9BD8A9D0A774A6F8, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0x536B6025E94AC48F(Any p0, Any p1, Any p2, BOOL p3) { invoke<Void>(0x536B6025E94AC48F, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x32D5898C4898CD95() { invoke<Void>(0x32D5898C4898CD95); }
+	NATIVE_DECL void _0x3145044F3990D321(Any p0, Any p1, float p2, float p3, float p4, Any p5, Any p6) { invoke<Void>(0x3145044F3990D321, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL void _0xF5EAD898EF387E73(Any p0) { invoke<Void>(0xF5EAD898EF387E73, p0); }
+	NATIVE_DECL void _0xE6B763C7F4902201(Any p0, Any p1) { invoke<Void>(0xE6B763C7F4902201, p0, p1); }
+	NATIVE_DECL void _0x78C2E029DB205A3A(Any p0, Any p1) { invoke<Void>(0x78C2E029DB205A3A, p0, p1); }
+	NATIVE_DECL void _0xDF516E598D966D06(Any* p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, BOOL p8) { invoke<Void>(0xDF516E598D966D06, p0, p1, p2, p3, p4, p5, p6, p7, p8); }
+	NATIVE_DECL void _0xD6CB05DDAEE43AFD(Any* p0, Any p1, Any p2, Any p3, Any p4, BOOL p5, BOOL p6) { invoke<Void>(0xD6CB05DDAEE43AFD, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL void _0xEA323F5E1A4DA2F1(Any p0, Any* p1) { invoke<Void>(0xEA323F5E1A4DA2F1, p0, p1); }
+	NATIVE_DECL void _0x6571E4327390EC0B(Any p0, Any p1, float p2, float p3, float p4, Any p5) { invoke<Void>(0x6571E4327390EC0B, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0xE6DC9B21AC7A8729(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0xE6DC9B21AC7A8729, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x7CEF4AC79F7E7FAD(Any p0, Any p1, float p2, float p3, float p4) { invoke<Void>(0x7CEF4AC79F7E7FAD, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xA72773C3134F9A57(Any p0, Any p1, Any p2, Any p3, float p4, float p5, float p6) { invoke<Void>(0xA72773C3134F9A57, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL void _0x7E002A36AEFCFB55() { invoke<Void>(0x7E002A36AEFCFB55); }
+	NATIVE_DECL void _0xF9F14080D80937BD(Any p0) { invoke<Void>(0xF9F14080D80937BD, p0); }
+	NATIVE_DECL void _0xF37A2149BC9A8A27(Any p0, Any p1, Any p2, Any p3, Any p4) { invoke<Void>(0xF37A2149BC9A8A27, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xE26970A7AE0F28E9(Any p0, Any p1, Any p2, BOOL p3) { invoke<Void>(0xE26970A7AE0F28E9, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xE57529D23541D2DD(BOOL p0, Any p1, Any p2) { invoke<Void>(0xE57529D23541D2DD, p0, p1, p2); }
+	NATIVE_DECL void _0xCF63EF77B0DF0397(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0xCF63EF77B0DF0397, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x2C24AF8EEEEF8A55(Any p0, Any p1, Any p2) { invoke<Void>(0x2C24AF8EEEEF8A55, p0, p1, p2); }
+	NATIVE_DECL void _0x16B23D4F7A1F50D9(Any p0, Any p1, Any p2) { invoke<Void>(0x16B23D4F7A1F50D9, p0, p1, p2); }
+	NATIVE_DECL void _0x8127C5AA05C5A210(Any* p0, Any p1, Any p2, BOOL p3, Any p4, Any p5, Any p6, Any p7, Any p8, BOOL p9) { invoke<Void>(0x8127C5AA05C5A210, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9); }
+	NATIVE_DECL BOOL _0x80A02D9F948A8BCA(Any* p0, Any* p1) { return invoke<BOOL>(0x80A02D9F948A8BCA, p0, p1); }
+	NATIVE_DECL BOOL _0xF184B3ECE36219CF(Any p0, Any* p1) { return invoke<BOOL>(0xF184B3ECE36219CF, p0, p1); }
+	NATIVE_DECL void _0xAB43D1C80B5E9500(Any* p0) { invoke<Void>(0xAB43D1C80B5E9500, p0); }
+	NATIVE_DECL void _0x52FA31DB8F3AD25D(Any* p0) { invoke<Void>(0x52FA31DB8F3AD25D, p0); }
+	NATIVE_DECL void _0xB204BF9F30298D77(Any* p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6) { invoke<Void>(0xB204BF9F30298D77, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL void _0x476038B5A0734C10(Any* p0, Any* p1) { invoke<Void>(0x476038B5A0734C10, p0, p1); }
+	NATIVE_DECL void _0x4AC38DFD286DAD14(Any* p0, Any p1, Any p2, Any p3, Any p4, Any p5, BOOL p6) { invoke<Void>(0x4AC38DFD286DAD14, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL void _0xED22BE4C5A399E63(Any* p0, Any p1, Any p2, Any p3) { invoke<Void>(0xED22BE4C5A399E63, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xF0D54E0651DD7E07() { invoke<Void>(0xF0D54E0651DD7E07); }
+	NATIVE_DECL void _0x415FE28ED44BFF14() { invoke<Void>(0x415FE28ED44BFF14); }
+	NATIVE_DECL void _0xC3ADF4880784FA9C(Any p0) { invoke<Void>(0xC3ADF4880784FA9C, p0); }
+	NATIVE_DECL void _0x317D9C9560529CC2(Any p0) { invoke<Void>(0x317D9C9560529CC2, p0); }
+	NATIVE_DECL void _0x32C2939564D74BFF(Any* p0, Any p1, Any p2, Any p3, Any p4, Any p5) { invoke<Void>(0x32C2939564D74BFF, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0xFF9052BC7A3B7D33(Any p0, Any p1, Any* p2, Any p3) { invoke<Void>(0xFF9052BC7A3B7D33, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xE67AF24C5A3B6058(Any p0, Any* p1, Any p2) { invoke<Void>(0xE67AF24C5A3B6058, p0, p1, p2); }
+	NATIVE_DECL void _0x3255D4D2082C6339(Any p0, Any p1, Any p2) { invoke<Void>(0x3255D4D2082C6339, p0, p1, p2); }
+	NATIVE_DECL void _0xE9F24081D84931B8() { invoke<Void>(0xE9F24081D84931B8); }
+	NATIVE_DECL void _0x3180E991D4B8F248() { invoke<Void>(0x3180E991D4B8F248); }
+	NATIVE_DECL void _0x40914CCF2A1AB531(Any* p0) { invoke<Void>(0x40914CCF2A1AB531, p0); }
 }
 
 namespace TXD
@@ -11015,6 +12948,23 @@ namespace UIAPPS
 	NATIVE_DECL BOOL CAN_LAUNCH_UIAPP_BY_HASH(Hash appNameHash) { return invoke<BOOL>(0xE555EC27D65EDE80, appNameHash); }
 	NATIVE_DECL BOOL REQUEST_UIAPP_TRANSITION_BY_HASH(Hash appNameHash, Hash transitionHash) { return invoke<BOOL>(0x7689CD255655BFD7, appNameHash, transitionHash); }
 	NATIVE_DECL BOOL IS_UIAPP_TRANSITIONING_BY_HASH(Hash appNameHash) { return invoke<BOOL>(0x42095B886D30DE66, appNameHash); }
+	NATIVE_DECL BOOL _0x25B7A0206BDFAC76(Any p0) { return invoke<BOOL>(0x25B7A0206BDFAC76, p0); }
+	NATIVE_DECL Any _0xAC959AB99AAF3D9F() { return invoke<Any>(0xAC959AB99AAF3D9F); }
+	NATIVE_DECL BOOL _0x4E511D093A86AD49(Any p0) { return invoke<BOOL>(0x4E511D093A86AD49, p0); }
+	NATIVE_DECL Any _0xDB30BEC7A7A5CBD3() { return invoke<Any>(0xDB30BEC7A7A5CBD3); }
+	NATIVE_DECL Any _0x96FD694FE5BE55DC(Any p0) { return invoke<Any>(0x96FD694FE5BE55DC, p0); }
+	NATIVE_DECL void _0x2FF10C9C3F92277E(Any p0) { invoke<Void>(0x2FF10C9C3F92277E, p0); }
+	NATIVE_DECL void _0x04428420A248A354(Any p0) { invoke<Void>(0x04428420A248A354, p0); }
+	NATIVE_DECL void _0x818C6CA9B659E8EC(Any* p0) { invoke<Void>(0x818C6CA9B659E8EC, p0); }
+	NATIVE_DECL void _0x3015635426D1B17C(Any* p0) { invoke<Void>(0x3015635426D1B17C, p0); }
+	NATIVE_DECL void _0xAD7B70F7230C5A12() { invoke<Void>(0xAD7B70F7230C5A12); }
+	NATIVE_DECL void _0x12769EEB8DBD7A7B() { invoke<Void>(0x12769EEB8DBD7A7B); }
+	NATIVE_DECL Any _0xC1BCF31E975B3195(Any p0, Any p1) { return invoke<Any>(0xC1BCF31E975B3195, p0, p1); }
+	NATIVE_DECL Any _0xC8FC7F4E4CF4F581(Any p0) { return invoke<Any>(0xC8FC7F4E4CF4F581, p0); }
+	NATIVE_DECL Any _0x7B2027BAC5C8EC89(Any* p0, Any* p1) { return invoke<Any>(0x7B2027BAC5C8EC89, p0, p1); }
+	NATIVE_DECL BOOL _0x16F47D434B6086BF(Any p0, Any p1) { return invoke<BOOL>(0x16F47D434B6086BF, p0, p1); }
+	NATIVE_DECL BOOL _0xE555EC27D65EDE80(Any p0) { return invoke<BOOL>(0xE555EC27D65EDE80, p0); }
+	NATIVE_DECL BOOL _0x7689CD255655BFD7(Any p0, Any p1) { return invoke<BOOL>(0x7689CD255655BFD7, p0, p1); }
 }
 
 namespace UIDEBUG
@@ -11047,6 +12997,10 @@ namespace UIEVENTS
 	NATIVE_DECL BOOL EVENTS_UI_PEEK_MESSAGE(Hash hash, Any* eventData) { return invoke<BOOL>(0x90237103F27F7937, hash, eventData); }
 	// Old name: _EVENT_MANAGER_POP_EVENT
 	NATIVE_DECL void EVENTS_UI_POP_MESSAGE(Hash hash) { invoke<Void>(0x8E8A2369F48EC839, hash); }
+	NATIVE_DECL BOOL _0x67ED5A7963F2F722(Any p0) { return invoke<BOOL>(0x67ED5A7963F2F722, p0); }
+	NATIVE_DECL BOOL _0xE24E957294241444(Any p0, Any* p1) { return invoke<BOOL>(0xE24E957294241444, p0, p1); }
+	NATIVE_DECL BOOL _0x90237103F27F7937(Any p0, Any* p1) { return invoke<BOOL>(0x90237103F27F7937, p0, p1); }
+	NATIVE_DECL void _0x8E8A2369F48EC839(Any p0) { invoke<Void>(0x8E8A2369F48EC839, p0); }
 }
 
 namespace UIFEED
@@ -11128,6 +13082,31 @@ namespace UILOG
 	NATIVE_DECL void _UILOG_SET_TOTAL_TAKE_SUMMARY(const char* p0, const char* p1) { invoke<Void>(0xD106B211EF1B8F04, p0, p1); }
 	NATIVE_DECL int _UILOG_POST_NOTIFICATION(Any* data) { return invoke<int>(0x49E58FE6EF40B987, data); }
 	NATIVE_DECL void _0xDA0A30153FCC0FFD() { invoke<Void>(0xDA0A30153FCC0FFD); }
+	NATIVE_DECL BOOL _0xB8188CCF52202475(Any p0, Any p1) { return invoke<BOOL>(0xB8188CCF52202475, p0, p1); }
+	NATIVE_DECL void _0x69D5479982355D8F(Any p0, Any p1, float p2, float p3, float p4, Any p5, Any p6, Any p7) { invoke<Void>(0x69D5479982355D8F, p0, p1, p2, p3, p4, p5, p6, p7); }
+	NATIVE_DECL void _0x49C63FDF69744A27(Any p0, Any p1, float p2, float p3, float p4, Any* p5, Any* p6, Any* p7) { invoke<Void>(0x49C63FDF69744A27, p0, p1, p2, p3, p4, p5, p6, p7); }
+	NATIVE_DECL void _0x6965469934958D8F(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0x6965469934958D8F, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x69684D9936958D8F(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0x69684D9936958D8F, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x80D6524190258C3E(Any p0, Any p1, Any* p2) { invoke<Void>(0x80D6524190258C3E, p0, p1, p2); }
+	NATIVE_DECL void _0x72A5CD214B342568(Any p0, Any p1, BOOL p2) { invoke<Void>(0x72A5CD214B342568, p0, p1, p2); }
+	NATIVE_DECL void _0xDE31D66D1E54C471(Any p0) { invoke<Void>(0xDE31D66D1E54C471, p0); }
+	NATIVE_DECL void _0x13E8D7DD08543482(Any p0, Any p1, Any p2, Any* p3) { invoke<Void>(0x13E8D7DD08543482, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x3920574CF0A2B7B6(Any p0, Any* p1) { invoke<Void>(0x3920574CF0A2B7B6, p0, p1); }
+	NATIVE_DECL void _0xD594A19BE09A75C6(Any p0, Any p1) { invoke<Void>(0xD594A19BE09A75C6, p0, p1); }
+	NATIVE_DECL void _0xA31013798FADCADC(Any p0, Any p1, BOOL p2) { invoke<Void>(0xA31013798FADCADC, p0, p1, p2); }
+	NATIVE_DECL void _0xB95B4EA6B1EDF035() { invoke<Void>(0xB95B4EA6B1EDF035); }
+	NATIVE_DECL void _0xB43163388484CC87(Any p0, Any p1, Any p2, Any* p3, BOOL p4, BOOL p5, BOOL p6) { invoke<Void>(0xB43163388484CC87, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL void _0xFA233F8FE190514C(Any* p0) { invoke<Void>(0xFA233F8FE190514C, p0); }
+	NATIVE_DECL void _0xDFF0D417277B41F8() { invoke<Void>(0xDFF0D417277B41F8); }
+	NATIVE_DECL BOOL _0xCC48FFBB45B54F71() { return invoke<BOOL>(0xCC48FFBB45B54F71); }
+	NATIVE_DECL void _0xA3108D6981A5CADB() { invoke<Void>(0xA3108D6981A5CADB); }
+	NATIVE_DECL void _0xA3108D6981A5CADC() { invoke<Void>(0xA3108D6981A5CADC); }
+	NATIVE_DECL Any _0x15A4461BEB788096() { return invoke<Any>(0x15A4461BEB788096); }
+	NATIVE_DECL void _0xE9990552DEC71600() { invoke<Void>(0xE9990552DEC71600); }
+	NATIVE_DECL Any _0x136A027CF37B0A4F(Any p0, Any p1) { return invoke<Any>(0x136A027CF37B0A4F, p0, p1); }
+	NATIVE_DECL void _0x60C59968E8E87E6B(Any p0, Any p1, Any* p2, Any* p3, Any p4) { invoke<Void>(0x60C59968E8E87E6B, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xD106B211EF1B8F04(Any* p0, Any* p1) { invoke<Void>(0xD106B211EF1B8F04, p0, p1); }
+	NATIVE_DECL Any _0x49E58FE6EF40B987(Any* p0) { return invoke<Any>(0x49E58FE6EF40B987, p0); }
 }
 
 namespace UIPINNING
@@ -11180,6 +13159,18 @@ namespace UISTATEMACHINE
 	NATIVE_DECL BOOL _UI_STATE_MACHINE_IS_EXITED(Hash p0) { return invoke<BOOL>(0x11E73195E735B25B, p0); }
 	NATIVE_DECL void UI_STATE_MACHINE_DESTROY(Any p0) { invoke<Void>(0x4EB122210A90E2D8, p0); }
 	NATIVE_DECL void UI_STATE_MACHINE_DESTROY_AND_CLEAR(Any* p0) { invoke<Void>(0x2738D68D2B4E09E7, p0); }
+	NATIVE_DECL Any _0xC0081B34E395CE48(Any p0) { return invoke<Any>(0xC0081B34E395CE48, p0); }
+	NATIVE_DECL void _0xF320A77DD5F781DF(Any* p0) { invoke<Void>(0xF320A77DD5F781DF, p0); }
+	NATIVE_DECL BOOL _0x10A93C057B6BD944(Any p0) { return invoke<BOOL>(0x10A93C057B6BD944, p0); }
+	NATIVE_DECL BOOL _0x3B7519720C9DCB45(Any p0, Any p1) { return invoke<BOOL>(0x3B7519720C9DCB45, p0, p1); }
+	NATIVE_DECL BOOL _0x5D15569C0FEBF757(Any p0) { return invoke<BOOL>(0x5D15569C0FEBF757, p0); }
+	NATIVE_DECL BOOL _0x4C6F2C4B7A03A266(Any p0, Any p1) { return invoke<BOOL>(0x4C6F2C4B7A03A266, p0, p1); }
+	NATIVE_DECL BOOL _0xF7C180F57F85D0B8(Any p0) { return invoke<BOOL>(0xF7C180F57F85D0B8, p0); }
+	NATIVE_DECL BOOL _0x7EA9C3547E80350E(Any p0, Any p1) { return invoke<BOOL>(0x7EA9C3547E80350E, p0, p1); }
+	NATIVE_DECL void _0x6B9FE4F0BA521A19(Any p0, Any p1) { invoke<Void>(0x6B9FE4F0BA521A19, p0, p1); }
+	NATIVE_DECL BOOL _0x11E73195E735B25B(Any p0) { return invoke<BOOL>(0x11E73195E735B25B, p0); }
+	NATIVE_DECL void _0x4EB122210A90E2D8(Any p0) { invoke<Void>(0x4EB122210A90E2D8, p0); }
+	NATIVE_DECL void _0x2738D68D2B4E09E7(Any* p0) { invoke<Void>(0x2738D68D2B4E09E7, p0); }
 }
 
 namespace UISTICKYFEED
@@ -11212,6 +13203,15 @@ namespace UNLOCK
 	NATIVE_DECL void _UNLOCK_SET_NEW(Hash unlockHash, BOOL toggle) { invoke<Void>(0xA6D79C7AEF870A99, unlockHash, toggle); }
 	NATIVE_DECL BOOL _UNLOCK_IS_LOOTABLE(Hash unlockHash) { return invoke<BOOL>(0x66BF197E066050DE, unlockHash); }
 	NATIVE_DECL void _UNLOCK_GET_ITEM_ROLE_UNLOCK_INFO(Hash unlockHash, Any* outData) { invoke<Void>(0x7C1C2062CFAD06FE, unlockHash, outData); }
+	NATIVE_DECL BOOL _0x6B6369647F26F09F(Any p0, Any p1) { return invoke<BOOL>(0x6B6369647F26F09F, p0, p1); }
+	NATIVE_DECL BOOL _0xC4B660C7B6040E75(Any p0) { return invoke<BOOL>(0xC4B660C7B6040E75, p0); }
+	NATIVE_DECL void _0x1B7C5ADA8A6910A0(Any p0, BOOL p1) { invoke<Void>(0x1B7C5ADA8A6910A0, p0, p1); }
+	NATIVE_DECL BOOL _0x8588A14B75AF096B(Any p0) { return invoke<BOOL>(0x8588A14B75AF096B, p0); }
+	NATIVE_DECL void _0x46B901A8ECDB5A61(Any p0, BOOL p1) { invoke<Void>(0x46B901A8ECDB5A61, p0, p1); }
+	NATIVE_DECL BOOL _0x644166BA7AA49DEA(Any p0) { return invoke<BOOL>(0x644166BA7AA49DEA, p0); }
+	NATIVE_DECL void _0xA6D79C7AEF870A99(Any p0, BOOL p1) { invoke<Void>(0xA6D79C7AEF870A99, p0, p1); }
+	NATIVE_DECL BOOL _0x66BF197E066050DE(Any p0) { return invoke<BOOL>(0x66BF197E066050DE, p0); }
+	NATIVE_DECL void _0x7C1C2062CFAD06FE(Any p0, Any* p1) { invoke<Void>(0x7C1C2062CFAD06FE, p0, p1); }
 }
 
 namespace VEHICLE
@@ -11958,6 +13958,164 @@ namespace VEHICLE
 	NATIVE_DECL void _0x762FDC4C19E5A981(Entity trainCarriage, BOOL p1) { invoke<Void>(0x762FDC4C19E5A981, trainCarriage, p1); }
 	NATIVE_DECL Any _0x2045429505158D1A(Any p0) { return invoke<Any>(0x2045429505158D1A, p0); }
 	NATIVE_DECL void _0x13EB275BF81636D1(Any p0, Any p1) { invoke<Void>(0x13EB275BF81636D1, p0, p1); }
+	NATIVE_DECL void _0xCE1531927AD6C9F8(Any p0, BOOL p1) { invoke<Void>(0xCE1531927AD6C9F8, p0, p1); }
+	NATIVE_DECL Any _0x214651FB1DFEBA89(Any p0, float p1, float p2, float p3, float p4, BOOL p5, BOOL p6, BOOL p7, Any p8, BOOL p9) { return invoke<Any>(0x214651FB1DFEBA89, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9); }
+	NATIVE_DECL void _0x35DC1877312FBA0F(Any* p0) { invoke<Void>(0x35DC1877312FBA0F, p0); }
+	NATIVE_DECL BOOL _0x5136B284B67B35C7(Any p0) { return invoke<BOOL>(0x5136B284B67B35C7, p0); }
+	NATIVE_DECL void _0x1240E8596A8308B9(Vehicle vehicle, BOOL p1) { invoke<Void>(0x1240E8596A8308B9, vehicle, p1); }
+	NATIVE_DECL void _0x424FFCB9F0D2D4B5(Any p0, Any p1) { invoke<Void>(0x424FFCB9F0D2D4B5, p0, p1); }
+	NATIVE_DECL BOOL _0x7892685BF6D9775E(Vehicle vehicle, BOOL flag) { return invoke<BOOL>(0x7892685BF6D9775E, vehicle, flag); }
+	NATIVE_DECL BOOL _0xFF5791B7639C2A46(Any p0, Any* p1) { return invoke<BOOL>(0xFF5791B7639C2A46, p0, p1); }
+	NATIVE_DECL void _0xD4288603E8766FF7(BOOL toggle) { invoke<Void>(0xD4288603E8766FF7, toggle); }
+	NATIVE_DECL void SET_PED_TARGETTABLE_VEHICLE_DESTROY(Vehicle vehicle, int doorIndex, int destroyType) { invoke<Void>(0xA9F1D75195CC40F6, vehicle, doorIndex, destroyType); }
+	NATIVE_DECL BOOL _0xDD1E1393D966D39A(Any p0, Any p1) { return invoke<BOOL>(0xDD1E1393D966D39A, p0, p1); }
+	NATIVE_DECL void _0x201B8ED4FF7FE9F5(Any p0) { invoke<Void>(0x201B8ED4FF7FE9F5, p0); }
+	NATIVE_DECL void _0x41CDA90EE3450921(Any p0) { invoke<Void>(0x41CDA90EE3450921, p0); }
+	NATIVE_DECL void _0xA13028E22564A1BD(Any p0, float p1) { invoke<Void>(0xA13028E22564A1BD, p0, p1); }
+	NATIVE_DECL BOOL _GET_BOAT_ANCHOR(Vehicle vehicle) { return invoke<BOOL>(0xC075176CFB8B4128, vehicle); }
+	NATIVE_DECL void _0x286771F3059A37A7(Vehicle vehicle, BOOL p1, BOOL p2) { invoke<Void>(0x286771F3059A37A7, vehicle, p1, p2); }
+	NATIVE_DECL void _0x75B49ACD73617437(Vehicle vehicle, BOOL p1) { invoke<Void>(0x75B49ACD73617437, vehicle, p1); }
+	NATIVE_DECL void _0xE3261532550D6A9F(Vehicle vehicle, float p1) { invoke<Void>(0xE3261532550D6A9F, vehicle, p1); }
+	NATIVE_DECL void _0x62A6D317A011EA1D(Vehicle vehicle, BOOL toggle) { invoke<Void>(0x62A6D317A011EA1D, vehicle, toggle); }
+	NATIVE_DECL void _0x1098CDA477890165(Any p0, BOOL p1) { invoke<Void>(0x1098CDA477890165, p0, p1); }
+	NATIVE_DECL Any _0xEA44E97849E9F3DD(Any p0) { return invoke<Any>(0xEA44E97849E9F3DD, p0); }
+	NATIVE_DECL Any _0xA8BA0BAE0173457B(Any p0, Any p1) { return invoke<Any>(0xA8BA0BAE0173457B, p0, p1); }
+	NATIVE_DECL BOOL _0x404527BC03DA0E6C(Any p0) { return invoke<BOOL>(0x404527BC03DA0E6C, p0); }
+	NATIVE_DECL void _0x7C06330BFDDA182E(Any p0) { invoke<Void>(0x7C06330BFDDA182E, p0); }
+	NATIVE_DECL void _0xF6E3D38869D0F7AD(Any p0) { invoke<Void>(0xF6E3D38869D0F7AD, p0); }
+	NATIVE_DECL void _0xBAE0EEDF93F05EAA(Any p0, float p1) { invoke<Void>(0xBAE0EEDF93F05EAA, p0, p1); }
+	NATIVE_DECL void _0x4D15E49764CB328A(Any p0, float p1) { invoke<Void>(0x4D15E49764CB328A, p0, p1); }
+	NATIVE_DECL Any _0x45853F4E17D847D5(Any p0) { return invoke<Any>(0x45853F4E17D847D5, p0); }
+	NATIVE_DECL Any _0x6E585A616ABB8401(Any p0) { return invoke<Any>(0x6E585A616ABB8401, p0); }
+	NATIVE_DECL void _0xE6BD7DD3FD474415(Any p0, BOOL p1) { invoke<Void>(0xE6BD7DD3FD474415, p0, p1); }
+	NATIVE_DECL BOOL _0xC29996A337BDD099(Any p0) { return invoke<BOOL>(0xC29996A337BDD099, p0); }
+	NATIVE_DECL Vector3 _0x1E8A921112891651(Any p0) { return invoke<Vector3>(0x1E8A921112891651, p0); }
+	NATIVE_DECL BOOL _0xF05DFAF1ADFEF2CD(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5) { return invoke<BOOL>(0xF05DFAF1ADFEF2CD, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL Any _0x85D39F5E3B6D7EB0(float p0, float p1, float p2) { return invoke<Any>(0x85D39F5E3B6D7EB0, p0, p1, p2); }
+	NATIVE_DECL Vector3 _0x6DE03BCC15E81710(Any p0, Any p1, Any p2) { return invoke<Vector3>(0x6DE03BCC15E81710, p0, p1, p2); }
+	NATIVE_DECL Any _0x0E558D3A49D759D6(Any p0, Any p1) { return invoke<Any>(0x0E558D3A49D759D6, p0, p1); }
+	NATIVE_DECL void _0x9F29999DFDF2AEB8(Any p0, float p1) { invoke<Void>(0x9F29999DFDF2AEB8, p0, p1); }
+	NATIVE_DECL Any _0x60B7D1DCC312697D(Any p0) { return invoke<Any>(0x60B7D1DCC312697D, p0); }
+	NATIVE_DECL Any _0x8DF5F6A19F99F0D5(Any p0, Any p1) { return invoke<Any>(0x8DF5F6A19F99F0D5, p0, p1); }
+	NATIVE_DECL Any _0x635423D55CA84FC8(Any p0) { return invoke<Any>(0x635423D55CA84FC8, p0); }
+	NATIVE_DECL Any _0x671A07C9A1CD50A5(Any p0) { return invoke<Any>(0x671A07C9A1CD50A5, p0); }
+	NATIVE_DECL void _0x4182C037AA1F0091(Any p0, BOOL p1) { invoke<Void>(0x4182C037AA1F0091, p0, p1); }
+	NATIVE_DECL BOOL _0xE887BD31D97793F6(Any p0) { return invoke<BOOL>(0xE887BD31D97793F6, p0); }
+	NATIVE_DECL void _0x3660BCAB3A6BB734(Any p0) { invoke<Void>(0x3660BCAB3A6BB734, p0); }
+	NATIVE_DECL void _0x787E43477746876F(Any p0) { invoke<Void>(0x787E43477746876F, p0); }
+	NATIVE_DECL void _0x59ECA796021B0539(Vehicle p0, BOOL p1) { invoke<Void>(0x59ECA796021B0539, p0, p1); }
+	NATIVE_DECL void _0xC9EA26893C9E4024(Any p0, float p1, float p2, float p3, BOOL p4) { invoke<Void>(0xC9EA26893C9E4024, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0xB9D5BDDA88E1BB66(Any p0) { return invoke<BOOL>(0xB9D5BDDA88E1BB66, p0); }
+	NATIVE_DECL void _0x63DC1F22C903B709(Vehicle vehicle, BOOL p1) { invoke<Void>(0x63DC1F22C903B709, vehicle, p1); }
+	NATIVE_DECL void _0xC903855E028A05F2(Vehicle vehicle, BOOL p1) { invoke<Void>(0xC903855E028A05F2, vehicle, p1); }
+	NATIVE_DECL void _0x33992A808DF1C1BA(Vehicle vehicle, BOOL p1) { invoke<Void>(0x33992A808DF1C1BA, vehicle, p1); }
+	NATIVE_DECL void _0x065D03A9D6B2C6B5(Any p0, BOOL p1) { invoke<Void>(0x065D03A9D6B2C6B5, p0, p1); }
+	NATIVE_DECL void _0x7549B9E841940695(Vehicle vehicle, BOOL p1) { invoke<Void>(0x7549B9E841940695, vehicle, p1); }
+	NATIVE_DECL void _SET_VEHICLE_DOOR_CAN_BREAK(Vehicle vehicle, int doorIndex, BOOL isBreakable) { invoke<Void>(0x081FB9D6422F804C, vehicle, doorIndex, isBreakable); }
+	NATIVE_DECL BOOL _0x3C9628A811CBD724(Any p0) { return invoke<BOOL>(0x3C9628A811CBD724, p0); }
+	NATIVE_DECL BOOL _0x67995318F5FAA496(Any p0) { return invoke<BOOL>(0x67995318F5FAA496, p0); }
+	NATIVE_DECL BOOL _0x09034479E6E3E269(Any p0, Any* p1, Any* p2) { return invoke<BOOL>(0x09034479E6E3E269, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x86AFC343CF7F0B34(Any p0, float p1, float p2, float p3, Any* p4) { return invoke<BOOL>(0x86AFC343CF7F0B34, p0, p1, p2, p3, p4); }
+	NATIVE_DECL Vector3 _0x785639D89F8451AB(Any p0, Any p1) { return invoke<Vector3>(0x785639D89F8451AB, p0, p1); }
+	NATIVE_DECL void _0xE6C5E2125EB210C1(Any p0, Any p1, BOOL p2) { invoke<Void>(0xE6C5E2125EB210C1, p0, p1, p2); }
+	NATIVE_DECL void _0x138398153824E332() { invoke<Void>(0x138398153824E332); }
+	NATIVE_DECL void _0x8EC47DD4300BF063(Any p0, float p1) { invoke<Void>(0x8EC47DD4300BF063, p0, p1); }
+	NATIVE_DECL void _0x54CBDD6E1B4CB4DF(Any p0) { invoke<Void>(0x54CBDD6E1B4CB4DF, p0); }
+	NATIVE_DECL Any _0x86FA6D8B48667D75(Any p0) { return invoke<Any>(0x86FA6D8B48667D75, p0); }
+	NATIVE_DECL Any _0x9CC94A948EAF5372(Any p0, Any p1) { return invoke<Any>(0x9CC94A948EAF5372, p0, p1); }
+	NATIVE_DECL Any _0xAF787E081AC4A8EE(Any p0) { return invoke<Any>(0xAF787E081AC4A8EE, p0); }
+	NATIVE_DECL Vector3 _0xBA958F68031DDBFC(Any p0, Any p1) { return invoke<Vector3>(0xBA958F68031DDBFC, p0, p1); }
+	NATIVE_DECL Any _0x865FEC2FA899F29C(Any p0) { return invoke<Any>(0x865FEC2FA899F29C, p0); }
+	NATIVE_DECL void _0xCFE122EC635CC2B2(Any p0, Any* p1, BOOL p2, BOOL p3) { invoke<Void>(0xCFE122EC635CC2B2, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x1BFBAFCC6760FF02(Any p0, BOOL p1) { invoke<Void>(0x1BFBAFCC6760FF02, p0, p1); }
+	NATIVE_DECL void _0xD146EE5F2B06B95E(Vehicle vehicle, BOOL p1) { invoke<Void>(0xD146EE5F2B06B95E, vehicle, p1); }
+	NATIVE_DECL void _0x8F75941C86EEBFCA(Vehicle vehicle, BOOL p1) { invoke<Void>(0x8F75941C86EEBFCA, vehicle, p1); }
+	NATIVE_DECL void _0xC84E138448507567(Vehicle vehicle, BOOL p1) { invoke<Void>(0xC84E138448507567, vehicle, p1); }
+	NATIVE_DECL Any _0xDDBEA5506C848227(Any p0) { return invoke<Any>(0xDDBEA5506C848227, p0); }
+	NATIVE_DECL Any _0x0E3BF7ED4169EC43(Any p0) { return invoke<Any>(0x0E3BF7ED4169EC43, p0); }
+	NATIVE_DECL void _0x6F73EFAB11651D7F(Any p0, float p1) { invoke<Void>(0x6F73EFAB11651D7F, p0, p1); }
+	NATIVE_DECL void _0x5AABB09F6FBD1F87(Any p0, float p1) { invoke<Void>(0x5AABB09F6FBD1F87, p0, p1); }
+	NATIVE_DECL void _0x8268B098F6FCA4E2(Any p0, Any p1) { invoke<Void>(0x8268B098F6FCA4E2, p0, p1); }
+	NATIVE_DECL void _0xF89D82A0582E46ED(Any p0, Any p1) { invoke<Void>(0xF89D82A0582E46ED, p0, p1); }
+	NATIVE_DECL Any _0xA44D65E6C624526F(Any p0) { return invoke<Any>(0xA44D65E6C624526F, p0); }
+	NATIVE_DECL Any _0xBB765B8FD49A796C(Any p0) { return invoke<Any>(0xBB765B8FD49A796C, p0); }
+	NATIVE_DECL void _0x8D3230A0ED7DE39F(Vehicle vehicle, BOOL p1) { invoke<Void>(0x8D3230A0ED7DE39F, vehicle, p1); }
+	NATIVE_DECL void _0xCF9DA72002FC16BF(Any p0, Any p1, Any p2) { invoke<Void>(0xCF9DA72002FC16BF, p0, p1, p2); }
+	NATIVE_DECL void _0x1FF00DB43026B12F() { invoke<Void>(0x1FF00DB43026B12F); }
+	NATIVE_DECL BOOL _0x2701D01D5E18FC31() { return invoke<BOOL>(0x2701D01D5E18FC31); }
+	NATIVE_DECL float _GET_VEHICLE_MAX_SPEED(Vehicle vehicle) { return invoke<float>(0xFE52F34491529F0B, vehicle); }
+	NATIVE_DECL int _ADD_SPEED_ZONE_FOR_COORD(float x, float y, float z, float radius, float speed, BOOL p5, BOOL p6, float p7, float p8, float p9, float p10) { return invoke<int>(0x4C221BAC54D735C3, x, y, z, radius, speed, p5, p6, p7, p8, p9, p10); }
+	NATIVE_DECL BOOL _REMOVE_SPEED_ZONE(int speedzone) { return invoke<BOOL>(0xFE9AB3354ACE6C9C, speedzone); }
+	NATIVE_DECL BOOL _0x80DDCCB2F4A3EB57(Ped ped, Vehicle vehicle, BOOL p2, BOOL p3, BOOL p4) { return invoke<BOOL>(0x80DDCCB2F4A3EB57, ped, vehicle, p2, p3, p4); }
+	NATIVE_DECL void _SET_VEHICLE_ENGINE_POWER_MULTIPLIER(Vehicle vehicle, float value) { invoke<Void>(0x35AD938C74CACD6A, vehicle, value); }
+	NATIVE_DECL void _SET_VEHICLE_ST(Vehicle vehicle, BOOL toggle) { invoke<Void>(0x23A3AB86E0807721, vehicle, toggle); }
+	NATIVE_DECL void _0xC1842F40FD501DA2(Any p0, BOOL p1) { invoke<Void>(0xC1842F40FD501DA2, p0, p1); }
+	NATIVE_DECL BOOL _0x30D86B2B7622D0EB(Any p0) { return invoke<BOOL>(0x30D86B2B7622D0EB, p0); }
+	NATIVE_DECL void _0x09C970AE59ABF6B2(Vehicle vehicle, BOOL p1) { invoke<Void>(0x09C970AE59ABF6B2, vehicle, p1); }
+	NATIVE_DECL void _0x1EF36558FBDE2DAA(Vehicle vehicle) { invoke<Void>(0x1EF36558FBDE2DAA, vehicle); }
+	NATIVE_DECL void _0x0EFC5DC62E67609B() { invoke<Void>(0x0EFC5DC62E67609B); }
+	NATIVE_DECL void _0x838C216C2B05A009(Any p0, Any p1) { invoke<Void>(0x838C216C2B05A009, p0, p1); }
+	NATIVE_DECL Any _0xB729679356A889AE(Any p0) { return invoke<Any>(0xB729679356A889AE, p0); }
+	NATIVE_DECL void _0x3FA7D7D1E0EA809E(Any p0, Any p1) { invoke<Void>(0x3FA7D7D1E0EA809E, p0, p1); }
+	NATIVE_DECL void _0x7F8E2B131E1DCA6C(Vehicle vehicle, BOOL toggle) { invoke<Void>(0x7F8E2B131E1DCA6C, vehicle, toggle); }
+	NATIVE_DECL void _0xDBC28A8C683CD80B(Vehicle vehicle, Vehicle vehicle2) { invoke<Void>(0xDBC28A8C683CD80B, vehicle, vehicle2); }
+	NATIVE_DECL Any _0x13C190302369308B(Any p0) { return invoke<Any>(0x13C190302369308B, p0); }
+	NATIVE_DECL void _0x73F1E4F6DF26FE30(BOOL p0) { invoke<Void>(0x73F1E4F6DF26FE30, p0); }
+	NATIVE_DECL void _0x4EA71B4C9DB3C3F1(Vehicle vehicle, BOOL p1) { invoke<Void>(0x4EA71B4C9DB3C3F1, vehicle, p1); }
+	NATIVE_DECL void _0x23F66C36F8E5EAAB(Any p0, BOOL p1) { invoke<Void>(0x23F66C36F8E5EAAB, p0, p1); }
+	NATIVE_DECL void _0x697DF68F3A761A50(Any p0) { invoke<Void>(0x697DF68F3A761A50, p0); }
+	NATIVE_DECL void _SET_VEHICLE_JET_ENGINE_ON(Vehicle vehicle, BOOL toggle) { invoke<Void>(0x1549BA7FE83A2383, vehicle, toggle); }
+	NATIVE_DECL void _SET_VEHICLE_EXCLUSIVE_DRIVER_2(Vehicle vehicle, Ped ped, int p2) { invoke<Void>(0xC6B9BF123B9463B6, vehicle, ped, p2); }
+	NATIVE_DECL BOOL _0xB213D2A560B2E48B(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0xB213D2A560B2E48B, p0, p1, p2); }
+	NATIVE_DECL void _0xCEC4CA2CAB8FA98C(Vehicle vehicle, BOOL p1) { invoke<Void>(0xCEC4CA2CAB8FA98C, vehicle, p1); }
+	NATIVE_DECL void _0xF5FFB08976911B50(float p0, float p1, float p2, float p3) { invoke<Void>(0xF5FFB08976911B50, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x316CDB5B6E8F4110(Any p0, Any p1, Any p2) { return invoke<BOOL>(0x316CDB5B6E8F4110, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x4402960666000E62(Any p0, Any p1) { return invoke<BOOL>(0x4402960666000E62, p0, p1); }
+	NATIVE_DECL BOOL _0xB36D3EC70963BE60(Any p0, Any p1) { return invoke<BOOL>(0xB36D3EC70963BE60, p0, p1); }
+	NATIVE_DECL Any _0x5B1A26BB18E7D451(Any p0) { return invoke<Any>(0x5B1A26BB18E7D451, p0); }
+	NATIVE_DECL Vector3 _0x35D302397E524939(Any p0, float p1, float p2, float p3, float p4, BOOL p5) { return invoke<Vector3>(0x35D302397E524939, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0xA6E210FB4283B767(Any p0, Any* p1, Any* p2) { invoke<Void>(0xA6E210FB4283B767, p0, p1, p2); }
+	NATIVE_DECL Any _0x2963B5C1637E8A27(Any p0) { return invoke<Any>(0x2963B5C1637E8A27, p0); }
+	NATIVE_DECL void _0xF489F94BFEE12BB0(Any p0, Any p1) { invoke<Void>(0xF489F94BFEE12BB0, p0, p1); }
+	NATIVE_DECL Any _0x0BA4250D20007C2E(Any p0) { return invoke<Any>(0x0BA4250D20007C2E, p0); }
+	NATIVE_DECL void _0x2200AB13CBD10F4E(Any p0, float p1, float p2, float p3, BOOL p4, float p5) { invoke<Void>(0x2200AB13CBD10F4E, p0, p1, p2, p3, p4, p5); }
+	NATIVE_DECL void _0xB42C87521D1BDD2F(Any p0, float p1, float p2, float p3) { invoke<Void>(0xB42C87521D1BDD2F, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0xE015CF1F2C0959D8(Any p0) { return invoke<Any>(0xE015CF1F2C0959D8, p0); }
+	NATIVE_DECL Any _0x877EA24EB1614495(Any* p0, Any p1, Any p2) { return invoke<Any>(0x877EA24EB1614495, p0, p1, p2); }
+	NATIVE_DECL Any _0x58F2244C1286D09A(Any p0, Any p1) { return invoke<Any>(0x58F2244C1286D09A, p0, p1); }
+	NATIVE_DECL Any _0x2FA86833E3617E2D(Any p0) { return invoke<Any>(0x2FA86833E3617E2D, p0); }
+	NATIVE_DECL void _0xBC4735F48CD983EF(Any p0, BOOL p1) { invoke<Void>(0xBC4735F48CD983EF, p0, p1); }
+	NATIVE_DECL void _0x9D12796EF4BF9EA9(Any p0) { invoke<Void>(0x9D12796EF4BF9EA9, p0); }
+	NATIVE_DECL void _0xC372B6A88F6E4AD8(Any p0, Any p1, float p2) { invoke<Void>(0xC372B6A88F6E4AD8, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xA19447D83294E29F(Any p0, Any* p1, Any* p2) { return invoke<BOOL>(0xA19447D83294E29F, p0, p1, p2); }
+	NATIVE_DECL void _0x6090A031C69F384E(Any p0, BOOL p1) { invoke<Void>(0x6090A031C69F384E, p0, p1); }
+	NATIVE_DECL void _0x226C6A4E3346D288(Any p0, BOOL p1) { invoke<Void>(0x226C6A4E3346D288, p0, p1); }
+	NATIVE_DECL void _0x41503629D1139ABC(Any p0, Any p1, float p2, float p3, float p4) { invoke<Void>(0x41503629D1139ABC, p0, p1, p2, p3, p4); }
+	NATIVE_DECL BOOL _0xCB2CA620C48BC875(Any p0, Any p1) { return invoke<BOOL>(0xCB2CA620C48BC875, p0, p1); }
+	NATIVE_DECL BOOL _0x18714953CCED17D3(Any p0) { return invoke<BOOL>(0x18714953CCED17D3, p0); }
+	NATIVE_DECL void _0x8E5DA070BAD3279E(Any p0, float p1) { invoke<Void>(0x8E5DA070BAD3279E, p0, p1); }
+	NATIVE_DECL BOOL _0xE979BB5602AD3402(Any p0, Any p1) { return invoke<BOOL>(0xE979BB5602AD3402, p0, p1); }
+	NATIVE_DECL Any _0xD4F5EFB55769D272(Any p0, Any p1) { return invoke<Any>(0xD4F5EFB55769D272, p0, p1); }
+	NATIVE_DECL BOOL _0xE1A83D4A3B5D7938(Any p0) { return invoke<BOOL>(0xE1A83D4A3B5D7938, p0); }
+	NATIVE_DECL void _0x0C3F0F7F92CA847C(Any p0, float p1) { invoke<Void>(0x0C3F0F7F92CA847C, p0, p1); }
+	NATIVE_DECL float _0xC6D7DDC843176701(Any p0) { return invoke<float>(0xC6D7DDC843176701, p0); }
+	NATIVE_DECL void _0x06A09A6E0C6D2A84(Any p0, BOOL p1) { invoke<Void>(0x06A09A6E0C6D2A84, p0, p1); }
+	NATIVE_DECL void _0x12F6C6ED3EFF42DE(Any p0, float p1, float p2, float p3) { invoke<Void>(0x12F6C6ED3EFF42DE, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0xBD3C4A2ED509205E(Any p0) { return invoke<BOOL>(0xBD3C4A2ED509205E, p0); }
+	NATIVE_DECL Any _0xC239DBD9A57D2A71(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7) { return invoke<Any>(0xC239DBD9A57D2A71, p0, p1, p2, p3, p4, p5, p6, p7); }
+	NATIVE_DECL void _0xD1EFA8D68BF5D63D(Any p0, float p1, float p2, float p3) { invoke<Void>(0xD1EFA8D68BF5D63D, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0x1121B07088ED3013(Any p0) { return invoke<Any>(0x1121B07088ED3013, p0); }
+	NATIVE_DECL Any _0x42404D57D621601A(Any p0) { return invoke<Any>(0x42404D57D621601A, p0); }
+	NATIVE_DECL Any _0x288CBB414C3C2FBB(Any p0) { return invoke<Any>(0x288CBB414C3C2FBB, p0); }
+	NATIVE_DECL void _0x7C9E45A4CED2E8DA(Any p0, float p1) { invoke<Void>(0x7C9E45A4CED2E8DA, p0, p1); }
+	NATIVE_DECL void _0x87344305778E5415(Any p0, BOOL p1) { invoke<Void>(0x87344305778E5415, p0, p1); }
+	NATIVE_DECL void _0x6835AFEA10E186F4(Any p0, Any p1) { invoke<Void>(0x6835AFEA10E186F4, p0, p1); }
+	NATIVE_DECL void _0x8C6D9A399126C194(Any p0, Any p1) { invoke<Void>(0x8C6D9A399126C194, p0, p1); }
+	NATIVE_DECL BOOL _0xD798DF5DB67B1659(Any p0) { return invoke<BOOL>(0xD798DF5DB67B1659, p0); }
+	NATIVE_DECL void _0x31F343383F19C987(Any p0, float p1, BOOL p2) { invoke<Void>(0x31F343383F19C987, p0, p1, p2); }
+	NATIVE_DECL void _0x07E2E21E799080A0(Any p0, BOOL p1) { invoke<Void>(0x07E2E21E799080A0, p0, p1); }
+	NATIVE_DECL void _0xC2E62678D602853C(Any p0, float p1, float p2, float p3, float p4, float p5, float p6) { invoke<Void>(0xC2E62678D602853C, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL Any _0x51C7694E140FAE43(Any p0) { return invoke<Any>(0x51C7694E140FAE43, p0); }
 }
 
 namespace VOICE
@@ -12137,6 +14295,13 @@ namespace WATER
 	NATIVE_DECL void _0x0DCEC6A92E497E17(Entity entity, int p1) { invoke<Void>(0x0DCEC6A92E497E17, entity, p1); }
 	// Only used in fussar1 / train_robbery2 R* Script
 	NATIVE_DECL void _0xE8126623008372AA() { invoke<Void>(0xE8126623008372AA); }
+	NATIVE_DECL void _0x754616EC6965D1FB() { invoke<Void>(0x754616EC6965D1FB); }
+	NATIVE_DECL void _0x754616EC6965D1BF() { invoke<Void>(0x754616EC6965D1BF); }
+	NATIVE_DECL void _REMOVE_CURRENT_RISE(int riseHandle) { invoke<Void>(0x4BEF8DD75AF6C71C, riseHandle); }
+	NATIVE_DECL void _0xC63540AEF8384732(float p0, float p1, Any p2, float p3, float p4, float p5, float p6, float p7, BOOL p8) { invoke<Void>(0xC63540AEF8384732, p0, p1, p2, p3, p4, p5, p6, p7, p8); }
+	NATIVE_DECL void _0xC63540AEF8384769() { invoke<Void>(0xC63540AEF8384769); }
+	NATIVE_DECL void _0xE8770EE02AEE45C2(Any p0) { invoke<Void>(0xE8770EE02AEE45C2, p0); }
+	NATIVE_DECL Any _0x189739A7631C1867() { return invoke<Any>(0x189739A7631C1867); }
 }
 
 namespace WEAPON
@@ -12684,6 +14849,156 @@ namespace WEAPON
 	// Returns default attach point for given weapon hash. Returns -1 for melee as they can't be attached.
 	// Example: https://imgur.com/a/mUE5fug
 	NATIVE_DECL int _GET_DEFAULT_WEAPON_ATTACH_POINT(Hash weaponHash) { return invoke<int>(0x65DC4AC5B96614CB, weaponHash); }
+	NATIVE_DECL Any _0x865F36299079FB75(Any p0) { return invoke<Any>(0x865F36299079FB75, p0); }
+	NATIVE_DECL void _0xB190BCA3F4042F95(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0xB190BCA3F4042F95, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x106A811C6D3035F3(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0x106A811C6D3035F3, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xF4823C813CB8277D(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0xF4823C813CB8277D, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xB6CFEC32E3742779(Any p0, Any p1, Any p2, Any p3) { invoke<Void>(0xB6CFEC32E3742779, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x1B83C0DEEBCBB214(Any p0) { invoke<Void>(0x1B83C0DEEBCBB214, p0); }
+	NATIVE_DECL void _0x8A779706DA5CA3DD(Any p0, BOOL p1, Any p2) { invoke<Void>(0x8A779706DA5CA3DD, p0, p1, p2); }
+	NATIVE_DECL void _0x56CB3B4305A4F7CE(Any p0, Any p1, float p2, float p3) { invoke<Void>(0x56CB3B4305A4F7CE, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0xBF5987E1CDE63501(Any p0, Any p1, float p2, float p3) { return invoke<BOOL>(0xBF5987E1CDE63501, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x194D877FC5597B7D(Any p0, Any p1, float p2, BOOL p3) { invoke<Void>(0x194D877FC5597B7D, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xFBAA1E06B6BCA741(Any p0, BOOL p1) { invoke<Void>(0xFBAA1E06B6BCA741, p0, p1); }
+	NATIVE_DECL BOOL _0x678F00858980F516(Any p0, Any* p1, Any* p2) { return invoke<BOOL>(0x678F00858980F516, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xDF4A3404D022ADDE(Any p0, Any* p1, Any p2) { return invoke<BOOL>(0xDF4A3404D022ADDE, p0, p1, p2); }
+	NATIVE_DECL Any _0x5C2EA6C44F515F34(Any p0) { return invoke<Any>(0x5C2EA6C44F515F34, p0); }
+	NATIVE_DECL Any _0x7AA043F6C41D151E(Any p0) { return invoke<Any>(0x7AA043F6C41D151E, p0); }
+	NATIVE_DECL Any _0x59DE03442B6C9598(Any p0) { return invoke<Any>(0x59DE03442B6C9598, p0); }
+	NATIVE_DECL Any _0xF70825EB340E7D15(Any p0) { return invoke<Any>(0xF70825EB340E7D15, p0); }
+	NATIVE_DECL Any _0x46F032B8DDF46CDE(Any p0) { return invoke<Any>(0x46F032B8DDF46CDE, p0); }
+	NATIVE_DECL BOOL _0x6ABAD7B0A854F8FB(Any p0) { return invoke<BOOL>(0x6ABAD7B0A854F8FB, p0); }
+	NATIVE_DECL BOOL _0x49E40483948AF062(Any p0) { return invoke<BOOL>(0x49E40483948AF062, p0); }
+	NATIVE_DECL BOOL _0xC4DEC3CA8C365A5D(Any p0) { return invoke<BOOL>(0xC4DEC3CA8C365A5D, p0); }
+	NATIVE_DECL BOOL _0x79407D33328286C6(Any p0) { return invoke<BOOL>(0x79407D33328286C6, p0); }
+	NATIVE_DECL BOOL _0x506F1DE1BFC75304(Any p0) { return invoke<BOOL>(0x506F1DE1BFC75304, p0); }
+	NATIVE_DECL BOOL _0xBE7E42B07FD317AC(Any p0, Any* p1, Any* p2) { return invoke<BOOL>(0xBE7E42B07FD317AC, p0, p1, p2); }
+	NATIVE_DECL Any _0x5E3BDDBCB83F3D84(Any p0, Any p1, Any p2, BOOL p3, BOOL p4, Any p5, BOOL p6, float p7, float p8, Any p9, BOOL p10, float p11, BOOL p12) { return invoke<Any>(0x5E3BDDBCB83F3D84, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12); }
+	NATIVE_DECL void _0x5230D3F6EE56CFE6(Any p0, Any p1) { invoke<Void>(0x5230D3F6EE56CFE6, p0, p1); }
+	NATIVE_DECL Any _0x9F0E1892C7F228A8(BOOL p0) { return invoke<Any>(0x9F0E1892C7F228A8, p0); }
+	NATIVE_DECL void _0x94A3C1B804D291EC(Any p0, BOOL p1, BOOL p2, BOOL p3, BOOL p4) { invoke<Void>(0x94A3C1B804D291EC, p0, p1, p2, p3, p4); }
+	NATIVE_DECL void _0xFCCC886EDE3C63EC(Any p0, Any p1, BOOL p2) { invoke<Void>(0xFCCC886EDE3C63EC, p0, p1, p2); }
+	NATIVE_DECL void _0x4820A6939D7CEF28(Any p0, BOOL p1) { invoke<Void>(0x4820A6939D7CEF28, p0, p1); }
+	NATIVE_DECL Any _0xC395355843BE134B(Any p0) { return invoke<Any>(0xC395355843BE134B, p0); }
+	NATIVE_DECL Any _0xC71FE230A513C30F(Any p0, BOOL p1) { return invoke<Any>(0xC71FE230A513C30F, p0, p1); }
+	NATIVE_DECL Any _0xDA37A053C1522F5D(Any p0, BOOL p1, BOOL p2, BOOL p3) { return invoke<Any>(0xDA37A053C1522F5D, p0, p1, p2, p3); }
+	NATIVE_DECL void _0xF52BD94B47CCF736(Any p0, Any* p1, BOOL p2, BOOL p3) { invoke<Void>(0xF52BD94B47CCF736, p0, p1, p2, p3); }
+	NATIVE_DECL BOOL _0x6929E22158E52265(Any p0, Any p1, Any* p2) { return invoke<BOOL>(0x6929E22158E52265, p0, p1, p2); }
+	NATIVE_DECL Any _0x9F67929D98E7C6E8(Any p0, Any p1, BOOL p2, BOOL p3) { return invoke<Any>(0x9F67929D98E7C6E8, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0x08FF1099ED2E6E21(Any p0) { return invoke<Any>(0x08FF1099ED2E6E21, p0); }
+	NATIVE_DECL void _0xBDDA0C290C228159(Any p0, Any p1, Any p2) { invoke<Void>(0xBDDA0C290C228159, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xCB690F680A3EA971(Any p0, Any p1) { return invoke<BOOL>(0xCB690F680A3EA971, p0, p1); }
+	NATIVE_DECL BOOL _0x2387D6E9C6B478AA(Any p0) { return invoke<BOOL>(0x2387D6E9C6B478AA, p0); }
+	NATIVE_DECL BOOL _0x1F7977C9101F807F(Any p0) { return invoke<BOOL>(0x1F7977C9101F807F, p0); }
+	NATIVE_DECL BOOL _0x23BF601A42F329A0(Any p0) { return invoke<BOOL>(0x23BF601A42F329A0, p0); }
+	NATIVE_DECL BOOL _0xF29A186ED428B552(Any p0, Any p1) { return invoke<BOOL>(0xF29A186ED428B552, p0, p1); }
+	NATIVE_DECL Any _0xDBC4B552B2AE9A83(Any p0, Any p1) { return invoke<Any>(0xDBC4B552B2AE9A83, p0, p1); }
+	NATIVE_DECL void _0x67E21ACC5C0C970C(Any p0, Any p1, BOOL p2) { invoke<Void>(0x67E21ACC5C0C970C, p0, p1, p2); }
+	NATIVE_DECL void _0x4F806A6CFED89468(Any p0, BOOL p1) { invoke<Void>(0x4F806A6CFED89468, p0, p1); }
+	NATIVE_DECL void _0x087D8F4BC65F68E4(Any p0) { invoke<Void>(0x087D8F4BC65F68E4, p0); }
+	NATIVE_DECL BOOL _0xDCF06D0CDFF68424(Any p0, Any p1, Any p2) { return invoke<BOOL>(0xDCF06D0CDFF68424, p0, p1, p2); }
+	NATIVE_DECL void _0x2EBF70E1D8C06683(Any p0, Any p1) { invoke<Void>(0x2EBF70E1D8C06683, p0, p1); }
+	NATIVE_DECL BOOL _0x79E1E511FF7EFB13(Any p0) { return invoke<BOOL>(0x79E1E511FF7EFB13, p0); }
+	NATIVE_DECL BOOL _0x0A2AB7B7ABC055F4(Any p0) { return invoke<BOOL>(0x0A2AB7B7ABC055F4, p0); }
+	NATIVE_DECL Any _0xCEF4C65DE502D367(Any p0, BOOL p1, Any p2, BOOL p3, BOOL p4) { return invoke<Any>(0xCEF4C65DE502D367, p0, p1, p2, p3, p4); }
+	NATIVE_DECL Any _0x8425C5F057012DAB(Any p0) { return invoke<Any>(0x8425C5F057012DAB, p0); }
+	NATIVE_DECL void _0x78030C7867D8B9B6(Any p0, BOOL p1) { invoke<Void>(0x78030C7867D8B9B6, p0, p1); }
+	NATIVE_DECL float _0x3799EFCC3C8CD5E1(Any p0) { return invoke<float>(0x3799EFCC3C8CD5E1, p0); }
+	NATIVE_DECL float _0x79B1A6E780266DB0(Any p0) { return invoke<float>(0x79B1A6E780266DB0, p0); }
+	NATIVE_DECL void _0x19F70C4D80494FF8(Any p0, Any p1, Any p2) { invoke<Void>(0x19F70C4D80494FF8, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xBBC67A6F965C688A(Any p0, Any p1, Any p2) { return invoke<BOOL>(0xBBC67A6F965C688A, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xBDD9C235D8D1052E(Any p0) { return invoke<BOOL>(0xBDD9C235D8D1052E, p0); }
+	NATIVE_DECL BOOL _0xD2209866B0CB72EA(Any p0, Any p1) { return invoke<BOOL>(0xD2209866B0CB72EA, p0, p1); }
+	NATIVE_DECL void _0x72D4CB5DB927009C(Any p0, Any p1, Any p2) { invoke<Void>(0x72D4CB5DB927009C, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xFF07CF465F48B830(Any p0) { return invoke<BOOL>(0xFF07CF465F48B830, p0); }
+	NATIVE_DECL void _0xC3896D03E2852236(Any p0) { invoke<Void>(0xC3896D03E2852236, p0); }
+	NATIVE_DECL Any _0x6D3AC61694A791C5(Any p0) { return invoke<Any>(0x6D3AC61694A791C5, p0); }
+	NATIVE_DECL Any _0x89CF5FF3D363311E(Any p0) { return invoke<Any>(0x89CF5FF3D363311E, p0); }
+	NATIVE_DECL Any _0x7A56D66C78D8EF8E(Any p0, float p1) { return invoke<Any>(0x7A56D66C78D8EF8E, p0, p1); }
+	NATIVE_DECL void _0xB832F1A686B9B810(Any p0, BOOL p1, BOOL p2) { invoke<Void>(0xB832F1A686B9B810, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x5A695BD328586B44(Any p0, BOOL p1) { return invoke<BOOL>(0x5A695BD328586B44, p0, p1); }
+	NATIVE_DECL void _0x739B9C6D0E7F7F93(Any p0, Any p1) { invoke<Void>(0x739B9C6D0E7F7F93, p0, p1); }
+	NATIVE_DECL void _0xBE711B14A159E84F(Any p0, Any p1) { invoke<Void>(0xBE711B14A159E84F, p0, p1); }
+	NATIVE_DECL void _0xE9BD19F8121ADE3E(Any p0, Any p1) { invoke<Void>(0xE9BD19F8121ADE3E, p0, p1); }
+	NATIVE_DECL void _0x14FF0C2545527F9B(Any p0, Any p1, Any p2) { invoke<Void>(0x14FF0C2545527F9B, p0, p1, p2); }
+	NATIVE_DECL Any _0xAFFD0CCF31F469B8(Any p0) { return invoke<Any>(0xAFFD0CCF31F469B8, p0); }
+	NATIVE_DECL Any _0x8EC44AE8DECFF841(Any p0) { return invoke<Any>(0x8EC44AE8DECFF841, p0); }
+	NATIVE_DECL BOOL _0x9E2D5D6BC97A5F1E(Any p0, Any p1, Any p2) { return invoke<BOOL>(0x9E2D5D6BC97A5F1E, p0, p1, p2); }
+	NATIVE_DECL Any _0x90EB1CB189923587(Any p0) { return invoke<Any>(0x90EB1CB189923587, p0); }
+	NATIVE_DECL Any _0x9888652B8BA77F73(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6) { return invoke<Any>(0x9888652B8BA77F73, p0, p1, p2, p3, p4, p5, p6); }
+	NATIVE_DECL void _0x1A47699E8D533E8F(Any* p0, Any p1, Any p2, BOOL p3) { invoke<Void>(0x1A47699E8D533E8F, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0xC6A6789BB405D11C(Any p0, BOOL p1) { return invoke<Any>(0xC6A6789BB405D11C, p0, p1); }
+	NATIVE_DECL Any _0x6CA484C9A7377E4F(Any p0, BOOL p1) { return invoke<Any>(0x6CA484C9A7377E4F, p0, p1); }
+	NATIVE_DECL void _0x74C9090FDD1BB48E(Any p0, Any p1, Any p2, BOOL p3) { invoke<Void>(0x74C9090FDD1BB48E, p0, p1, p2, p3); }
+	NATIVE_DECL void _0x74C9080FDD1BB48E(Any p0, float p1) { invoke<Void>(0x74C9080FDD1BB48E, p0, p1); }
+	NATIVE_DECL void _0x74C9080FDD1BB48F(Any p0, float p1) { invoke<Void>(0x74C9080FDD1BB48F, p0, p1); }
+	NATIVE_DECL void _0x74C90AAACC1DD48F(Any p0) { invoke<Void>(0x74C90AAACC1DD48F, p0); }
+	NATIVE_DECL BOOL _0x74C8000FDD1BB111(Any p0, Any* p1) { return invoke<BOOL>(0x74C8000FDD1BB111, p0, p1); }
+	NATIVE_DECL BOOL _0x74C8000FDD1BB222(Any p0, Any* p1) { return invoke<BOOL>(0x74C8000FDD1BB222, p0, p1); }
+	NATIVE_DECL Any _0xF4601C1203B1A78D(Any p0, Any p1) { return invoke<Any>(0xF4601C1203B1A78D, p0, p1); }
+	NATIVE_DECL void _0x01F661BB9C71B465(Any p0, Any p1, Any p2) { invoke<Void>(0x01F661BB9C71B465, p0, p1, p2); }
+	NATIVE_DECL BOOL _0x6554ECCE226F2A2A(Any p0) { return invoke<BOOL>(0x6554ECCE226F2A2A, p0); }
+	NATIVE_DECL Any _0xD42514C182121C23(Any p0) { return invoke<Any>(0xD42514C182121C23, p0); }
+	NATIVE_DECL void _0x899A04AFCC725D04(Any p0, Any p1) { invoke<Void>(0x899A04AFCC725D04, p0, p1); }
+	NATIVE_DECL Any _0x9EEFD670F10656D7(Any p0, Any p1) { return invoke<Any>(0x9EEFD670F10656D7, p0, p1); }
+	NATIVE_DECL Any _0xD3750CCC00635FC2(Any p0) { return invoke<Any>(0xD3750CCC00635FC2, p0); }
+	NATIVE_DECL BOOL _0x918990BD9CE08582(Any p0) { return invoke<BOOL>(0x918990BD9CE08582, p0); }
+	NATIVE_DECL void _0x83B8D50EB9446BBA(Any p0, BOOL p1) { invoke<Void>(0x83B8D50EB9446BBA, p0, p1); }
+	NATIVE_DECL BOOL _0x44C8F4908F1B2622(Any p0, Any p1) { return invoke<BOOL>(0x44C8F4908F1B2622, p0, p1); }
+	NATIVE_DECL BOOL _0x792E3EF76C911959(Any p0) { return invoke<BOOL>(0x792E3EF76C911959, p0); }
+	NATIVE_DECL BOOL _0xC212F1D05A8232BB(Any p0) { return invoke<BOOL>(0xC212F1D05A8232BB, p0); }
+	NATIVE_DECL BOOL _0xDDC64F5E31EEDAB6(Any p0) { return invoke<BOOL>(0xDDC64F5E31EEDAB6, p0); }
+	NATIVE_DECL BOOL _0xDDB2578E95EF7138(Any p0) { return invoke<BOOL>(0xDDB2578E95EF7138, p0); }
+	NATIVE_DECL BOOL _0x0A82317B7EBFC420(Any p0) { return invoke<BOOL>(0x0A82317B7EBFC420, p0); }
+	NATIVE_DECL BOOL _0xC75386174ECE95D5(Any p0) { return invoke<BOOL>(0xC75386174ECE95D5, p0); }
+	NATIVE_DECL BOOL _0x6AD66548840472E5(Any p0) { return invoke<BOOL>(0x6AD66548840472E5, p0); }
+	NATIVE_DECL BOOL _0x959383DCD42040DA(Any p0) { return invoke<BOOL>(0x959383DCD42040DA, p0); }
+	NATIVE_DECL BOOL _0x30E7C16B12DA8211(Any p0) { return invoke<BOOL>(0x30E7C16B12DA8211, p0); }
+	NATIVE_DECL BOOL _0x6E4E1A82081EABED(Any p0) { return invoke<BOOL>(0x6E4E1A82081EABED, p0); }
+	NATIVE_DECL BOOL _0xC853230E76A152DF(Any p0) { return invoke<BOOL>(0xC853230E76A152DF, p0); }
+	NATIVE_DECL BOOL _0x705BE297EEBDB95D(Any p0) { return invoke<BOOL>(0x705BE297EEBDB95D, p0); }
+	NATIVE_DECL BOOL _0x0556E9D2ECF39D01(Any p0) { return invoke<BOOL>(0x0556E9D2ECF39D01, p0); }
+	NATIVE_DECL BOOL _0xD955FEE4B87AFA07(Any p0) { return invoke<BOOL>(0xD955FEE4B87AFA07, p0); }
+	NATIVE_DECL BOOL _0x5809DBCA0A37C82B(Any p0) { return invoke<BOOL>(0x5809DBCA0A37C82B, p0); }
+	NATIVE_DECL BOOL _0xEA522F991E120D45(Any p0) { return invoke<BOOL>(0xEA522F991E120D45, p0); }
+	NATIVE_DECL BOOL _0x7EFACC589B98C488(Any p0) { return invoke<BOOL>(0x7EFACC589B98C488, p0); }
+	NATIVE_DECL BOOL _0x2C83212A7AA51D3D(Any p0) { return invoke<BOOL>(0x2C83212A7AA51D3D, p0); }
+	NATIVE_DECL BOOL _0x5B235F24472F2C3B(Any p0, BOOL p1) { return invoke<BOOL>(0x5B235F24472F2C3B, p0, p1); }
+	NATIVE_DECL BOOL _0xBFCA7AFABF9D7967(Any p0, BOOL p1) { return invoke<BOOL>(0xBFCA7AFABF9D7967, p0, p1); }
+	NATIVE_DECL BOOL _0x495A04CAEC263AF8(Any p0, BOOL p1) { return invoke<BOOL>(0x495A04CAEC263AF8, p0, p1); }
+	NATIVE_DECL BOOL _0x95CA12E2C68043E5(Any p0, BOOL p1) { return invoke<BOOL>(0x95CA12E2C68043E5, p0, p1); }
+	NATIVE_DECL BOOL _0xABC18A28BAD4B46F(Any p0, BOOL p1) { return invoke<BOOL>(0xABC18A28BAD4B46F, p0, p1); }
+	NATIVE_DECL BOOL _0x80BB243789008A82(Any p0, BOOL p1) { return invoke<BOOL>(0x80BB243789008A82, p0, p1); }
+	NATIVE_DECL float _0x904103D5D2333977(Any p0) { return invoke<float>(0x904103D5D2333977, p0); }
+	NATIVE_DECL void _0xE22060121602493B(Any p0, float p1, BOOL p2) { invoke<Void>(0xE22060121602493B, p0, p1, p2); }
+	NATIVE_DECL float _0x810E8AE9AFEA7E54(Any p0) { return invoke<float>(0x810E8AE9AFEA7E54, p0); }
+	NATIVE_DECL void _0x812CE61DEBCAB948(Any p0, float p1, BOOL p2) { invoke<Void>(0x812CE61DEBCAB948, p0, p1, p2); }
+	NATIVE_DECL float _0x4BF66F8878F67663(Any p0) { return invoke<float>(0x4BF66F8878F67663, p0); }
+	NATIVE_DECL void _0xA9EF4AD10BDDDB57(Any p0, float p1, BOOL p2) { invoke<Void>(0xA9EF4AD10BDDDB57, p0, p1, p2); }
+	NATIVE_DECL void _0xD4071EFC83794B2F(Any p0, float p1) { invoke<Void>(0xD4071EFC83794B2F, p0, p1); }
+	NATIVE_DECL float _0x0D78E1097F89E637(Any p0) { return invoke<float>(0x0D78E1097F89E637, p0); }
+	NATIVE_DECL float _0xD56E5F336C675EFA(Any p0) { return invoke<float>(0xD56E5F336C675EFA, p0); }
+	NATIVE_DECL void _0xA7A57E89E965D839(Any p0, float p1) { invoke<Void>(0xA7A57E89E965D839, p0, p1); }
+	NATIVE_DECL void _0xDA5D3F2C6DD5B5D4(BOOL p0) { invoke<Void>(0xDA5D3F2C6DD5B5D4, p0); }
+	NATIVE_DECL float _0x22084CA699219624(Any p0) { return invoke<float>(0x22084CA699219624, p0); }
+	NATIVE_DECL void _0xC3544AD0522E69B4(Any p0, float p1) { invoke<Void>(0xC3544AD0522E69B4, p0, p1); }
+	NATIVE_DECL BOOL _0x58425FCA3D3A2D15(Any p0) { return invoke<BOOL>(0x58425FCA3D3A2D15, p0); }
+	NATIVE_DECL Any _0xEC97101A8F311282(Any p0) { return invoke<Any>(0xEC97101A8F311282, p0); }
+	NATIVE_DECL Any _0x7E7B19A4355FEE13(Any p0, Any p1) { return invoke<Any>(0x7E7B19A4355FEE13, p0, p1); }
+	NATIVE_DECL Any _0xAF9D167A5656D6A6(Any p0, Any* p1) { return invoke<Any>(0xAF9D167A5656D6A6, p0, p1); }
+	NATIVE_DECL BOOL _0xC570B881754DF609(Any p0, Any p1) { return invoke<BOOL>(0xC570B881754DF609, p0, p1); }
+	NATIVE_DECL void _0xCC9C4393523833E2(Any p0, Any p1, Any p2) { invoke<Void>(0xCC9C4393523833E2, p0, p1, p2); }
+	NATIVE_DECL void _0xEBE46B501BC3FBCF(Any p0, Any* p1, Any p2) { invoke<Void>(0xEBE46B501BC3FBCF, p0, p1, p2); }
+	NATIVE_DECL BOOL _0xFDCEDFB0577A390D(Any p0, Any* p1) { return invoke<BOOL>(0xFDCEDFB0577A390D, p0, p1); }
+	NATIVE_DECL void _0xF0D728EEA3C99775(Any p0, Any p1, Any p2) { invoke<Void>(0xF0D728EEA3C99775, p0, p1, p2); }
+	NATIVE_DECL void _0xAA5A52204E077883(Any p0, Any p1) { invoke<Void>(0xAA5A52204E077883, p0, p1); }
+	NATIVE_DECL void _0xD63B4BA3A02A99E0(Any p0, Any p1) { invoke<Void>(0xD63B4BA3A02A99E0, p0, p1); }
+	NATIVE_DECL void _0x23FB9FACA28779C1(Any p0, Any p1, Any p2) { invoke<Void>(0x23FB9FACA28779C1, p0, p1, p2); }
+	NATIVE_DECL void _0x3B7B7908B7ADFB4B(Any p0, Any p1) { invoke<Void>(0x3B7B7908B7ADFB4B, p0, p1); }
+	NATIVE_DECL void _0x404514D231DB27A0(Any p0, Any p1) { invoke<Void>(0x404514D231DB27A0, p0, p1); }
+	NATIVE_DECL Any _0xCAD4FE9398820D24(Any p0, Any p1) { return invoke<Any>(0xCAD4FE9398820D24, p0, p1); }
+	NATIVE_DECL Any _0x4823F13A21F51964(Any p0, Any* p1) { return invoke<Any>(0x4823F13A21F51964, p0, p1); }
+	NATIVE_DECL void _0x12FB95FE3D579238(Any p0, Any* p1, BOOL p2, Any p3, BOOL p4, BOOL p5) { invoke<Void>(0x12FB95FE3D579238, p0, p1, p2, p3, p4, p5); }
 }
 
 namespace ZONE
@@ -12724,6 +15039,8 @@ namespace ZONE
 	// - POND
 	// - GLACIER
 	NATIVE_DECL Hash _GET_WATER_MAP_ZONE_AT_COORDS(float x, float y, float z) { return invoke<Hash>(0x5BA7A68A346A5A91, x, y, z); }
+	NATIVE_DECL Any _0x43AD8FC02B429D33(float p0, float p1, float p2, Any p3) { return invoke<Any>(0x43AD8FC02B429D33, p0, p1, p2, p3); }
+	NATIVE_DECL Any _0x5BA7A68A346A5A91(float p0, float p1, float p2) { return invoke<Any>(0x5BA7A68A346A5A91, p0, p1, p2); }
 }
 
 namespace COMPAPP
